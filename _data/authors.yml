@@ -1,0 +1,17 @@
+Todd Gamblin:
+  name        : "Todd Gamblin"
+  bio         : "Spack Creator, Computer Scientist at LLNL"
+  avatar      : "/assets/images/tgamblin.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:tgamblin@llnl.gov"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://people.llnl.gov/gamblin2"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/tgamblin"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tgamblin"

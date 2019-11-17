@@ -1,4 +1,37 @@
 ---
 layout: home
-author_profile: true
+author_profile: false
+title: <img src="/assets/images/spack-logo-white.svg" width="96"/> Spack
+excerpt: A flexible package manager supporting multiple versions, configurations, platforms, and compilers.
+header:
+  overlay_image: /assets/images/sierra-banner.jpg
+  overlay_filter: .5
+  caption: "Photo: [**LLNL Sierra**](https://computing.llnl.gov/computers/sierra)"
+  actions:
+  - label: "<i class=\"fab fa-fw fa-github\"></i> GitHub"
+    url: "https://github.com/spack/spack"
+  - label: "<i class=\"fab fa-fw fa-twitter\"></i> Twitter"
+    url: "https://twitter.com/spackpm"
+  - label: "<i class=\"fas fa-book\"></i> Docs"
+    url: "https://spack.readthedocs.io/"
+  - label: "<i class=\"fab fa-google\"></i> Discussion"
+    url: "https://groups.google.com/d/forum/spack"
+  - label: "<i class=\"fa fa-plus\"></i> Contribute"
+    url: "https://spack.readthedocs.io/en/latest/contribution_guide.html"
 ---
+
+{% capture markdown %}
+# Welcome to Spack!
+
+Spack is a package manager for
+[supercomputers](https://en.wikipedia.org/wiki/Supercomputer), Linux, and
+macOS.  It makes installing scientific software easy.  Spack isn't tied
+to a particular language; you can build a software stack in
+[Python](https://spack.readthedocs.io/en/latest/basic_usage.html#extensions-python-support)
+or R, link to libraries written in C, C++, or Fortran, and easily [swap
+compilers](https://spack.readthedocs.io/en/latest/getting_started.html#compiler-configuration)
+or target [specific
+microarchitectures](https://spack.readthedocs.io/en/latest/basic_usage.html#support-for-specific-microarchitectures).
+Learn more [here](/about/).  {% endcapture %}
+
+{{ markdown | markdownify }}
