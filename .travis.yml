@@ -1,11 +1,17 @@
-language: ruby
-cache: bundler
-gemfile: docs/Gemfile
+sudo: required
+
+language: generic
+
+services:
+  - docker
+
+before_script:
+  - docker pull spack/spack.io
+
 script:
-  - bundle exec jekyll algolia --source docs --destination docs/_site --config docs/_config.yml
-branches:
-  only:
-    # Change this to gh-pages if you're deploying using the gh-pages branch
-    - master
-rvm:
- - 2.4
+  - docker build --cache-from spack/spack.io -t spack/spack.io .
+  - if [ "$TRAVIS_EVENT_TYPE" != "pull_request" ]; then
+      if echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; then
+        docker push spack/spack.io;
+      fi;
+    fi
