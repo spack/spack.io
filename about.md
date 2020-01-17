@@ -125,12 +125,5 @@ Visit [Spack on GitHub](https://github.com/spack/spack) and
 Join the discussion on the
 [GoogleGroup](https://groups.google.com/d/forum/spack), and learn how to
 [contribute](https://spack.readthedocs.io/en/latest/contribution_guide.html)
-your own packages.
----
-layout: post
-title: "Events"
-date: 2018-11-11 00:00:00
-categories: main
----
-Check out the [Upcoming Events](/events/) page for tutorials,
-workshops, BoFs, etc
+your own packages. Check out the [Upcoming Events](/events/) page for tutorials,
+workshops, BoFs, etc.
