@@ -5,15 +5,13 @@
 This is the [spack.io](https://spack.io) website.
 
 It's a Jekyll multi-page site with a blog, using the awesome
-[Cayman Theme](https://mmistakes.github.io/minimal-mistakes/) theme.
+[Cayman Theme](https://mmistakes.github.io/minimal-mistakes/).
 
 ## Contributing
 
 You can add posts to this site by putting new markdown files in the
 `_posts` directory and submitting a pull request.  See the section on
-(working with
-posts)[https://mmistakes.github.io/minimal-mistakes/docs/posts/] in the
-Minimial Mistakes
+[working with posts](https://mmistakes.github.io/minimal-mistakes/docs/posts/) in the Minimial Mistakes
 [Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 for more details..
 
