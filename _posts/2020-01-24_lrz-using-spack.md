@@ -24,3 +24,5 @@ While continuously integrating more packages into Spack (notable pending excepti
 The team is looking forward to continue working alongside the very active Spack community, contributing to upstream development and user support while putting the fun back in supercomputer software installation and maintenance with Spack!
 
 Make sure to follow [@lrz_de](https://twitter.com/lrz_de) on Twitter for the latest updates on supercomputing for students and researchers in Munich, Bavaria, Germany and beyond.
+
+*-- Johannes Albert-von der Gönna and the LRZ Spack team, Leibniz Supercomputing Centre*
