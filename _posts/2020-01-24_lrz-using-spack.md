@@ -15,7 +15,7 @@ The story of LRZ using Spack goes back to early 2018. With the then forthcoming 
 
 In the second half of 2018, a beta release of this software stack was put into operation on the Linux Cluster, a heterogeneous cluster system serving the [Munich](https://www.uni-muenchen.de/index.html) [universities](https://www.tum.de/) and researchers all over Bavaria. At the same time, the deployment phase for SuperMUC-NG continued and when early user operations began, the primary software stack was Spack-based, providing more than 220 software modules to users. Since then, another internal release at the end of 2019 delivered updated libraries and applications to users.
 
-{% include figure image_path="/assets/images/lrz-spack-team.jpg" alt="Members of the LRZ Spack core team in front of SuperMUC-NG and pointing at a Spack sticker placed on the rack front." caption="The LRZ Spack core team in front of SuperMUC-NG. Yes, we did put a sticker on the machine." %}
+{% include figure image_path="/assets/images/lrz-spack-team.jpg" alt="Members of the LRZ Spack team in front of SuperMUC-NG and pointing at a Spack sticker placed on the rack front." caption="The LRZ Spack team in front of SuperMUC-NG. Yes, we did put a sticker on the machine." %}
 
 Now, as the [predecessor system](https://www.lrz.de/wir/newsletter/2019-12_en/#Adieu_SuperMUC_Phase1) has reached its end of life and was switched off at the turn of the year, the software installations on all high performance cluster systems currently operated at LRZ are managed by Spack.
 
