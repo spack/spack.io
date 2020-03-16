@@ -5,7 +5,7 @@ date: 2020-01-24 00:00:00
 author: Johannes Albert-von der Gönna
 author_profile: false
 toc: false
-excerpt: Spack is used to manage software installations on the high performance clusters of the Leibniz Supercomputing Centre (LRZ). This is a short account of the origins of this effort, how it developed and an outlook on continued use of Spack at LRZ.  
+excerpt: An account of how Spack is used on the HPC systems of the Leibniz Supercomputing Centre (LRZ): origins, ongoing development and outlook on the future.
 tags: users lrz supermuc-ng
 ---
 
