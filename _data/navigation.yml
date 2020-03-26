@@ -2,8 +2,6 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Spack@SC19"
-    url: /spack-at-sc19/
   - title: "Blog"
     url: /blog/
   - title: "Events"
