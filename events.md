@@ -7,8 +7,8 @@ title: Events
 ## 2020
 
 ### [ISC High Performance](https://www.isc-hpc.com/)
-<small class="pull-right">22-24 June 2020 | Frankfurt, Germany (ONLINE)</small>  
-The ISC (formerly known as the International Supercomputing Conference) caters to the hardware and software demands of global research centers and businesses in the fields of HPC, artificial intelligence, machine learning, and data analytics. Instead of meeting in Germany, this year the conference will be held online during June 22-24. The Spack team has two events in the program: a [Spack community BoF](https://www.isc-hpc.com/bof-sessions-2020.html) (birds of a feather) and the [Managing HPC Software Complexity with Spack](https://www.isc-hpc.com/tutorials-2020.html) half-day tutorial. We will update this page when we have final days/times for these events.
+<small class="pull-right">22-24 June, 2020 | Frankfurt, Germany (DEFERRED)</small>  
+The ISC (formerly known as the International Supercomputing Conference) caters to the hardware and software demands of global research centers and businesses in the fields of HPC, artificial intelligence, machine learning, and data analytics. Instead of meeting in Germany, the 2020 conference will be held online during June 22-24. Two Spack events&mdash;a Spack community BoF (birds of a feather) and half-day tutorial&mdash;are slated for the 2021 program.
 
 ### [ASC S3C](https://s3c.sandia.gov/)
 <small class="pull-right">14-16 April 2020 | Albuquerque, NM (POSTPONED)</small>  
