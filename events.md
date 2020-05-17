@@ -12,11 +12,11 @@ ISC (formerly known as the International Supercomputing Conference), the biggest
 
 ### Springtime Spack Features in the Media
 <small class="pull-right">May-June 2020 | Online (ONGOING)</small>  
-Spack is making the rounds through several online outlets including two podcasts. We will update this page with details as these stories become available.
+Spack is making the rounds through several online outlets including two podcasts. We will update the links below as these stories become available.
 
-* [BSSw interview with Todd Gamblin](https://bssw.io/): improving software for computational science and engineering
-* [FLOSS for Science podcast](https://flossforscience.com/blog/): showcases open-source software uses in science
-* [RSE Stories podcast](http://us-rse.org/rse-stories/posts/): from the U.S. Research Software Engineer Association
+* POSTED: [BSSw interview with Todd Gamblin](https://bssw.io/blog_posts/working-remotely-the-spack-team): improving software for computational science and engineering
+* COMING SOON: [FLOSS for Science podcast](https://flossforscience.com/blog/): showcases open-source software uses in science
+* COMING SOON: [RSE Stories podcast](http://us-rse.org/rse-stories/posts/): from the U.S. Research Software Engineer Association
 
 ### [CERN Grid Deployment Board Meeting](https://indico.cern.ch/event/813800/)
 <small class="pull-right">5 May 2020 | Geneva, Switzerland (REMOTE)</small>  
