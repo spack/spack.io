@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Into A New Decade: Using Spack at LRZ"
+title: "Into a new decade: using Spack at LRZ"
 date: 2020-03-16 00:00:00
 author: Johannes Albert-von der Gönna
 author_profile: true
@@ -9,7 +9,7 @@ excerpt: |
     An account of how Spack is used on the HPC systems of the
     Leibniz Supercomputing Centre (LRZ): origins, ongoing development and
     outlook on the future.
-tags: users lrz supermuc-ng
+tags: users lrz supermuc-ng hpc
 ---
 
 At the start of the new decade, it is the right time to reflect on the
@@ -62,7 +62,7 @@ environments and stacks as well as microarchitecture-targeting, it will
 be possible to replace substantial internal configuration and code
 customizations.
 
-The team is looking forward to continue working alongside the very active
+The team is looking forward to continuing to work alongside the very active
 Spack community, contributing to upstream development and user support
 while putting the fun back in supercomputer software installation and
 maintenance with Spack!
