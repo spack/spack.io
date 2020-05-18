@@ -5,4 +5,4 @@ date: 2019-11-19 00:02:00
 tags: award flc
 ---
 
-Spack received a [regional technology transfer award](https://www.llnl.gov/news/lawrence-livermore-wins-three-regional-flc-awards) from the Federal Laboratory Consortium (FLC) in 2019. The FLC recognizes federal laboratories and their industry partners for outstanding technology transfer achievements. Started in 1974, the FLC assists the U.S. public and private sectors in utilizing technologies developed by federal government research laboratories. It is comprised of more than 300 federal government labs and research centers.
+We're excited to announce that Spack received a [regional technology transfer award](https://www.llnl.gov/news/lawrence-livermore-wins-three-regional-flc-awards) from the Federal Laboratory Consortium (FLC). The FLC has been around since 1974 and recognizes federal labs and their industry partners for outstanding tech transfer achievements. Thanks to the global Spack community for helping us make Spack what it is!

@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "Working Remotely: The Spack Team"
+title: "Working remotely: the Spack team"
 date: 2020-05-16 00:02:00
 tags: bssw
 ---
 
-Better Scientific Software's blog [features an interview](https://bssw.io/blog_posts/working-remotely-the-spack-team) with Todd Gamblin about the Spack team's experience working remotely and interacting with the Spack community. Todd offers insight into making the most of online communication opportunities and stresses the importance of providing robust documentation.
+With much of the tech sphere working from home right now, a Better Scientific Software [blog post](https://bssw.io/blog_posts/working-remotely-the-spack-team) describes the Spack team's experience working remotely. The Spack team has had to make some adjustments without being able to hold face-to-face tutorials and attend events in person, but there are a lot of online communication opportunities (e.g., Slack) to keep the community connected. A big difference-maker is having robust documentation so users can help themselves.
