@@ -14,9 +14,9 @@ ISC (formerly known as the International Supercomputing Conference), the biggest
 <small class="pull-right">May-June 2020 | Online (ONGOING)</small>  
 Spack is making the rounds through several online outlets including two podcasts. We'll update the links below as these stories become available.
 
-* POSTED: [BSSw blog post](https://bssw.io/blog_posts/working-remotely-the-spack-team): improving software for computational science and engineering
+* POSTED: BSSw blog post, [*Working Remotely: The Spack Team*](https://bssw.io/blog_posts/working-remotely-the-spack-team)
+* POSTED: RSE Stories podcast, [*Spack Attack!*](https://us-rse.org/rse-stories/2020/todd-gamblin/)
 * COMING SOON: [FLOSS for Science podcast](https://flossforscience.com/blog/): showcases open source software uses in science
-* COMING SOON: [RSE Stories podcast](http://us-rse.org/rse-stories/posts/): from the U.S. Research Software Engineer Association
 
 ### [CERN Grid Deployment Board Meeting](https://indico.cern.ch/event/813800/)
 <small class="pull-right">5 May 2020 | Geneva, Switzerland (REMOTE)</small>  
