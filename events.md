@@ -6,6 +6,11 @@ title: Events
 
 ## 2020
 
+### [HPC Best Practices Webinar Series](https://www.exascaleproject.org/event/what-is-new-in-spack/)
+<small class="pull-right">15 July 2020 | Online</small>  
+The IDEAS Productivity project, in partnership with the DOE Computing Facilities of the ALCF, OLCF, and NERSC and the DOE Exascale Computing Project, hosts a webinar series on Best Practices for HPC Software Developers. A webinar titled "What’s New in Spack?" will be presented by Todd Gamblin on Wednesday, July 15 at 1:00-2:00 pm ET. [Registration](https://www.eventbrite.com/e/whats-new-in-spack-tickets-108772748218) is free.
+
+
 ### [ISC High Performance](https://www.isc-hpc.com/)
 <small class="pull-right">22-24 June 2020 | Frankfurt, Germany (DEFERRED)</small>  
 ISC (formerly known as the International Supercomputing Conference), the biggest Supercomputing event in Europe, is typically held in Frankfurt in June. This year’s conference has been replaced with a virtual event from June 22-24, but the virtual program will unfortunately not include BoFs (birds of a feather) or tutorials. The [Spack community BoF](https://www.isc-hpc.com/bof-sessions-2020.html) and [half-day tutorial](https://www.isc-hpc.com/tutorials-2020.html) will instead be held as part of the 2021 program.
