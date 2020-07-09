@@ -6,6 +6,11 @@ title: Events
 
 ## 2020
 
+### [Spack Tutorial on AWS](https://spacktutorialonaws.splashthat.com/)
+<small class="pull-right">28-29 July 2020 | Online</small>  
+Amazon Web Services is hosting a two-day Spack tutorial broadly targeted at HPC users, developers, and user support teams. Each day consists of two 1.5-hour sessions with a 30-minute break in the middle (4-7:30pm CET / 7-10:30pm PT). The first day will cover Spack basics, while the second day will dive deeper on advanced features. Registration is free at the link above.
+
+
 ### [HPC Best Practices Webinar Series](https://www.exascaleproject.org/event/what-is-new-in-spack/)
 <small class="pull-right">15 July 2020 | Online</small>  
 The IDEAS Productivity project, in partnership with the DOE Computing Facilities of the ALCF, OLCF, and NERSC and the DOE Exascale Computing Project, hosts a webinar series on Best Practices for HPC Software Developers. A webinar titled "What’s New in Spack?" will be presented by Todd Gamblin on Wednesday, July 15 at 1:00-2:00 pm ET. [Registration](https://www.eventbrite.com/e/whats-new-in-spack-tickets-108772748218) is free.
