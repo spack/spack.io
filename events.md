@@ -13,7 +13,7 @@ Amazon Web Services is hosting a two-day Spack tutorial broadly targeted at HPC 
 
 ### [HPC Best Practices Webinar Series](https://www.exascaleproject.org/event/what-is-new-in-spack/)
 <small class="pull-right">15 July 2020 | Online</small>  
-The IDEAS Productivity project, in partnership with the DOE Computing Facilities of the ALCF, OLCF, and NERSC and the DOE Exascale Computing Project, hosts a webinar series on Best Practices for HPC Software Developers. A webinar titled "What’s New in Spack?" will be presented by Todd Gamblin on Wednesday, July 15 at 1:00-2:00 pm ET. [Registration](https://www.eventbrite.com/e/whats-new-in-spack-tickets-108772748218) is free.
+The IDEAS Productivity project, in partnership with the DOE Computing Facilities of the ALCF, OLCF, and NERSC and the DOE Exascale Computing Project, hosts a webinar series on Best Practices for HPC Software Developers. A webinar titled "What’s New in Spack?" will be presented by Todd Gamblin on Wednesday, July 15 at 1:00-2:00 pm ET. [Slides](https://www.exascaleproject.org/wp-content/uploads/2020/03/ideas-whats-new-in-spack.pdf) and a [video](https://www.youtube.com/watch?v=yDRx51PyHYw) (1:26:33) from the session are available.
 
 
 ### [ISC High Performance](https://www.isc-hpc.com/)
