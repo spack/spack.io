@@ -141,6 +141,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/spack/spack
+    - label: "Slack"
+      icon: "fab fa-slack"
+      url: "https://spackpm.herokuapp.com/"
     - label: "Docs"
       icon: "fas fa-book"
       url: https://spack.readthedocs.io/
