@@ -13,7 +13,7 @@ The FLOSS for Science podcast showcases open source software uses in science. Ep
 
 ### [Spack Tutorial on AWS](https://spacktutorialonaws.splashthat.com/)
 <small class="pull-right">28-29 July 2020 | Online</small>  
-Amazon Web Services is hosting a two-day Spack tutorial broadly targeted at HPC users, developers, and user support teams. Each day consists of two 1.5-hour sessions with a 30-minute break in the middle (4-7:30pm CET / 7-10:30pm PT). The first day will cover Spack basics, while the second day will dive deeper on advanced features. Registration is free at the link above.
+Amazon Web Services is hosting a two-day Spack tutorial broadly targeted at HPC users, developers, and user support teams. Each day consists of two 1.5-hour sessions with a 30-minute break in the middle (4-7:30pm CET / 7-10:30pm PT). The first day will cover Spack basics, while the second day will dive deeper on advanced features. Videos from [day 1 (3:19:18)](https://www.youtube.com/watch?v=Os4k8SpZE3s) and [day 2 (3:30:18)](https://www.youtube.com/watch?v=lHTJBWisabo) are available.
 
 
 ### [HPC Best Practices Webinar Series](https://www.exascaleproject.org/event/what-is-new-in-spack/)
