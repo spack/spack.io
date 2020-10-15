@@ -6,6 +6,11 @@ title: Events
 
 ## 2020
 
+### [Supercomputing (SC20)](/spack-at-sc20/)
+<small class="pull-right">9-19 November 2020 | Online</small>  
+This year SC20 is fully virtual with events and sessions conducted over two weeks. Check out the Spack lineup in this list.
+
+
 ### [Spack on FLOSS for Science Podcast](https://flossforscience.com/podcast/season3-epsiode-7)
 <small class="pull-right">3 September 2020 | Online</small>  
 The FLOSS for Science podcast showcases open source software uses in science. Episode 30 covers the philosophy of Spack, its package management capabilities in HPC clusters, supported operating systems, and much more. The episode runs 52:26.
