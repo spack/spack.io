@@ -4,6 +4,8 @@ main:
     url: /about/
   - title: "Blog"
     url: /blog/
+  - title: "SC20"
+    url: /spack-at-sc20/
   - title: "Events"
     url: /events/
   - title: "Links"
