@@ -6,6 +6,11 @@ title: Events
 
 ## 2020
 
+### [Supercomputing (SC20)](/spack-at-sc20/)
+<small class="pull-right">9-19 November 2020 | Online</small>  
+This year SC20 is fully virtual with events and sessions conducted over two weeks. Check out the Spack lineup in this list.
+
+
 ### [Spack on FLOSS for Science Podcast](https://flossforscience.com/podcast/season3-epsiode-7)
 <small class="pull-right">3 September 2020 | Online</small>  
 The FLOSS for Science podcast showcases open source software uses in science. Episode 30 covers the philosophy of Spack, its package management capabilities in HPC clusters, supported operating systems, and much more. The episode runs 52:26.
@@ -13,7 +18,7 @@ The FLOSS for Science podcast showcases open source software uses in science. Ep
 
 ### [Spack Tutorial on AWS](https://spacktutorialonaws.splashthat.com/)
 <small class="pull-right">28-29 July 2020 | Online</small>  
-Amazon Web Services is hosting a two-day Spack tutorial broadly targeted at HPC users, developers, and user support teams. Each day consists of two 1.5-hour sessions with a 30-minute break in the middle (4-7:30pm CET / 7-10:30pm PT). The first day will cover Spack basics, while the second day will dive deeper on advanced features. Registration is free at the link above.
+Amazon Web Services is hosting a two-day Spack tutorial broadly targeted at HPC users, developers, and user support teams. Each day consists of two 1.5-hour sessions with a 30-minute break in the middle (4-7:30pm CET / 7-10:30pm PT). The first day will cover Spack basics, while the second day will dive deeper on advanced features. Videos from [day 1 (3:19:18)](https://www.youtube.com/watch?v=Os4k8SpZE3s) and [day 2 (3:30:18)](https://www.youtube.com/watch?v=lHTJBWisabo) are available.
 
 
 ### [HPC Best Practices Webinar Series](https://www.exascaleproject.org/event/what-is-new-in-spack/)
