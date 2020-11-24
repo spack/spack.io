@@ -11,6 +11,11 @@ title: Events
 This year SC20 is fully virtual with events and sessions conducted over two weeks. Check out the Spack lineup in this list.
 
 
+### [CppCon: Build All the Things with Spack](https://youtu.be/yuhV7iKRIJU)
+<small class="pull-right">20 October 2020 | Online</small>  
+CppCon is an annual, week-long gathering for the C++ community. This lightning talk describes Spack's build model and features and explains how to use it for any C++ project. The video runs 6:53.
+
+
 ### [Spack on FLOSS for Science Podcast](https://flossforscience.com/podcast/season3-epsiode-7)
 <small class="pull-right">3 September 2020 | Online</small>  
 The FLOSS for Science podcast showcases open source software uses in science. Episode 30 covers the philosophy of Spack, its package management capabilities in HPC clusters, supported operating systems, and much more. The episode runs 52:26.
