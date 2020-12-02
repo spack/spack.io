@@ -126,11 +126,11 @@ tend to focus on keeping the machines running and managing the host OS
 underneath Spack.
 
 If you compare this to
-[EasyBuild's latest survey](https://www.youtube.com/watch?v=ppKVsnwba7g#t=9m36s),
-you'll see that the composition of the communities is very different. In
-EasyBuild's similar survey, only 3% of the respondents identified as
-developers, and only 9% were scientists. User support and admins were 26%
-and 53% of the EasyBuild user base, respectively.
+[EasyBuild's latest survey](https://users.ugent.be/~kehoste/eum20/eum20_00_state_of_the_union.pdf)
+(slide 13), you'll see that the composition of the communities is very
+different. In EasyBuild's similar survey, only 3% of the respondents
+identified as developers, and only 9% were scientists. User support and
+admins were 26% and 53% of the EasyBuild user base, respectively.
 
 ## Where do you work?
 
@@ -151,11 +151,11 @@ majority of users (76%) were from DOE labs, but there was still some
 participation from public labs and universities.
 
 Comparing again with
-[EasyBuild's survey](https://www.youtube.com/watch?v=ppKVsnwba7g#t=9m36s),
-we can see that EasyBuild has a much smaller percentage of users from
-national computing centers (13% vs. 37%), and a larger percentage of
-users from universities (55%). It is hard to tell exactly how the
-proportions compare, as EasyBuild's survey provided a "university
+[EasyBuild's survey](https://users.ugent.be/~kehoste/eum20/eum20_00_state_of_the_union.pdf)
+(slide 13), we can see that EasyBuild has a much smaller percentage of
+users from national computing centers (13% vs. 37%), and a larger
+percentage of users from universities (55%). It is hard to tell exactly
+how the proportions compare, as EasyBuild's survey provided a "university
 research group" option, while in our survey that is likely spread across
 the "University HPC center" and "public research lab" categories.
 
@@ -453,13 +453,15 @@ top two U.S. systems, Summit and Sierra, are Power machines.
 
 We can't draw a fair comparison with EasyBuild on this question, as
 EasyBuild's survey asked users what CPUs they were *currently* using
-rather than what they expected to be using in the next year. Even if it's
-to be taken with a grain of salt, the difference is still worth
-mentioning. In the
-[EasyBuild survey](https://www.youtube.com/watch?v=ppKVsnwba7g#t=30m06s),
-the vast majority of users were similarly running on Intel machines. But,
-less than 20% were using AMD chips, less than 5% were using Power, and
-only one user reported using ARM.
+rather than what they expected to be using in the next year, and their
+survey was done a year ago, and things are changing fast in HPC. So, take
+it with a grain of salt, but the difference is still worth mentioning. In
+the
+[EasyBuild survey](https://users.ugent.be/~kehoste/eum20/eum20_00_state_of_the_union.pdf)
+(slide 26), the vast majority of users were similarly running on Intel
+machines. But, less than 20% were using AMD chips, less than 5% were
+using Power, and only one user reported using ARM. It's likely their
+numbers for AMD and ARM will increase on the next survey.
 
 ## Which GPUs do you expect to use with Spack in the next year?
 
@@ -590,9 +592,9 @@ that these particular improvements aren't their top priorities.
 ## If we had a (virtual) workshop on Spack, would you attend?
 
 We've thought about having a Spack user meeting for a while, and we had
-actually started planning for an inaugural Spack User Meeting earlier this
-year. That fell apart when the pandemic hit. Other similar tools have had
-good luck with meetings like this (e.g.,
+actually started planning for an inaugural Spack User Meeting earlier
+this year. That fell apart when the pandemic hit. Other similar tools
+have had good luck with meetings like this (e.g.,
 [NixCon](https://2020.nixcon.org/) and the
 [EasyBuild User Meeting](https://github.com/easybuilders/easybuild/wiki/5th-EasyBuild-User-Meeting)),
 so we asked users what they thought of a potentially virtual meeting:
@@ -603,10 +605,10 @@ so we asked users what they thought of a potentially virtual meeting:
   </a>
 </figure>
 
-Just over half of users (over 85 people) said they would attend, and 8
-said they'd be willing to present on their work. That seems like more
-than enough for an initial Spack meeting, so expect us to announce
-something for 2021.
+Just over half of users (over 85 people) said they would attend, and 17
+said they'd be willing to give a presentation. That seems like more than
+enough for an initial Spack meeting, so expect us to announce something
+for 2021.
 
 # Getting Help
 
@@ -713,17 +715,16 @@ workplace and job:
   </figcaption>
 </figure>
 
-Responses were positive on average for all categories. Less than 5% of
-users responded negatively for any aspect. Consistently, the
-highest-rated aspect was the community, which is great, because Spack
+Responses were positive on average for all categories. Only 3.5% of users
+responded negatively for the quality of Spack overall (cf.
+2% for EasyBuild, [slide 60](https://users.ugent.be/~kehoste/eum20/eum20_00_state_of_the_union.pdf
+)). Only 5% responded negatively for any aspect. Consistently,
+the highest-rated aspect was the community, which is great, because Spack
 wouldn't be sustainable without its community. Just after the community
 was Spack itself.
 
 While both the community and Spack averaged "good" or higher overall, the
-docs and packages rated slightly lower. Packages had the lowest average
-ratings.
-
-While some users have
+docs and packages had the lowest average ratings. While some users have
 [praised the documentation](https://twitter.com/owainkenway/status/1283075361740333058),
 a lot of documentation has accumulated and it likely needs to be
 organized better. Spack targets
