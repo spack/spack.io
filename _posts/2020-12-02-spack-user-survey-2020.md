@@ -403,7 +403,7 @@ you don't already have modules installed.
 After `spack load`, around 35% of users are making use of Spack
 environments to load groups of packages together. Like `spack load`,
 Spack environments require no support from the module system -- they work
-regardless of where Spack is deployed and they provide be a more portable
+regardless of where Spack is deployed and provide a more portable
 alternative to loading environment modules.
 
 ## Which Spack features do you use?
