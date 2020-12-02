@@ -678,7 +678,7 @@ and are likely more familiar with it.
 
 We don't have any plans to provide commercial support for Spack at the
 moment, but it's nice to know that 23%, or 39 users and their
-organizations might be willing to pay for it. That's a fairly large
+organizations, might be willing to pay for it. That's a fairly large
 percentage of users willing to pay for support for an open source
 product.
 
