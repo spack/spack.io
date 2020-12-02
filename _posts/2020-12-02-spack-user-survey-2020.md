@@ -752,7 +752,7 @@ are still on the right path, for several reasons:
 One of our priorities for 2021 under ECP is hardening these builds and
 testing Spack packages on a wide range of platforms, and now that the new
 concretizer is in Spack, we expect to be able to steer Spack
-configurations towards well tested ones, based on builds in our pipeline
+configurations towards well-tested ones, based on builds in our pipeline
 and under E4S. So, we expect package stability to get much better over
 the coming year, and we're hoping that it will show up in next year's
 survey responses.
