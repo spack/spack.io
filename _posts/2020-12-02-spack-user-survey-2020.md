@@ -112,11 +112,11 @@ We asked users what their role was at their organization.
 
 Spack was originally targeted at user support teams and system
 administrators, but by far the largest parts of the community are end
-users (scientists/researchers) installing software on HPC machines (41%)
-and software developers (35%). System administrators were ~11% of the
+users (scientists/researchers) installing software on HPC machines (35%)
+and software developers (41%). System administrators were ~11% of the
 overall community, and user support staff were only 8%. In ECP, this is
 even more pronounced -- only a small fraction of respondents identified
-as system administrators, and developers were nearly 44% of the ECP user
+as system administrators, and developers were nearly 43% of the ECP user
 base.
 
 Part of the absence of sysadmins may be that at DOE labs, administrators
