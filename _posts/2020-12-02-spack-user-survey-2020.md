@@ -621,8 +621,8 @@ people how they're doing it now.
   </a>
 </figure>
 
-We were surprised to see that over 60% of all our users have done a Spack
-tutorial. Since 2016, We've been doing Spack tutorials at conferences
+We were surprised to see that over 60% of all our users have done a [Spack
+tutorial](https://spack-tutorial.readthedocs.io/en/latest/). Since 2016, We've been doing Spack tutorials at conferences
 like [Supercomputing](https://supercomputing.org/),
 [ISC](https://www.isc-hpc.com/), and
 [PEARC](https://pearc.acm.org/pearc19/workshops-and-tutorials/), and this
