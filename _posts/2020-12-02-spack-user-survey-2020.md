@@ -458,7 +458,7 @@ to be taken with a grain of salt, the difference is still worth
 mentioning. In the
 [EasyBuild survey](https://www.youtube.com/watch?v=ppKVsnwba7g#t=30m06s),
 the vast majority of users were similarly running on Intel machines. But,
-less than 20% of were using AMD chips, less than 5% were using Power, and
+less than 20% were using AMD chips, less than 5% were using Power, and
 only one user reported using ARM.
 
 ## Which GPUs do you expect to use with Spack in the next year?
