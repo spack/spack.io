@@ -270,7 +270,7 @@ use Spack.
 Spack users like to be on the bleeding edge, and it shows up the versions
 of Spack they use. Just under 60% of users are using the `develop` branch
 of Spack, and the number is higher (~65%) in ECP. The next most popular
-version was 0.15, which was the latest latest Spack release at the time
+version was 0.15, which was the latest Spack release at the time
 of this survey.
 
 Comparatively few users were on older versions, though a very small
