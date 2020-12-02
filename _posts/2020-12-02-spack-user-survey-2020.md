@@ -76,7 +76,7 @@ The first question we asked was whether respondents were part of ECP.
   </a>
 </figure>
 
-ECP is just over a third of the community (~35%, or 61 of 169
+ECP represents just over a third of the community (~35%, or 61 of 169
 respondents). It includes people from both sides of the U.S. Department
 of Energy -- [NNSA](https://www.energy.gov/nnsa/) laboratories like
 [LLNL](https://www.llnl.gov), [LANL](https://lanl.gov), and
