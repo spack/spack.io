@@ -111,7 +111,7 @@ We asked users what their role was at their organization.
 </figure>
 
 Spack was originally targeted at user support teams and system
-administrators, but by far the largest parts of the community are end end
+administrators, but by far the largest parts of the community are end
 users (scientists/researchers) installing software on HPC machines (41%)
 and software developers (35%). System administrators were ~11% of the
 overall community, and user support staff were only 8%. In ECP, this is
