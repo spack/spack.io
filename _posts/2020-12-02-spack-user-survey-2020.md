@@ -444,7 +444,7 @@ events.
 
 Nearly everyone in the Spack community plans to run on Intel CPUs in the
 next year, and around 80% expect to use Spack to build for AMD systems.
-just over 40% of users will run on ARM and just under 40% will run on
+Just over 40% of users will run on ARM and just under 40% will run on
 Power. Within ECP, the percentage of users that want to run on any of the
 non-Intel CPUs is larger -- as you might expect, ECP is targeting a more
 diverse set of architectures. There were many more ECP users who expected
