@@ -79,7 +79,7 @@ The first question we asked was whether respondents were part of ECP.
 ECP is just over a third of the community (~35%, or 61 of 169
 respondents). It includes people from both sides of the U.S. Department
 of Energy -- [NNSA](https://www.energy.gov/nnsa/) laboratories like
-[LLNL](https://llnl.gov), [LANL](https://lanl.gov), and
+[LLNL](https://www.llnl.gov), [LANL](https://lanl.gov), and
 [Sandia](https://sandia.gov); and
 [Office of Science](https://www.energy.gov/science/), laboratories like
 [ANL](https://www.anl.gov), [ORNL](https://ornl.gov),
