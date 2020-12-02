@@ -7,7 +7,7 @@
   <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2020-12-02T09:56:20.825874</dc:date>
+    <dc:date>2020-12-02T11:22:09.510965</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -1286,26 +1286,8 @@ z
 " style="fill:#1f77b4;"/>
     </g>
     <g id="text_15">
-     <!-- Spain -->
-     <g transform="translate(198.316875 410.953125)scale(0.12 -0.12)">
-      <use xlink:href="#DejaVuSans-83"/>
-      <use x="63.476562" xlink:href="#DejaVuSans-112"/>
-      <use x="126.953125" xlink:href="#DejaVuSans-97"/>
-      <use x="188.232422" xlink:href="#DejaVuSans-105"/>
-      <use x="216.015625" xlink:href="#DejaVuSans-110"/>
-     </g>
-    </g>
-    <g id="patch_31">
-     <path d="M 164.716875 428.566875 
-L 188.716875 428.566875 
-L 188.716875 420.166875 
-L 164.716875 420.166875 
-z
-" style="fill:#ff7f0e;"/>
-    </g>
-    <g id="text_16">
      <!-- Saudi Arabia -->
-     <g transform="translate(198.316875 428.566875)scale(0.12 -0.12)">
+     <g transform="translate(198.316875 410.953125)scale(0.12 -0.12)">
       <use xlink:href="#DejaVuSans-83"/>
       <use x="63.476562" xlink:href="#DejaVuSans-97"/>
       <use x="124.755859" xlink:href="#DejaVuSans-117"/>
@@ -1320,6 +1302,26 @@ z
       <use x="573.242188" xlink:href="#DejaVuSans-97"/>
      </g>
     </g>
+    <g id="patch_31">
+     <path d="M 164.716875 428.566875 
+L 188.716875 428.566875 
+L 188.716875 420.166875 
+L 164.716875 420.166875 
+z
+" style="fill:#ff7f0e;"/>
+    </g>
+    <g id="text_16">
+     <!-- Ireland -->
+     <g transform="translate(198.316875 428.566875)scale(0.12 -0.12)">
+      <use xlink:href="#DejaVuSans-73"/>
+      <use x="29.492188" xlink:href="#DejaVuSans-114"/>
+      <use x="68.355469" xlink:href="#DejaVuSans-101"/>
+      <use x="129.878906" xlink:href="#DejaVuSans-108"/>
+      <use x="157.662109" xlink:href="#DejaVuSans-97"/>
+      <use x="218.941406" xlink:href="#DejaVuSans-110"/>
+      <use x="282.320312" xlink:href="#DejaVuSans-100"/>
+     </g>
+    </g>
     <g id="patch_32">
      <path d="M 313.68375 340.498125 
 L 337.68375 340.498125 
@@ -1329,66 +1331,8 @@ z
 " style="fill:#2ca02c;"/>
     </g>
     <g id="text_17">
-     <!-- Hungary -->
-     <g transform="translate(347.28375 340.498125)scale(0.12 -0.12)">
-      <defs>
-       <path d="M 9.8125 72.90625 
-L 19.671875 72.90625 
-L 19.671875 43.015625 
-L 55.515625 43.015625 
-L 55.515625 72.90625 
-L 65.375 72.90625 
-L 65.375 0 
-L 55.515625 0 
-L 55.515625 34.71875 
-L 19.671875 34.71875 
-L 19.671875 0 
-L 9.8125 0 
-z
-" id="DejaVuSans-72"/>
-      </defs>
-      <use xlink:href="#DejaVuSans-72"/>
-      <use x="75.195312" xlink:href="#DejaVuSans-117"/>
-      <use x="138.574219" xlink:href="#DejaVuSans-110"/>
-      <use x="201.953125" xlink:href="#DejaVuSans-103"/>
-      <use x="265.429688" xlink:href="#DejaVuSans-97"/>
-      <use x="326.708984" xlink:href="#DejaVuSans-114"/>
-      <use x="367.822266" xlink:href="#DejaVuSans-121"/>
-     </g>
-    </g>
-    <g id="patch_33">
-     <path d="M 313.68375 358.111875 
-L 337.68375 358.111875 
-L 337.68375 349.711875 
-L 313.68375 349.711875 
-z
-" style="fill:#d62728;"/>
-    </g>
-    <g id="text_18">
-     <!-- Singapore -->
-     <g transform="translate(347.28375 358.111875)scale(0.12 -0.12)">
-      <use xlink:href="#DejaVuSans-83"/>
-      <use x="63.476562" xlink:href="#DejaVuSans-105"/>
-      <use x="91.259766" xlink:href="#DejaVuSans-110"/>
-      <use x="154.638672" xlink:href="#DejaVuSans-103"/>
-      <use x="218.115234" xlink:href="#DejaVuSans-97"/>
-      <use x="279.394531" xlink:href="#DejaVuSans-112"/>
-      <use x="342.871094" xlink:href="#DejaVuSans-111"/>
-      <use x="404.052734" xlink:href="#DejaVuSans-114"/>
-      <use x="442.916016" xlink:href="#DejaVuSans-101"/>
-     </g>
-    </g>
-    <g id="patch_34">
-     <path d="M 313.68375 375.725625 
-L 337.68375 375.725625 
-L 337.68375 367.325625 
-L 313.68375 367.325625 
-z
-" style="fill:#9467bd;"/>
-    </g>
-    <g id="text_19">
      <!-- Norway -->
-     <g transform="translate(347.28375 375.725625)scale(0.12 -0.12)">
+     <g transform="translate(347.28375 340.498125)scale(0.12 -0.12)">
       <defs>
        <path d="M 9.8125 72.90625 
 L 23.09375 72.90625 
@@ -1409,6 +1353,46 @@ z
       <use x="177.099609" xlink:href="#DejaVuSans-119"/>
       <use x="258.886719" xlink:href="#DejaVuSans-97"/>
       <use x="320.166016" xlink:href="#DejaVuSans-121"/>
+     </g>
+    </g>
+    <g id="patch_33">
+     <path d="M 313.68375 358.111875 
+L 337.68375 358.111875 
+L 337.68375 349.711875 
+L 313.68375 349.711875 
+z
+" style="fill:#d62728;"/>
+    </g>
+    <g id="text_18">
+     <!-- Spain -->
+     <g transform="translate(347.28375 358.111875)scale(0.12 -0.12)">
+      <use xlink:href="#DejaVuSans-83"/>
+      <use x="63.476562" xlink:href="#DejaVuSans-112"/>
+      <use x="126.953125" xlink:href="#DejaVuSans-97"/>
+      <use x="188.232422" xlink:href="#DejaVuSans-105"/>
+      <use x="216.015625" xlink:href="#DejaVuSans-110"/>
+     </g>
+    </g>
+    <g id="patch_34">
+     <path d="M 313.68375 375.725625 
+L 337.68375 375.725625 
+L 337.68375 367.325625 
+L 313.68375 367.325625 
+z
+" style="fill:#9467bd;"/>
+    </g>
+    <g id="text_19">
+     <!-- Singapore -->
+     <g transform="translate(347.28375 375.725625)scale(0.12 -0.12)">
+      <use xlink:href="#DejaVuSans-83"/>
+      <use x="63.476562" xlink:href="#DejaVuSans-105"/>
+      <use x="91.259766" xlink:href="#DejaVuSans-110"/>
+      <use x="154.638672" xlink:href="#DejaVuSans-103"/>
+      <use x="218.115234" xlink:href="#DejaVuSans-97"/>
+      <use x="279.394531" xlink:href="#DejaVuSans-112"/>
+      <use x="342.871094" xlink:href="#DejaVuSans-111"/>
+      <use x="404.052734" xlink:href="#DejaVuSans-114"/>
+      <use x="442.916016" xlink:href="#DejaVuSans-101"/>
      </g>
     </g>
     <g id="patch_35">
@@ -1442,15 +1426,31 @@ z
 " style="fill:#e377c2;"/>
     </g>
     <g id="text_21">
-     <!-- Ireland -->
+     <!-- Hungary -->
      <g transform="translate(347.28375 410.953125)scale(0.12 -0.12)">
-      <use xlink:href="#DejaVuSans-73"/>
-      <use x="29.492188" xlink:href="#DejaVuSans-114"/>
-      <use x="68.355469" xlink:href="#DejaVuSans-101"/>
-      <use x="129.878906" xlink:href="#DejaVuSans-108"/>
-      <use x="157.662109" xlink:href="#DejaVuSans-97"/>
-      <use x="218.941406" xlink:href="#DejaVuSans-110"/>
-      <use x="282.320312" xlink:href="#DejaVuSans-100"/>
+      <defs>
+       <path d="M 9.8125 72.90625 
+L 19.671875 72.90625 
+L 19.671875 43.015625 
+L 55.515625 43.015625 
+L 55.515625 72.90625 
+L 65.375 72.90625 
+L 65.375 0 
+L 55.515625 0 
+L 55.515625 34.71875 
+L 19.671875 34.71875 
+L 19.671875 0 
+L 9.8125 0 
+z
+" id="DejaVuSans-72"/>
+      </defs>
+      <use xlink:href="#DejaVuSans-72"/>
+      <use x="75.195312" xlink:href="#DejaVuSans-117"/>
+      <use x="138.574219" xlink:href="#DejaVuSans-110"/>
+      <use x="201.953125" xlink:href="#DejaVuSans-103"/>
+      <use x="265.429688" xlink:href="#DejaVuSans-97"/>
+      <use x="326.708984" xlink:href="#DejaVuSans-114"/>
+      <use x="367.822266" xlink:href="#DejaVuSans-121"/>
      </g>
     </g>
     <g id="patch_37">
