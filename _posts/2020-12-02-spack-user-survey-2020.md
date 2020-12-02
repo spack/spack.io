@@ -772,7 +772,7 @@ few responses per question and quoted them below.
   * *I am using Spack to build the software environment for our users on
     our University's centralized HPC system.*
 
-  * *Using Spack to build complex applications natively. Moving the the
+  * *Using Spack to build complex applications natively. Moving the
     build into containers, if possible with `spack containerize`.*
 
   * *We use spack to provide 3 consistent entry points into our nuclear
