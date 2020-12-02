@@ -744,7 +744,7 @@ are still on the right path, for several reasons:
   [pipelines](https://spack.readthedocs.io/en/latest/pipelines.html)
   built into Spack environments.
 * We've hooked up our GitLab instance to Spack's main GitHub repository,
-  and Within the next couple of weeks, we'll be testing a subset of Spack
+  and within the next couple of weeks, we'll be testing a subset of Spack
   builds on *every* pull request.
 * These are the same builds used to produce ECP's
   [Extreme Scale Scientific Software Stack (E4S)](https://e4s.io).
