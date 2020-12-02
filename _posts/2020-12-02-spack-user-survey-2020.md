@@ -630,7 +630,7 @@ year we had over 125 attendees at our virtual
 [Spack tutorial on AWS](https://spack-tutorial.workshop.aws/). This seems
 to show that tutorials have been a very effective form of outreach, even
 if they aren't the main way people first hear about Spack (per our
-[earlier question](http://localhost:4000/spack-user-survey-2020/#how-did-you-find-out-about-spack).
+[earlier question](http://localhost:4000/spack-user-survey-2020/#how-did-you-find-out-about-spack)).
 At the very least, they likely contribute to the
 [high rate of contribution](http://localhost:4000/spack-user-survey-2020/#have-you-contributed-to-spack)
 in the community.
