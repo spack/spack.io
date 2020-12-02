@@ -299,7 +299,7 @@ are using it on Linux. What users sometimes
 [forget](https://twitter.com/HPC_James/status/1329238400596123653) is
 that Spack also works on macOS. Around 35% of all users run Spack on
 their macs, and over half the users within ECP are also running it on
-macOS. A small number of users (< 10%) are running Spack within the
+macOS. A small number of users (<10%) are running Spack within the
 Windows Subsystem for Linux. We don't test there, but we're told that
 Spack works fine in the WSL environment.
 
