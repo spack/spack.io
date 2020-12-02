@@ -372,7 +372,7 @@ dwindle.
 Eventually, we'd like to drop Python 2 entirely, but with 40% of users
 still using 2.7, and with 36% of users likely to be bothered by the
 shift, we'll hold off on dropping 2.7, as well. Interestingly, while ECP
-users were less likely that the broader community to completely oppose
+users were less likely than the broader community to completely oppose
 dropping 2.6, they were *more* likely than the community to oppose
 dropping 2.7.
 
