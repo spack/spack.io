@@ -583,7 +583,7 @@ preference.
 
 There are some noticeable trends *across* groups. System administrators,
 user support staff, and industry users tended to rate features as less
-important across the board. It's hard to know to interpret this -- it
+important across the board. It's hard to know how to interpret this -- it
 could mean that they're happy with the existing capabilities of Spack, or
 that these particular improvements aren't their top priorities.
 
