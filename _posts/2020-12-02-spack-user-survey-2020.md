@@ -500,7 +500,7 @@ Interestingly, only around 60% planned to use `nvcc`, and a bit more than
 40% planned to use NVIDIA's HPC compilers. Given that over 90% of users
 said they expected to build on NVIDIA GPUs, we're tempted to explain the
 discrepancy by saying that a large percentage of users expect to use
-NVIDIA GPUs GPUs not through CUDA directly, but through GPU-optimized
+NVIDIA GPUs not through CUDA directly, but through GPU-optimized
 libraries or through compiler capabilities like OpenMP offload. The same
 can probably be said for AMD and Intel GPUs -- the percentage of users
 who plan to run with compilers specifically intended for these GPUs was
