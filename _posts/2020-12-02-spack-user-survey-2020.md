@@ -225,8 +225,8 @@ project had been publicly available for 4 years, there were around 300
 contributors. 2 years later, there are nearly 700.
 
 Within ECP, the community is older -- most people started using Spack in
-ECP 2-3 years ago. There has been less adoption since then, but we
-attribute this to Spack's rapid adoption in ECP. Spack caught on quickly
+ECP 2-3 years ago. There has been less new adoption since then, which we
+attribute to Spack's rapid adoption in ECP. Spack caught on quickly
 there, people have continued to use it, and there is not a large influx
 of users *into* ECP. The population stays mostly the same over time.
 
