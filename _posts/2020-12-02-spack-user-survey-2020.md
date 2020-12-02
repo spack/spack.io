@@ -643,7 +643,7 @@ in the community.
   </a>
 </figure>
 
-Users go to the docs more than any other place for help with Spack.
+Users go to [the docs](https://spack.readthedocs.io/en/latest/) more than any other place for help with Spack.
 Slack,
 [as mentioned above](http://localhost:4000/spack-user-survey-2020/#have-you-contributed-to-spack),
 is also very popular -- 50% of users use it to get help. We were happy to
