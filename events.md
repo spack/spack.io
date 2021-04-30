@@ -4,11 +4,22 @@ author_profile: false
 title: Events
 ---
 
+## 2021
+
+### [ISC High Performance](https://www.isc-hpc.com/)
+<small class="pull-right">24 June - 2 July 2021 | Online</small>  
+This year’s ISC conference will be held virtually. [Register](https://www.isc-hpc.com/registration-2021.html) to join us for the Spack community BoF and tutorial.
+
+
+### [ECP Annual Meeting](/ecp-annual-meeting-videos-now-available/)
+<small class="pull-right">12-16 April 2021 | Online</small>  
+The Exascale Computing Project's annual meeting was virtual this year. Spack hosted a BoF session and tutorial, both of which are posted to YouTube.
+
 ## 2020
 
 ### [Supercomputing (SC20)](/spack-at-sc20/)
 <small class="pull-right">9-19 November 2020 | Online</small>  
-This year SC20 is fully virtual with events and sessions conducted over two weeks. Check out the Spack lineup in this list.
+This year SC20 was fully virtual with events and sessions conducted over two weeks. Check out the Spack lineup in this list.
 
 
 ### [CppCon: Build All the Things with Spack](https://youtu.be/yuhV7iKRIJU)
