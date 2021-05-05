@@ -10,6 +10,8 @@ title: Events
 <small class="pull-right">24 June - 2 July 2021 | Online</small>  
 This year’s ISC conference will be held virtually. [Register](https://www.isc-hpc.com/registration-2021.html) to join us for the Spack community BoF and tutorial.
 
+* Thursday, 24 June, 5:00am – 9:00am PDT: [Tutorial: Managing HPC Software Complexity with Spack](https://app.swapcard.com/widget/event/isc-high-performance-2021-digital/planning/UGxhbm5pbmdfNDUzNTE3) 
+* Monday, 28 June, 8:35am – 9:10am PDT: [Spack Community Birds of a Feather](https://app.swapcard.com/widget/event/isc-high-performance-2021-digital/planning/UGxhbm5pbmdfNDQ0Njgz)
 
 ### [ECP Annual Meeting](/ecp-annual-meeting-videos-now-available/)
 <small class="pull-right">12-16 April 2021 | Online</small>  
