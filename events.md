@@ -6,6 +6,10 @@ title: Events
 
 ## 2021
 
+### [AHUG Hackathon: Cloud Hackathon for Arm-Based HPC](https://a-hug.org/hackathons/aws-hackathon/)
+<small class="pull-right">12 July 2021 (all week) | Online</small>  
+Spack joins AWS and the Arm HPC user group for a community hackathon beginning on July 12. Participating teams will choose from a list of codes that already have Spack recipes and use pre-built AWS clusters. The Spack team will be live on Zoom to whiteboard ideas and help with troubleshooting. [Register](https://docs.google.com/forms/d/e/1FAIpQLScQ5Kq3pNgtZVJrKdLQHTOp2xKu0ILyzlgmoGB6pdFZ62uyfg/viewform) or [read more](https://aws.amazon.com/blogs/hpc/aws-arm-hpc-hackathon-2021/) about what to expect.
+
 ### [ISC High Performance](https://www.isc-hpc.com/)
 <small class="pull-right">24 June - 2 July 2021 | Online</small>  
 This year’s ISC conference will be held virtually. [Register](https://www.isc-hpc.com/registration-2021.html) to join us for the Spack community BoF and tutorial.
