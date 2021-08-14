@@ -28,6 +28,6 @@ jobs:
         if: (github.event_name != 'pull_request')
         run: |
             docker images
-            echo ${{ secrets.GITHUB_TOKEN }} \
+            echo ${{ secrets.GHCR_TOKEN }} \
                 | docker login ghcr.io -u ${{ secrets.GHCR_USERNAME }} --password-stdin
             docker push --all-tags ghcr.io/spack/spack-bot
