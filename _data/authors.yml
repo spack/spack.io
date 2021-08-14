@@ -15,6 +15,17 @@ Todd Gamblin:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tgamblin"
+Massimiliano Culpo:
+  name        : "Massimiliano Culpo"
+  bio         : "Spack Core Developer, np-complete S.r.l."
+  avatar      : "/assets/images/alalazo.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:massimiliano.culpo@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/alalazo"
 Johannes Albert-von der Gönna:
   name        : "Johannes Albert-von der Gönna"
   bio         : "Leibniz Supercomputing Center"

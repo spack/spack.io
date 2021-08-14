@@ -1,20 +1,53 @@
 ---
 layout: single
-title: "Changes coming in Spack v0.17"
-date: 2021-05-28 00:02:00
+author: Massimiliano Culpo
+title: "Changes to bootstrapping in Spack v0.17"
+date: 2021-08-13 00:02:00
 tags: release bootstrapping v0.17
 ---
 
-# Introduction
+Starting with Spack `v0.17`, the new concretizer will be the default, and Spack will automatically
+install a new dependency (Clingo) from binaries. You can optionally disable this bootstrapping.
 
+## Spack and its own dependencies
 
-## ASP-based solver and bootstrapping
+Since its earliest releases, Spack has had
+[software requirements](https://spack.readthedocs.io/en/latest/getting_started.html#prerequisites),
+and we've tried to restrict them to very basic system requirements that you'd find on most
+machines. A compiler, `patch`, `make`, etc. are commonly found on at least Linux and macOS systems,
+and we've expected users to make them available themselves.
 
-Spack had some [software requirements](https://spack.readthedocs.io/en/latest/getting_started.html#prerequisites) since its first releases. Up to `v0.16` all of these prerequisites were considered to be _system requirements_ i.e. they were assumed to be present on the machines where Spack is run. The rationale was that most of the required software, like `patch` or `make`, is commonly found on `linux` or `darwin` systems supported by Spack.
+With Spack `v0.16`, we introduced an option to use a new concretizer (dependency solver), which is
+based on [Clingo](https://github.com/potassco/clingo) under the hood. Clingo is a very powerful
+*Answer Set Programming* system -- it lets us solve the complex constraint problems among Spack
+packages -- all the versions, conflicts, feature requirements, optional dependencies, and
+compiler/target compatibility issues are now handled by Clingo
+([more here](https://archive.fosdem.org/2020/schedule/event/dependency_solving_not_just_sat/)).
+Using Clingo, we've been able to handle much more complex Spack environments, and we've been able
+to fix issues where the old, greedy concretizer would fail on concretizable specs, or where it
+would just make incorrect decisions. The new concretizer is more maintainable and allows us to
+[develop features rapidly](https://github.com/spack/spack/pulls?q=is%3Apr+label%3Aconcretization+is%3Aclosed).
+It will enable us to more aggressively
+[reuse dependencies](https://github.com/spack/spack/pull/25310) and to model more complex software
+relationships in the future.
 
-With Spack `v0.17` the situation will change as the concretizer defaults to `clingo`. The [clingo](https://github.com/potassco/clingo) ASP-based solver will become a mandatory third-party dependency and cannot be assumed to be pre-installed on every system that runs Spack. As maintainers of the Spack package manager we had to make a choice on how to bootstrap this dependency in a way that doesn't hinder the usability of the tool for most users but still accounts for legitimate security concerns that some sites may have.
+## We're making the new concretizer the default
 
-What we decided is that from `v0.17` on Spack will, by default, bootstrap some of its dependencies pulling them from a public [buildcache](https://spack.readthedocs.io/en/latest/binary_caches.html). The source code to create this buildcache is [hosted on Github](https://github.com/alalazo/spack-bootstrap-mirrors) in the account of a Spack core developer, and will soon be moved to the Spack organization. The bootstrapping procedure will be transparent to the final user, who will just experience a slightly slower execution of the first concretization where the binary packages are being pulled from the buildcache and verified by their sha 256 checksum:
+In Spack `v0.17`, we will make the new concretizer the default, but that means that Clingo will be
+a prerequisite, and it is not something most people will have installed by default. However, we
+want Spack to be just as usable out of the box after this change. In particular, we want `spack
+install` to work immediately after you clone Spack, just like it did before.
+
+## And we're bootstrapping it from binaries
+
+What we decided is that from `v0.17` on Spack will, by default, install some of its dependencies
+from a public [buildcache](https://spack.readthedocs.io/en/latest/binary_caches.html) of portable
+binaries. The source code we use to create this buildcache is open and
+[hosted on GitHub](https://github.com/alalazo/spack-bootstrap-mirrors). The bootstrapping procedure
+will be transparent -- the first concretization you do will just be slightly slower while the
+binary packages are fetched from the buildcache and verified by their SHA256 checksum. It looks
+like this:
+
 ```console
 $ spack find -b
 ==> Showing internal bootstrap store at "/home/spack/.spack/bootstrap/store"
@@ -35,15 +68,32 @@ $ spack find -b
 -- linux-rhel5-x86_64 / gcc@9.3.0 -------------------------------
 clingo-bootstrap@spack  python@3.6
 ```
-In our opinion this default should preserve the "clone and run" simplicity in setting up Spack that our users got used to. 
 
-To address the cases where security concerns don't allow pulling pre-built binaries, **users can opt-out of bootstrapping from binaries or disable bootstrapping entirely with a single command**. To disallow bootstrapping from binaries, but still permit Spack to bootstrap from sources, users can give the following command:
+This default should preserve the "clone and run" simplicity in setting up Spack that you're used
+to.
+
+## What if I don't want to use Spack's binaries?
+
+For those of you who do not want to use our public binaries, you can **opt out of bootstrapping**,
+and Clingo will be built from source instead. To disallow bootstrapping from binaries, but still
+permit Spack to bootstrap from sources, just run:
+
 ```console
 $ spack bootstrap untrust github-actions
 ==> "github-actions" is now untrusted and will not be used for bootstrapping
 ```
-To completely disable any bootstrapping procedure the command to give is:
+
+To completely disable any bootstrapping, you can run:
+
 ```console
 $ spack bootstrap disable
 ```
-in which case it will be users responsibility to ensure all the required software is properly installed on their systems.
+
+If you do this, you'll need to ensure for yourself that Spack's prerequisites are properly
+installed. You can use this option, for example, if you know that Clingo is already installed
+(e.g., using `pip`) in the `python` you're using to run Spack.
+
+For more details on how bootstrapping will work, you can check out the
+[pull request #22720](https://github.com/spack/spack/pull/22720). Also keep an eye on our
+[permanently-pinned issue](https://github.com/spack/spack/issues/24223) for other high-impact
+changes arriving soon in Spack `develop`.
