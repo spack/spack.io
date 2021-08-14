@@ -21,7 +21,7 @@ jobs:
 
       - name: Build and Run Test Container
         run: |
-            docker build -t ghcr.io/spack/spack.io:latest .
+            docker build --cache-from ghcr.io/spack/spack.io:latest .
             docker tag ghcr.io/spack/spack.io:latest ghcr.io/spack/spack.io:${GITHUB_SHA::8}
 
       - name: Login and Deploy Test Container
