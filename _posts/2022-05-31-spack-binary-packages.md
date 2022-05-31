@@ -1,8 +1,6 @@
 ---
 layout: single
-author:
-- Todd Gamblin
-- Greg Becker
+author: Todd Gamblin
 title: "Announcing public binaries for Spack"
 date: 2022-05-31 02:00:00
 tags: public binary cache aws kitware e4s v0.18
