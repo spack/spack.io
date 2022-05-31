@@ -1,33 +1,24 @@
-name: Build and Deploy containers
+name: Testing the GitHub Pages publication
 
 on:
-  # Always test on pull request
-  pull_request:
-    branches:
-      - main
-
-  # Deploy on merge to main
-  push:
-    branches:
-      - main
+  push
 
 jobs:
-  deploy-test-containers:
+  jekyll:
     runs-on: ubuntu-latest
-    name: Build spack.io container
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+    - uses: actions/checkout@v2
 
-      - name: Build and Run Test Container
-        run: |
-            docker build --cache-from ghcr.io/spack/spack.io:latest .
-            docker tag ghcr.io/spack/spack.io:latest ghcr.io/spack/spack.io:${GITHUB_SHA::8}
+    # Use GitHub Actions' cache to shorten build times and decrease load on servers
+    - uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
 
-      - name: Login and Deploy Test Container
-        if: (github.event_name != 'pull_request')
-        run: |
-            docker images
-            echo ${{ secrets.GHCR_TOKEN }} \
-                | docker login ghcr.io -u ${{ secrets.GHCR_USERNAME }} --password-stdin
-            docker push --all-tags ghcr.io/spack/spack.io
+    # Specify the target branch (optional)
+    - uses: helaili/jekyll-action@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        target_branch: 'gh-pages'
