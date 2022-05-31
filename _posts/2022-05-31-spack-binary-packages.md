@@ -5,20 +5,24 @@ author:
 title: "Announcing public binaries for Spack"
 date: 2022-05-31 02:00:00
 tags: public binary cache aws kitware e4s v0.18
+excerpt: |
+    Spack was designed as a from-source package manager, but today users can stop
+    waiting for builds. Spack has been able to *create* binary build caches for several
+    years
 ---
 
 ![image](/assets/images/binary-sticker.png){: style="width: 40%; float: right"}
 
-Spack was designed as a from-source package manager, and while it has been able to make
-binary build caches for several years, the onus of building the binaries has been on
-users: application teams, deployment teams at HPC facilities, etc.
+Spack was designed as a from-source package manager, but today users can stop waiting
+for builds. Spack has been able to *create* binary build caches for several years, but
+the onus of building the binaries has been on users: application teams, deployment teams
+at HPC facilities, etc.
 
 Today, enabled by some of the changes in
 [Spack v0.18](https://github.com/spack/spack/releases/tag/v0.18.0), and helped by the
 folks at [AWS](https://aws.amazon.com), [Kitware](https://aws.amazon.com), and the
 [E4S Project](https://e4s.io) we're starting down the path towards building binaries for
 *everything* in Spack.  Right now, we've got binaries for the following OS's/architectures:
-
 
 | OS                       | Target      |
 |--------------------------|-------------|
