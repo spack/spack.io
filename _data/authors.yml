@@ -22,7 +22,7 @@ Greg Becker:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:becker33@llnl.gov
+      url: "mailto:becker33@llnl.gov"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/becker33"
