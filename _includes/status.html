@@ -1,0 +1,12 @@
+<div>
+    <h2>
+        <span style="color: green;">&#10004;</span> All services are operational.
+    </h2>
+    <br />
+    <h1>Updates</h1>
+    {% for status in site.data.status %}
+        <h4>{{ status.date }}</h4>
+        <span>{{ status.message }}</span>
+        <hr />
+    {% endfor %}
+</div>
