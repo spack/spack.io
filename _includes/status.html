@@ -5,7 +5,7 @@
     </h2>
     <br />
     <h1>Updates</h1>
-    {% for status in site.data.status %}
+    {% for status in site.data.status reversed %}
         <h4>{{ status.date }}</h4>
         <span>{{ status.message }}</span>
         <hr />
