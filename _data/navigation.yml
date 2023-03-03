@@ -4,5 +4,7 @@ main:
     url: /about/
   - title: "Blog"
     url: /blog/
+  - title: "Services"
+    url: /services/
   - title: "Spack CI Status"
     url: /status/
