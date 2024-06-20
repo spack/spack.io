@@ -6,5 +6,7 @@ main:
     url: /blog/
   - title: "Services"
     url: /services/
-  - title: "Spack CI Status"
+  - title: "Spack CI Overview"
+    url: /ci_overview/
+  - title: "CI Status"
     url: /status/
