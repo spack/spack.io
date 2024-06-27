@@ -16,3 +16,6 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.7"
+
+# https://github.com/ffi/ffi/issues/1103
+gem "ffi", "< 1.17.0"
