@@ -10,8 +10,9 @@ title: Events
 <small class="pull-right">6 - 7 August 2024 | Virtual</small>
 This is a free, full-day tutorial spread over two days. [Register (by 4 August)](https://llnlfed.webex.com/webappng/sites/llnlfed/webinar/webinarSeries/register/f0f129eba81946dc8a30552fc657ee94).
 
-### [PEARC 2024] (https://pearc.acm.org)
+### [PEARC 2024](https://pearc.acm.org/pearc24/workshops-and-tutorials/)
 <small class="pull-right">21 - 25 July 2024 | In person</small>
+Full day, in-person tutorial.
 [Register](https://web.cvent.com/event/f318e73c-2230-432a-a044-b75625020543/summary)
 
 ### [Software Management Course at CSCS](https://www.cscs.ch)
