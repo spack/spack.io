@@ -11,16 +11,15 @@ title: Events
 This is a free, full-day tutorial spread over two days. [Register (by 4 August)](https://llnlfed.webex.com/webappng/sites/llnlfed/webinar/webinarSeries/register/f0f129eba81946dc8a30552fc657ee94).
 
 ### [PEARC 2024](https://pearc.acm.org/pearc24/workshops-and-tutorials/)
-<small class="pull-right">21 - 25 July 2024 | In person</small>
-Full day, in-person tutorial.
-[Register](https://web.cvent.com/event/f318e73c-2230-432a-a044-b75625020543/summary)
+<small class="pull-right">21 - 25 July 2024 | Providence, RI USA</small>
+Full day tutorial [Register](https://web.cvent.com/event/f318e73c-2230-432a-a044-b75625020543/summary)
 
 ### [Software Management Course at CSCS](https://www.cscs.ch)
-<small class="pull-right">13 June 2024 </small>
+<small class="pull-right">13 June 2024 | Zurich, Switzerland</small>
 Advanced Spack course [Slides](https://spack.github.io/spack-cscs2024/)
 
 ### [ISC High Performance](https://www.isc-hpc.com/)
-<small class="pull-right">12 - 16 May 2024 | In person</small>
+<small class="pull-right">12 - 16 May 2024 | Hamburg, Germany</small>
 [Tutorial Slides](https://spack-tutorial.readthedocs.io/en/isc24/)
 
 ## 2023
@@ -30,12 +29,12 @@ Advanced Spack course [Slides](https://spack.github.io/spack-cscs2024/)
 Full-day tutorial spread over two days. [Tutorial Slides and Video](https://spack-tutorial.readthedocs.io/en/radiuss23/)
 
 ### [PEARC 2023](https://pearc.acm.org)
-<small class="pull-right">23 - 27 July 2023 | In person</small>
+<small class="pull-right">23 - 27 July 2023 | Portland, OR USA</small>
 [Tutorial Slides](https://spack-tutorial.readthedocs.io/en/pearc23/).
 
 ### [CINECA 2023](https://www.max-centre.eu/events/cineca-admires-event-spack)
-<small class="pull-right">13 - 14 Feb 2023 | In person</small>
-[Tutorial Slides](https://spack-tutorial.readthedocs.io/en/cineca23/)
+<small class="pull-right">13 - 14 Feb 2023 | Hybrid; CINECA, Casalecchio di Reno (BO) IT</small>
+Full-day tutorial and half-day mini-hackathon. [Tutorial Slides](https://spack-tutorial.readthedocs.io/en/cineca23/)
 
 ## 2022
 
@@ -44,17 +43,17 @@ Full-day tutorial spread over two days. [Tutorial Slides and Video](https://spac
 This was a full-day tutorial spread over two days. [Slides](https://spack-tutorial.readthedocs.io/en/radiuss22/)
 
 ### [PEARC 2022](https://pearc.acm.org)
-<small class="pull-right">10 - 14 July 2022 | In person</small>
+<small class="pull-right">10 - 14 July 2022 | Boston, MA USA</small>
 [Tutorial Slides](https://spack-tutorial.readthedocs.io/en/pearc22/)
 
 ### [ISC High Performance](https://www.isc-hpc.com/)
-<small class="pull-right">29 May 2022 | In person</small>
+<small class="pull-right">29 May - 2 June 2022 | Hamburg, Germany</small>
 [Tutorial Slides](https://spack-tutorial.readthedocs.io/en/isc22/)
 
 ## 2021
 
-### [Supercomputing (SC21)](
-<small class="pull-right">14 - 19 November 2021 | Hybrid</small>
+### [Supercomputing (SC21)](https://sc21.supercomputing.org/index.html)
+<small class="pull-right">14 - 19 November 2021 | Hybrid; St. Lois, MO USA</small>
 [Tutorial Slides](https://spack-tutorial.readthedocs.io/en/sc21/)
 
 ### [AHUG Hackathon: Cloud Hackathon for Arm-Based HPC](https://a-hug.org/hackathons/aws-hackathon/)
