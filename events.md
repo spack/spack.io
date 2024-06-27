@@ -17,11 +17,11 @@ Full day, in-person tutorial.
 
 ### [Software Management Course at CSCS](https://www.cscs.ch)
 <small class="pull-right">13 June 2024 </small>
-Advanced Spack course [Slides] (https://spack.github.io/spack-cscs2024/)
+Advanced Spack course [Slides](https://spack.github.io/spack-cscs2024/)
 
 ### [ISC High Performance](https://www.isc-hpc.com/)
 <small class="pull-right">12 - 16 May 2024 | In person</small>
-[Tutorial Slides] (https://spack-tutorial.readthedocs.io/en/isc24/)
+[Tutorial Slides](https://spack-tutorial.readthedocs.io/en/isc24/)
 
 ## 2023
 
@@ -29,7 +29,7 @@ Advanced Spack course [Slides] (https://spack.github.io/spack-cscs2024/)
 <small class="pull-right">8 - 9 August 2023 | Virtual</small>
 Full-day tutorial spread over two days. [Tutorial Slides and Video](https://spack-tutorial.readthedocs.io/en/radiuss23/)
 
-### [PEARC 2023] (https://pearc.acm.org)
+### [PEARC 2023](https://pearc.acm.org)
 <small class="pull-right">23 - 27 July 2023 | In person</small>
 [Tutorial Slides](https://spack-tutorial.readthedocs.io/en/pearc23/).
 
@@ -43,7 +43,7 @@ Full-day tutorial spread over two days. [Tutorial Slides and Video](https://spac
 <small class="pull-right">1 - 2 August 2022 | Virtual</small>
 This was a full-day tutorial spread over two days. [Slides](https://spack-tutorial.readthedocs.io/en/radiuss22/)
 
-### [PEARC 2022] (https://pearc.acm.org)
+### [PEARC 2022](https://pearc.acm.org)
 <small class="pull-right">10 - 14 July 2022 | In person</small>
 [Tutorial Slides](https://spack-tutorial.readthedocs.io/en/pearc22/)
 
