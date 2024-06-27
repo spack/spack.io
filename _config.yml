@@ -136,9 +136,12 @@ analytics:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
+    - label: "@spackpm"
       icon: "fab fa-brands fa-x-twitter"
-      url: https://x.com/spackpm
+      url: "https://x.com/spackpm"
+    - label: "@spack"
+      icon: "fab fa-brands fa-mastodon"
+      url: "https://mast.hpc.social/@spack"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/spack/spack
@@ -152,8 +155,8 @@ footer:
       icon: "fas fa-book"
       url: https://spack.readthedocs.io/
     - label: "Discussion"
-      icon: "fab fa-google"
-      url: "https://groups.google.com/d/forum/spack"
+      icon: "fas fa-comments"
+      url: "https://github.com/spack/spack/discussions"
     - label: "maintainers"
       icon: "far fa-envelope"
       url: "mailto:maintainers@spack.io"
