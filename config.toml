@@ -1,0 +1,186 @@
+baseURL = "https://spack.io"
+title   = "Spack"
+languageCode = "en-us"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+summaryLength = 0
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = false
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:title/"
+
+[author]
+  name = "Spack Contributors"
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Metadata mostly used in document's head
+  #
+  description = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+  keywords = "spack, package manager, high performance computing, hpc"
+
+  defaultAppearance = "light" # valid options: light or dark
+  autoSwitchAppearance = true
+
+  enableSearch = false
+  enableCodeCopy = true
+  enableImageLazyLoading = true
+  enableImageWebp = true
+  enableQuicklink = true
+
+  [params.homepage]
+    showRecent = true
+    recentLimit = 5
+
+  [params.header]
+    layout = "basic"
+    showTitle = false
+    logo = "images/logo.svg"
+
+  [params.footer]
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = false
+
+  [params.article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showWordCount = false
+  showComments = false
+
+  [params.list]
+    showBreadcrumbs = true
+    showSummary = false
+    showTableOfContents = true
+    showTaxonomies = false
+    groupByYear = false
+    paginationWidth = 1
+
+[menu]
+  [[menu.main]]
+    identifier = "get-started"
+    name       = "Get Started"
+    url        = "/get-started"
+    weight     = 1
+
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+    weight     = 2
+
+  [[menu.main]]
+    identifier = "docs"
+    name       = "Docs"
+    url        = "https://spack.readthedocs.io"
+    weight     = 4
+
+  [[menu.main]]
+    identifier = "packages"
+    name       = "Packages"
+    url        = "https://packages.spack.io"
+    weight     = 5
+
+  [[menu.main]]
+    identifier = "github"
+    name       = "GitHub"
+    url        = "https://github.com/spack"
+    [menu.main.params]
+      icon = "github"
+      showName = false
+
+  [[menu.main]]
+    identifier = "slack"
+    name       = "Slack"
+    url        = "https://slack.spack.io/"
+     [menu.main.params]
+      icon = "slack"
+      showName = false
+
+  [[menu.main]]
+    identifier = "x"
+    name       = "X"
+    url        = "https://x.com/spackpm"
+    [menu.main.params]
+      icon = "twitter"
+      showName = false
+
+  [[menu.main]]
+    identifier = "mastodon"
+    name       = "Mastodon"
+    url        = "https://x.com/spackpm"
+    [menu.main.params]
+      icon = "mastodon"
+      showName = false
+
+  [[menu.footer]]
+    identifier = "binary-cache"
+    name       = "Binary Cache"
+    url        = "https://cache.spack.io"
+
+  [[menu.footer]]
+    identifier = "ci-status"
+    name       = "CI Status"
+    url        = "/ci-status"
+
+  [[menu.footer]]
+    identifier = "events"
+    name       = "Events"
+    url        = "/events"
+
+  [[menu.footer]]
+    identifier = "slack-footer"
+    name       = "Slack"
+    url        = "https://slack.spack.io/"
+
+  [[menu.footer]]
+    identifier = "github-footer"
+    name       = "GitHub"
+    url        = "https://github.com/spack"
