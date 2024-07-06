@@ -7,6 +7,8 @@ description: "A flexible package manager supporting multiple versions, configura
 A flexible package manager supporting multiple versions, platforms, and compilers.
 {{< /lead >}}
 
+{{< figure src="imgs/spack-banner.svg" class="m-auto mt-6 w-full" >}}
+
 Spack is a package manager for
 [supercomputers](https://en.wikipedia.org/wiki/Supercomputer), Linux, and
 macOS.  It makes installing scientific software easy.  Spack isn't tied
