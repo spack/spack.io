@@ -1,0 +1,16 @@
+name: Site Build & Publish
+on:
+  workflow_call:
+
+jobs:
+  build-publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+    - uses: spack/setup-spack@5ab3c91bdefffffad9a7e45d1d156146afebb3a7
+    - run: |
+        spack mirror add develop https://binaries.spack.io/develop
+        spack buildcache keys --install --trust
+        spack -e . install
+        echo "$(pwd)/.spack-env/view/bin" >> $GITHUB_PATH
+    - run: hugo
