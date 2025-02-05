@@ -1,13 +1,19 @@
 ---
 layout: single
 author: Todd Gamblin
-title: "Join us for the first Spack User Meeting (SUM) at HPSFCon 2025!"
+title: "Join us for the first Spack User Meeting!"
 date: 2025-02-04 02:00:00
 tags: SUM spack user group meeting hpsf conference chicago
 excerpt: |
-    The inaugural SUM meeting will give us an even higher bandwidth, interactive
-    venue to exchange ideas and to get a better sense of the needs of the community.
+    SUM25, held at HPSFCon 2025, is a great opportunity to meet
+    the community, exchange ideas, and present what you've built
+    with Spack.
+header:
+    overlay_image: assets/images/sum25-banner.png
+    overlay_filter: 0.5
 ---
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/hpsfcon-2025.png" alt="">
 
 We hope you can join us for the first ever Spack User Meeting (SUM) in Chicago, IL on
 May 7th and 8th, 2025, as part of the first
@@ -27,14 +33,8 @@ May 7th and 8th, 2025, as part of the first
 
 ## Who Should Attend:
 
-Anyone in the Spack community:
-* Users
-* Developers
-* DevOps
-* System Administrators
-* User support staff
-
-Or anyone in the boarder HPSF community interested in learning more.
+Anyone in the Spack community: users, developers, dev-ops, system administrators, user
+support staff, or anyone interested in learning more.
 
 # Why Attend SUM / HPSFcon:
 
