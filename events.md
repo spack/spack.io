@@ -4,6 +4,12 @@ author_profile: false
 title: Events
 ---
 
+## 2025
+
+### [Spack User Meeting / HPSFCon 2025]()
+<small class="pull-right">5 - 8 May 2025 | Chicago, IL USA</small>
+The first Annual Spack User Meeting! [Register](https://web.cvent.com/event/f318e73c-2230-432a-a044-b75625020543/summary)
+
 ## 2024
 
 ### [HPCIC HPC Tutorials](https://hpcic.llnl.gov/tutorials/2024-hpc-tutorials)

@@ -1,7 +1,7 @@
 ---
 layout: single
 author: Todd Gamblin
-title: "Join us for the first Spack User Group at HPSFCon 2025!"
+title: "Join us for the first Spack User Meeting (SUM) at HPSFCon 2025!"
 date: 2025-02-04 02:00:00
 tags: SUM spack user group meeting hpsf conference chicago
 excerpt: |
@@ -73,12 +73,12 @@ Submission Deadline: **February 23, 2025**
 Please submit your abstracts through the
 [HPSFcon submission system](https://events.linuxfoundation.org/hpsf-conference/program/cfp/).
 
-Registration:
+## Registration:
 
 Registration for HPSFcon is open now. Register on the
 [official HPSFcon website](https://events.linuxfoundation.org/hpsf-conference/).
 
-## We look forward to seeing you in Chicago!
+### We look forward to seeing you in Chicago!
 
 ## Frequently Asked Questions (FAQ)
 
