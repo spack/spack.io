@@ -68,7 +68,7 @@ topics are welcome!
 * Integration of Spack into DevOps pipelines, applications, and unique environments
 * and, yes, all your pain points -- we want to know how we can improve Spack!
 
-Submission Deadline: **February 23, 2025**
+Submission Deadline (extended to): **March 2, 2025**
 
 Please submit your abstracts through the
 [HPSFcon submission system](https://events.linuxfoundation.org/hpsf-conference/program/cfp/).
