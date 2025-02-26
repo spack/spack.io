@@ -6,9 +6,9 @@ title: Events
 
 ## 2025
 
-### [Spack User Meeting / HPSFCon 2025]()
+### [Spack User Meeting / HPSFCon 2025](https://spack.io/spack-user-meeting-2025/)
 <small class="pull-right">5 - 8 May 2025 | Chicago, IL USA</small>
-The first Annual Spack User Meeting! [Register](https://web.cvent.com/event/f318e73c-2230-432a-a044-b75625020543/summary)
+The first Annual Spack User Meeting! [Register](https://events.linuxfoundation.org/hpsf-conference/)
 
 ## 2024
 
