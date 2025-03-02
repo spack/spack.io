@@ -39,20 +39,20 @@ specify the package version, compiler, compile-time options, and even
 cross-compile platform, all from the command line.
 
 {% highlight bash %}
-   # Install a specific version by appending @
-   $ spack install hdf5@1.10.1
+# Install a specific version by appending @
+$ spack install hdf5@1.10.1
 
-   # Specify a compiler (and optional version), with %
-   $ spack install hdf5@1.10.1 %gcc@4.7.3
+# Specify a compiler (and optional version), with %
+$ spack install hdf5@1.10.1 %gcc@4.7.3
 
-   # Add special boolean compile-time options with +
-   $ spack install hdf5@1.10.1 %gcc@4.7.3 +szip
+# Add special boolean compile-time options with +
+$ spack install hdf5@1.10.1 %gcc@4.7.3 +szip
 
-   # Add custom compiler flags
-   $ spack install hdf5@1.10.1 %gcc@4.7.3 cppflags="-O3 -floop-block"
+# Add custom compiler flags
+$ spack install hdf5@1.10.1 %gcc@4.7.3 cppflags="-O3 -floop-block"
 
-   # Cross-compile for compute nodes on a Cray or Blue Gene/Q
-   $ spack install hdf5@1.10.1 target=backend
+# Cross-compile for compute nodes on a Cray or Blue Gene/Q
+$ spack install hdf5@1.10.1 target=backend
 {% endhighlight %}
 
 Users can specify as many or few options as they care about. Spack will fill in
@@ -66,8 +66,8 @@ extensively. Suppose that `hdf5` depends on `openmpi` and indirectly on
 `hwloc`. Using `^`, users can add custom configurations for dependencies:
 
 {% highlight bash %}
-   # Install hdf5 and link it with specific versions of openmpi and hwloc
-   $ spack install hdf5@1.10.1 %gcc@4.7.3 +debug ^openmpi+cuda fabrics=auto ^hwloc+gl
+# Install hdf5 and link it with specific versions of openmpi and hwloc
+$ spack install hdf5@1.10.1 %gcc@4.7.3 +debug ^openmpi+cuda fabrics=auto ^hwloc+gl
 {% endhighlight %}
 
 ## Packages can peacefully coexist
