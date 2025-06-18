@@ -1,0 +1,678 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.1 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Announcing public binaries for Spack</title>
+<meta name="description" content="Spack was designed as a from-source package manager, but today users can stop waiting for builds. Spack has been able to create binary build caches for several years">
+
+
+  <meta name="author" content="Todd Gamblin">
+  
+  <meta property="article:author" content="Todd Gamblin">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Spack">
+<meta property="og:title" content="Announcing public binaries for Spack">
+<meta property="og:url" content="https://spack.io/spack-binary-packages/">
+
+
+  <meta property="og:description" content="Spack was designed as a from-source package manager, but today users can stop waiting for builds. Spack has been able to create binary build caches for several years">
+
+
+
+
+
+  <meta name="twitter:site" content="@spackpm">
+  <meta name="twitter:title" content="Announcing public binaries for Spack">
+  <meta name="twitter:description" content="Spack was designed as a from-source package manager, but today users can stop waiting for builds. Spack has been able to create binary build caches for several years">
+  <meta name="twitter:url" content="https://spack.io/spack-binary-packages/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2022-05-31T02:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://spack.io/spack-binary-packages/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Spack Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/spack-logo.svg" alt="Spack"></a>
+        
+        <a class="site-title" href="/">
+          Spack
+          <span class="site-subtitle"></span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/events/"
+                
+                
+              >Events</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/services/"
+                
+                
+              >Services</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/status/"
+                
+                
+              >Spack CI Status</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://spack.io/">
+        <img src="/assets/images/tgamblin.jpg" alt="Todd Gamblin" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://spack.io/" itemprop="url">Todd Gamblin</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Spack Creator, Computer Scientist at LLNL</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="mailto:tgamblin@llnl.gov" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://people.llnl.gov/gamblin2" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+            <li><a href="https://x.com/tgamblin" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-brands fa-x-twitter" aria-hidden="true"></i><span class="label">@tgamblin</span></a></li>
+          
+        
+          
+            <li><a href="https://hachyderm.io/@tgamblin" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-brands fa-mastodon" aria-hidden="true"></i><span class="label">@tgamblin@hachyderm.io</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/tgamblin" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Announcing public binaries for Spack">
+    <meta itemprop="description" content="Spack was designed as a from-source package manager, but today users can stopwaiting for builds. Spack has been able to create binary build caches for severalyears">
+    <meta itemprop="datePublished" content="2022-05-31T02:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="https://spack.io/spack-binary-packages/" itemprop="url">Announcing public binaries for Spack
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><img src="/assets/images/binary-sticker.png" alt="image" style="width: 40%; float: right" /></p>
+
+<p>Spack was designed as a from-source package manager, but today users can stop waiting
+for builds. Spack has been able to <em>create</em> binary build caches for several years, but
+the onus of building the binaries has been on users: application teams, deployment teams
+at HPC facilities, etc.</p>
+
+<p>Today, enabled by some of the changes in
+<a href="https://github.com/spack/spack/releases/tag/v0.18.0">Spack v0.18</a>, and helped by the
+folks at <a href="https://aws.amazon.com">AWS</a>, <a href="https://aws.amazon.com">Kitware</a>, and the
+<a href="https://e4s.io">E4S Project</a> we’re starting down the path towards building binaries for
+<em>everything</em> in Spack.  Right now, we’ve got binaries for the following OS’s/architectures:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>OS</th>
+      <th>Target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">amzn2</code> (Amazon Linux 2)</td>
+      <td><code class="language-plaintext highlighter-rouge">graviton2</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">amzn2</code></td>
+      <td><code class="language-plaintext highlighter-rouge">aarch64</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">amzn2</code></td>
+      <td><code class="language-plaintext highlighter-rouge">x86_64_v4</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ubuntu18.04</code></td>
+      <td><code class="language-plaintext highlighter-rouge">x86_64</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You can also browse the contents of these caches at
+<a href="https://cache.spack.io">cache.spack.io</a>.</p>
+
+<p>If you already know what you’re doing, here’s what you need to try out the <code class="language-plaintext highlighter-rouge">0.18</code> binary
+release:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spack mirror add binary_mirror  https://binaries.spack.io/releases/v0.18
+spack buildcache keys --install --trust
+</code></pre></div></div>
+
+<p>If you aren’t familiar with Spack binaries, we’ve got instructions for using these
+binaries on <code class="language-plaintext highlighter-rouge">graviton2</code> nodes below. Note that you do <em>not</em> need to have the Spack
+<code class="language-plaintext highlighter-rouge">v0.18</code> release checked out; you can use this cache from the latest <code class="language-plaintext highlighter-rouge">develop</code> branch,
+too.</p>
+
+<h2 id="whats-different-about-spack-binaries">What’s different about Spack binaries?</h2>
+
+<p>Binary packaging isn’t new, and <code class="language-plaintext highlighter-rouge">.rpm</code> and <code class="language-plaintext highlighter-rouge">.deb</code>-based distributions have been around
+for years, and <code class="language-plaintext highlighter-rouge">conda</code> is very popular in the Python world. In those distributions,
+there is typically a 1:1 relationship between binary package specs and binaries, and
+there’s a single, portable stack that’s maintained over time.</p>
+
+<p>Traditionally, HPC users have avoided these types of systems, as they’re not built for
+the specific machine we want to run on, and it’s hard to generarte binaries for <em>all</em>
+the different types of machines we want to support. GPUs and specific microarchitectures
+(e.g., <code class="language-plaintext highlighter-rouge">skylake</code>, <code class="language-plaintext highlighter-rouge">cascadelake</code>, etc.) complicate matters further.</p>
+
+<p><img src="/assets/images/traditional-binary-pipeline.png" alt="image" /></p>
+
+<p>Spack binaries are more like those used by Nix or Guix – they are <em>caches</em> of builds,
+not specially prepared binaries, and installing a package from binary results in
+essentially <em>the same</em> type of installation as building it from source. For determinism,
+Packages are deployed with the dependencies they built with. One difference with Spack
+is that we store considerably more metadata with our builds – the compiler,
+microarchitecture target (using <a href="https://github.com/archspec/archspec">archspec</a>),
+flags, build options, and other metadata. We can use a single package to build all these
+targets, and we can generate <em>many</em> optimized binaries from a single package
+description. Here’s what that looks like:</p>
+
+<p><img src="/assets/images/spack-binary-pipeline.png" alt="image" /></p>
+
+<p>With Spack, we’re trying to leverage our portable package DSL not only for portable
+builds, but for optimized binaries as well. We can generate <em>many</em> optimized binaries
+from the same package files and targets, and we can maintain <em>many</em> portable software
+stacks using the same package descriptions. This reduces the burden on maintainers, as
+we do not need to support many thousands of recipes – only as many recipes as we have
+packages. And it is easy to assemble new software stacks on the fly using Spack
+environments. Spack binaries are also <em>relocatable</em> so you can easily install them in
+your home directory on your favorite HPC machine, without asking an admin for help.</p>
+
+<h2 id="ci-for-rolling-releases">CI for Rolling releases</h2>
+
+<p><img src="/assets/images/gitlab-ci.png" alt="image" /></p>
+
+<p>To support combinatorial binaries, we are trying to push as much work upstream as
+possible. We don’t want to have to spend a week preparing a new release, so we’ve built
+cloud automation around these builds. For every PR to Spack, we rebuild the stacks we
+support, and we allow contributors to iterate on their binary builds <em>in the PR</em>. We
+test the builds on different architectures and different sites, and if all builds
+changed or introduced by the PR pass, we mark the PR ready for merge. This allows us to
+rely on the largest possible group of package maintainers to ensure that our builds keep
+working all the time.</p>
+
+<p>One issue with this approach is that we can’t trust builds done in pull requests. We
+need to know if the PR builds <em>work</em>, but we may not know all contributors, and we
+cannot trust things built before our core maintainers approve PRs. We’ve solved this by
+bifurcating the build.</p>
+
+<p><img src="/assets/images/pr-buckets.png" alt="image" /></p>
+
+<p>Every PR gets <em>its own</em> binary cache, and contributors can iterate on builds before any
+maintianer has a chance to look at their work (though we do obviously have to approve CI
+for first-time contributors). Contributors can work in parallel on their own stacks, and
+per-PR build caches enable them to work quickly, rebuilding only chnanged packages.</p>
+
+<p>Once a maintainer looks at the PR and approves, we <em>rebuild</em> any new binaries introduced
+in a more trusted environment. This environment does not reuse <em>any</em> binary data from
+the PR environment, which makes us sure that bad things from an earlier PR commit won’t
+slip in through binaries. We do rebuilds for <code class="language-plaintext highlighter-rouge">develop</code> and <code class="language-plaintext highlighter-rouge">release</code> branches, and we
+sign in a separate environment from the build so that signing keys are never exposed to
+build system code. Finished, signed rebuilds are placed in a rolling <code class="language-plaintext highlighter-rouge">develop</code> binary
+cache or in a per-release binary cache. You can find the public keys for the release at
+<a href="https://spack.github.io/keys">spack.github.io/keys</a></p>
+
+<h2 id="expanding-the-cache">Expanding the cache</h2>
+
+<p>This is only the tip of the iceberg. We are currently running 40,000 builds per week in
+Amazon AWS to maintain our binaries, with help from the E4S project to keep them
+working. Kitware is ensuring that our cloud build infrastructure can scale. You can see
+stats from the build farm at <a href="https://stats.e4s.io">stats.e4s.io</a>.</p>
+
+<p>We will be expanding to thousands more in the near future. Our goal is to eventually
+cover all Spack packages, and to make source builds unnecessary for most users and
+eliminate the long wait times between deciding on a simulation to run and your ability
+to start a scientific simulation. Expect more compilers, more optimized builds, and more
+pacakges.</p>
+
+<p>Spack aims to lower the burden of maintaining a binary distribution and make it easy to
+mix source builds with binaries. Packages available in the binary mirror will install
+from binaries, and Spack will seamlessly transition to source builds for any packages
+that are not available. Users will see approximately 20X installation speedups for
+binary packages, and performance improvements for binary packaging are in the works.</p>
+
+<h2 id="running-spack-binaries-in-the-cloud">Running Spack binaries in the cloud</h2>
+
+<p>On a brand new <code class="language-plaintext highlighter-rouge">amazon-linux</code> image, you can have optimized HPC applications installed
+in only 7 commands. (If you already run Spack, it’s only 3 additional commands). You can
+do this on a <a href="https://aws.amazon.com/hpc/parallelcluster/">ParallelCluster</a> instance if
+you want to run these codes in parallel.</p>
+
+<p>Let’s say you want to install <code class="language-plaintext highlighter-rouge">gromacs</code>.</p>
+
+<p>First we need to get Spack installed. Spack has a couple low-level dependencies it needs
+to be able to do anything, including a C/C++ compiler. Those aren’t on your image by
+default, so you will need to install them with yum. <code class="language-plaintext highlighter-rouge">sudo yum install -y git gcc
+gcc-c++ gcc-gfortran</code></p>
+
+<p>Now you can clone Spack from github and check out the latest release. Spack will
+bootstrap the rest of what it needs to install the binary packages. You’ll also want to
+setup the Spack shell integration so Spack is in your path and all its features are
+available <code class="language-plaintext highlighter-rouge">git clone https://github.com/spack/spack.git cd spack git checkout v0.18.0
+. share/spack/setup-env.sh</code></p>
+
+<p>Now you can configure Spack to use the pre-built binary caches. You can either point it
+to <code class="language-plaintext highlighter-rouge">develop</code> or <code class="language-plaintext highlighter-rouge">releases/v0.18.0</code></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spack mirror add binary_mirror  https://binaries.spack.io/develop
+spack buildcache keys --install --trust
+</code></pre></div></div>
+
+<p>You can compare the public key that Spack downloads against the ones available at
+https://spack.github.io/keys/ for an alternate source of truth to validate source of the
+binaries.</p>
+
+<p>Now you can download optimized HPC application binaries</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spack install gromacs
+</code></pre></div></div>
+
+<p>Spack will install from binaries for any package spec that is available, and will
+aggressively reuse binaries for dependencies. You can see what’s available with Spack</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spack buildcache list --allarch
+</code></pre></div></div>
+
+<p>Anything that’s not available will still reuse the available packages for dependencies,
+and will seamlessly fail over to building from source for any components for which
+binaries are not available.</p>
+
+<p>10 minutes in and your application is already available, now you can go on to do the
+science you set out to do.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#aws" class="page__taxonomy-item p-category" rel="tag">aws</a><span class="sep">, </span>
+    
+      <a href="/tags/#binary" class="page__taxonomy-item p-category" rel="tag">binary</a><span class="sep">, </span>
+    
+      <a href="/tags/#cache" class="page__taxonomy-item p-category" rel="tag">cache</a><span class="sep">, </span>
+    
+      <a href="/tags/#e4s" class="page__taxonomy-item p-category" rel="tag">e4s</a><span class="sep">, </span>
+    
+      <a href="/tags/#kitware" class="page__taxonomy-item p-category" rel="tag">kitware</a><span class="sep">, </span>
+    
+      <a href="/tags/#public" class="page__taxonomy-item p-category" rel="tag">public</a><span class="sep">, </span>
+    
+      <a href="/tags/#v0-18" class="page__taxonomy-item p-category" rel="tag">v0.18</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2022-05-31T02:00:00+00:00">May 31, 2022</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  <h4 class="page__share-title">Share on</h4>
+
+  <a href="https://x.com/intent/tweet?via=spackpm&text=Announcing+public+binaries+for+Spack%20https%3A%2F%2Fspack.io%2Fspack-binary-packages%2F" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
+    <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
+  </a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fspack.io%2Fspack-binary-packages%2F" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+    <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
+  </a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://spack.io/spack-binary-packages/" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+    <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
+  </a>
+
+  <a href="https://bsky.app/intent/compose?text=Announcing+public+binaries+for+Spack%20https%3A%2F%2Fspack.io%2Fspack-binary-packages%2F" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
+    <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
+  </a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/changes-spack-v017/" class="pagination--pager" title="Changes to bootstrapping in Spack v0.17">Previous</a>
+    
+    
+      <a href="/spack-user-meeting-2025/" class="pagination--pager" title="Join us for the first Spack User Meeting!">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://x.com/spackpm" rel="nofollow noopener noreferrer"><i class="fab fa-brands fa-x-twitter" aria-hidden="true"></i> @spackpm</a></li>
+        
+      
+        
+          <li><a href="https://mast.hpc.social/@spack" rel="nofollow noopener noreferrer"><i class="fab fa-brands fa-mastodon" aria-hidden="true"></i> @spack</a></li>
+        
+      
+        
+          <li><a href="https://github.com/spack/spack" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://slack.spack.io" rel="nofollow noopener noreferrer"><i class="fab fa-slack" aria-hidden="true"></i> Slack</a></li>
+        
+      
+        
+          <li><a href="https://spack.readthedocs.io/" rel="nofollow noopener noreferrer"><i class="fas fa-book" aria-hidden="true"></i> Docs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/spack/spack/discussions" rel="nofollow noopener noreferrer"><i class="fas fa-comments" aria-hidden="true"></i> Discussion</a></li>
+        
+      
+        
+          <li><a href="mailto:maintainers@spack.io" rel="nofollow noopener noreferrer"><i class="far fa-envelope" aria-hidden="true"></i> maintainers</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="https://spack.io">Spack Project</a>, a Series of LF Projects, LLC. For web site terms of use, trademark policy and other project policies please see <a href="https://lfprojects.org">lfprojects.org</a></a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+  <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-101208306-1']);
+  
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

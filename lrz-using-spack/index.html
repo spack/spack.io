@@ -1,0 +1,531 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.1 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Into a new decade: using Spack at LRZ</title>
+<meta name="description" content="An account of how Spack is used on the HPC systems of the Leibniz Supercomputing Centre (LRZ): origins, ongoing development and outlook on the future.">
+
+
+  <meta name="author" content="Johannes Albert-von der Gönna">
+  
+  <meta property="article:author" content="Johannes Albert-von der Gönna">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Spack">
+<meta property="og:title" content="Into a new decade: using Spack at LRZ">
+<meta property="og:url" content="https://spack.io/lrz-using-spack/">
+
+
+  <meta property="og:description" content="An account of how Spack is used on the HPC systems of the Leibniz Supercomputing Centre (LRZ): origins, ongoing development and outlook on the future.">
+
+
+
+
+
+  <meta name="twitter:site" content="@spackpm">
+  <meta name="twitter:title" content="Into a new decade: using Spack at LRZ">
+  <meta name="twitter:description" content="An account of how Spack is used on the HPC systems of the Leibniz Supercomputing Centre (LRZ): origins, ongoing development and outlook on the future.">
+  <meta name="twitter:url" content="https://spack.io/lrz-using-spack/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2020-03-16T00:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://spack.io/lrz-using-spack/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Spack Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/spack-logo.svg" alt="Spack"></a>
+        
+        <a class="site-title" href="/">
+          Spack
+          <span class="site-subtitle"></span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/events/"
+                
+                
+              >Events</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/services/"
+                
+                
+              >Services</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/status/"
+                
+                
+              >Spack CI Status</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://spack.io/">
+        <img src="/assets/images/johannes.jpg" alt="Johannes Albert-von der Gönna" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://spack.io/" itemprop="url">Johannes Albert-von der Gönna</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Leibniz Supercomputing Center</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="mailto:johannes.albert-vondergoenna@lrz.de" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/lrz_de" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">@lrz_de</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Into a new decade: using Spack at LRZ">
+    <meta itemprop="description" content="An account of how Spack is used on the HPC systems of theLeibniz Supercomputing Centre (LRZ): origins, ongoing development andoutlook on the future.">
+    <meta itemprop="datePublished" content="2020-03-16T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="https://spack.io/lrz-using-spack/" itemprop="url">Into a new decade: using Spack at LRZ
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>At the start of the new decade, it is the right time to reflect on the
+use of Spack at the
+<a href="https://www.lrz.de">Leibniz Supercomputing Centre (LRZ)</a>. We’d like to
+take a look at the current developments and pull out the crystal ball for
+a glimpse into the (near) future.</p>
+
+<p>The story of LRZ using Spack goes back to early 2018. With the then
+forthcoming procurement of
+<a href="https://doku.lrz.de/display/PUBLIC/SuperMUC-NG">SuperMUC-NG</a>, currently
+Germany’s fastest supercomputer, a small team of HPC software application
+support staff set out to optimize software installations on the LRZ
+clusters. On the predecessor systems, each software package had been
+installed and managed individually. Over the years, this software stack
+had grown enormously and become so large, that a continuation of this
+practice was no longer feasible. Spack promised both: a consistent and
+flexible framework for installing and maintaining software. And Spack
+delivered, so porting the LRZ stack to Spack began.</p>
+
+<p>In the second half of 2018, a beta release of this software stack was put
+into operation on the Linux Cluster, a heterogeneous cluster system
+serving the <a href="https://www.uni-muenchen.de/index.html">Munich</a>
+<a href="https://www.tum.de/">universities</a> and researchers all over Bavaria. At
+the same time, the deployment phase for SuperMUC-NG continued and when
+early user operations began, the primary software stack was Spack-based,
+providing more than 220 software modules to users. Since then, another
+internal release at the end of 2019 delivered updated libraries and
+applications to users.</p>
+
+<figure class=""><img src="/assets/images/lrz-spack-team.jpg" alt="Members of the LRZ Spack team in front of SuperMUC-NG and pointing
+at a Spack sticker placed on the rack front." /><figcaption>
+      The LRZ Spack team
+in front of SuperMUC-NG. Yes, we did put a sticker on the machine.
+
+    </figcaption></figure>
+
+<p>Now, as the
+<a href="https://www.lrz.de/wir/newsletter/2019-12_en/#Adieu_SuperMUC_Phase1">predecessor system</a>
+has reached its end of life and was switched off at the turn of the year,
+the software installations on all high performance cluster systems
+currently operated at LRZ are managed by Spack.</p>
+
+<p>While continuously integrating more packages into Spack (notable pending
+exceptions are some core components like certain compilers and MPI
+libraries), the new year’s resolution of the team is to move to the
+latest upstream version of Spack. This will introduce anticipated new
+features like chaining with the expressed goal of having users configure
+and install their own software, individually, while building upon the
+common software stack provided by LRZ. Also, with further refined
+environments and stacks as well as microarchitecture-targeting, it will
+be possible to replace substantial internal configuration and code
+customizations.</p>
+
+<p>The team is looking forward to continuing to work alongside the very active
+Spack community, contributing to upstream development and user support
+while putting the fun back in supercomputer software installation and
+maintenance with Spack!</p>
+
+<p>Make sure to follow <a href="https://twitter.com/lrz_de">@lrz_de</a> on Twitter for
+the latest updates on supercomputing for students and researchers in
+Munich, Bavaria, Germany and beyond.</p>
+
+<p><em>– Johannes Albert-von der Gönna and the LRZ Spack team, Leibniz Supercomputing Centre</em></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#hpc" class="page__taxonomy-item p-category" rel="tag">hpc</a><span class="sep">, </span>
+    
+      <a href="/tags/#lrz" class="page__taxonomy-item p-category" rel="tag">lrz</a><span class="sep">, </span>
+    
+      <a href="/tags/#supermuc-ng" class="page__taxonomy-item p-category" rel="tag">supermuc-ng</a><span class="sep">, </span>
+    
+      <a href="/tags/#users" class="page__taxonomy-item p-category" rel="tag">users</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2020-03-16T00:00:00+00:00">March 16, 2020</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  <h4 class="page__share-title">Share on</h4>
+
+  <a href="https://x.com/intent/tweet?via=spackpm&text=Into+a+new+decade%3A+using+Spack+at+LRZ%20https%3A%2F%2Fspack.io%2Flrz-using-spack%2F" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
+    <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
+  </a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fspack.io%2Flrz-using-spack%2F" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+    <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
+  </a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://spack.io/lrz-using-spack/" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+    <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
+  </a>
+
+  <a href="https://bsky.app/intent/compose?text=Into+a+new+decade%3A+using+Spack+at+LRZ%20https%3A%2F%2Fspack.io%2Flrz-using-spack%2F" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
+    <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
+  </a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/exascale-watch-el-capitan/" class="pagination--pager" title="Exascale watch: El Capitan">Previous</a>
+    
+    
+      <a href="/greg-becker-profile/" class="pagination--pager" title="Profile of Greg Becker">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://x.com/spackpm" rel="nofollow noopener noreferrer"><i class="fab fa-brands fa-x-twitter" aria-hidden="true"></i> @spackpm</a></li>
+        
+      
+        
+          <li><a href="https://mast.hpc.social/@spack" rel="nofollow noopener noreferrer"><i class="fab fa-brands fa-mastodon" aria-hidden="true"></i> @spack</a></li>
+        
+      
+        
+          <li><a href="https://github.com/spack/spack" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://slack.spack.io" rel="nofollow noopener noreferrer"><i class="fab fa-slack" aria-hidden="true"></i> Slack</a></li>
+        
+      
+        
+          <li><a href="https://spack.readthedocs.io/" rel="nofollow noopener noreferrer"><i class="fas fa-book" aria-hidden="true"></i> Docs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/spack/spack/discussions" rel="nofollow noopener noreferrer"><i class="fas fa-comments" aria-hidden="true"></i> Discussion</a></li>
+        
+      
+        
+          <li><a href="mailto:maintainers@spack.io" rel="nofollow noopener noreferrer"><i class="far fa-envelope" aria-hidden="true"></i> maintainers</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="https://spack.io">Spack Project</a>, a Series of LF Projects, LLC. For web site terms of use, trademark policy and other project policies please see <a href="https://lfprojects.org">lfprojects.org</a></a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+  <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-101208306-1']);
+  
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

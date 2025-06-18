@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://spack.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://spack.io/" rel="alternate" type="text/html" /><updated>2025-06-18T19:15:51+00:00</updated><id>https://spack.io/feed.xml</id><title type="html">Spack</title><subtitle></subtitle><entry><title type="html">The schedule is live for the first Spack User Meeting!</title><link href="https://spack.io/sum25-schedule/" rel="alternate" type="text/html" title="The schedule is live for the first Spack User Meeting!" /><published>2025-02-04T02:00:00+00:00</published><updated>2025-02-04T02:00:00+00:00</updated><id>https://spack.io/sum25-schedule</id><content type="html" xml:base="https://spack.io/sum25-schedule/"><![CDATA[<p>We’ve been meaning to do this for years, and it feels great to announce the schedule for
+the very first Spack User Meeting, SUM 2025, colocated with
+<a href="https://spack.io/spack-user-meeting-2025/">HPSFCon 2025</a>.</p>
+
+<p>We have 34 contributed talks lined up from users and contributors all over the world.</p>
+
+<h2 id="schedule">Schedule</h2>
+
+<ul>
+  <li>The <a href="https://hpsf2025.sched.com/overview/type/Spack?iframe=no">full schedule is online here</a>.</li>
+</ul>
+
+<p>The sessions are:</p>
+
+<p>Wednesday, May 7:</p>
+
+<ul>
+  <li>
+    <p><a href="https://hpsf2025.sched.com/overview/type/Spack/Opening?iframe=no">Welcome and overview</a></p>
+  </li>
+  <li>
+    <p><a href="https://hpsf2025.sched.com/overview/type/Spack/Building+Spack?iframe=no">Building Spack</a>
+from members of the core team</p>
+  </li>
+  <li>
+    <p><a href="https://hpsf2025.sched.com/overview/type/Spack/Collaborations+using+Spack?iframe=no">Collaborations Using Spack</a></p>
+  </li>
+  <li>
+    <p><a href="https://hpsf2025.sched.com/overview/type/Spack/Lightning+Talks?iframe=no">Lightning Talks</a></p>
+  </li>
+  <li>
+    <p><a href="https://hpsf2025.sched.com/overview/type/Spack/Cloud+%2B+Benchmarking+%2B+Containers?iframe=no">Cloud + Benchmarking + Containers</a></p>
+  </li>
+  <li>
+    <p><a href="https://hpsf2025.sched.com/overview/type/Spack/Developer+Workflows%3A+Challenges+and+Lessons+Learned?iframe=no">Developer Workflows: Challenges and Lessons Learned</a></p>
+  </li>
+  <li>
+    <p><a href="https://hpsf2025.sched.com/overview/type/Spack/Site+Deployment+Stories?iframe=no">Site Deployment Stories</a></p>
+  </li>
+  <li>
+    <p><a href="https://hpsf2025.sched.com/overview/type/Spack/DevOps+for+Large+Applications?iframe=no">DevOps for Large Applications</a></p>
+  </li>
+</ul>
+
+<p>We couldn’t have hoped for a better set of talks – thanks to all of you who submitted.
+We’re looking forward to sitting back and hearing what you’re doing with Spack. We’ll be
+taking notes.</p>
+
+<h2 id="registration">Registration</h2>
+
+<p>SUM 2025 will be hosted as part of the first annual HPSF Conference. If you’re
+interested in attending,
+<a href="https://events.linuxfoundation.org/hpsf-conference/register/">visit the registration site</a>.
+Register before March 21 for the early bird discount!  Hope to see you in Chicago!</p>]]></content><author><name>Todd Gamblin</name></author><category term="SUM" /><category term="spack" /><category term="user" /><category term="group" /><category term="meeting" /><category term="hpsf" /><category term="conference" /><category term="chicago" /><category term="schedule" /><summary type="html"><![CDATA[The schedule for SUM25, held at HPSFCon 2025, is online! We've got a great lineup with 34 contributed talks and updates on the Spack community and Spack v1.0.]]></summary></entry><entry><title type="html">Join us for the first Spack User Meeting!</title><link href="https://spack.io/spack-user-meeting-2025/" rel="alternate" type="text/html" title="Join us for the first Spack User Meeting!" /><published>2025-02-04T02:00:00+00:00</published><updated>2025-02-04T02:00:00+00:00</updated><id>https://spack.io/spack-user-meeting-2025</id><content type="html" xml:base="https://spack.io/spack-user-meeting-2025/"><![CDATA[<p><img src="https://spack.io/assets/images/hpsfcon-2025.png" alt="" /></p>
+
+<p>We hope you can join us for the first ever Spack User Meeting (SUM) in Chicago, IL on
+May 7th and 8th, 2025, as part of the first
+<a href="https://events.linuxfoundation.org/hpsf-conference/">High Performance Software Foundation (HPSFcon) conference</a>.</p>
+
+<h2 id="what-to-expect">What to Expect</h2>
+<ul>
+  <li><strong>Updates from Spack developers</strong> We’ll give a talk on the State of the Spack
+ecosystem, and we’ll have technical updates on the latest features and release
+road map.</li>
+  <li><strong>User presentations</strong> We hope to feature many presentations from Spack users on their
+experiences and on what they’ve built with Spack.</li>
+  <li><strong>Poster Session</strong> There will also be a poster session at where you can showcase your
+work and interact with others.</li>
+  <li><strong>Networking Opportunities</strong> SUM is hosted in conjunction with HPSFCon, so you can
+meet folks from other HPC communities – including other
+<a href="http://hpsf.io/projects/">HPSF projects</a>.</li>
+</ul>
+
+<h2 id="who-should-attend">Who Should Attend:</h2>
+
+<p>Anyone in the Spack community: users, developers, dev-ops, system administrators, user
+support staff, or anyone interested in learning more.</p>
+
+<h1 id="why-attend-sum--hpsfcon">Why Attend SUM / HPSFcon:</h1>
+
+<p>We think it’s time we gave our users a forum to present what they’re building with
+Spack. This the first ever in-person Spack user meeting, and we’re hoping to learn about
+all the things you’re building. So far, the Spack community has gotten together at BOF
+sessions at conferences, exchanged comments on GitHub, and has been very active on
+Slack. The inaugural SUM meeting will give us an even higher bandwidth, interactive
+venue to exchange ideas and to get a better sense of the needs of the community.</p>
+
+<p>SUM is also part of HPSFcon, which is the first-ever conference of the High Performance
+Software Foundation, bringing together the community of developers and users of
+open-source software for high-performance computing. This is a unique opportunity to
+learn about the latest trends and technologies in HPC and connect with leaders in the
+field.</p>
+
+<h2 id="call-for-submissions">Call for Submissions:</h2>
+
+<p>We are seeking presentations and lightning talks for SUM.</p>
+
+<p>20-minute presentations: Share your experiences using Spack - any and all spack-related
+topics are welcome!</p>
+
+<ul>
+  <li>User experience reports with Spack</li>
+  <li>Best practices for using Spack in different environments</li>
+  <li>Tools, applications, and other software you’ve built on top of Spack</li>
+  <li>Best practices and deployment stories</li>
+  <li>Unique use cases for Spack</li>
+  <li>War stories and other problems you’ve encountered</li>
+  <li>Suggestions for features and improvements</li>
+  <li>Integration of Spack into DevOps pipelines, applications, and unique environments</li>
+  <li>and, yes, all your pain points – we want to know how we can improve Spack!</li>
+</ul>
+
+<p>Submission Deadline (extended to): <strong>March 2, 2025</strong></p>
+
+<p>Please submit your abstracts through the
+<a href="https://events.linuxfoundation.org/hpsf-conference/program/cfp/">HPSFcon submission system</a>.</p>
+
+<h2 id="registration">Registration:</h2>
+
+<p>Registration for HPSFcon is open now. Register on the
+<a href="https://events.linuxfoundation.org/hpsf-conference/">official HPSFcon website</a>.</p>
+
+<h3 id="we-look-forward-to-seeing-you-in-chicago">We look forward to seeing you in Chicago!</h3>
+
+<h2 id="frequently-asked-questions-faq">Frequently Asked Questions (FAQ)</h2>
+
+<h3 id="q-what-if-i-only-want-to-attend-the-spack-user-group-sum-meeting">Q: What if I only want to attend the Spack User Group (SUM) meeting?</h3>
+<p>A: You still need to register for HPSFcon. There is no separate registration process for the SUM meeting.</p>
+
+<h3 id="q-is-there-a-virtual-attendance-option-for-the-sum-meeting">Q: Is there a virtual attendance option for the SUM meeting?</h3>
+<p>A: The 2025 Spack User Meeting will be held in-person at HPSFcon in Chicago. This provides
+a valuable opportunity for face-to-face interaction with Spack developers and other
+users in the community.</p>
+
+<p>We <em>do</em> plan to record talks and make them available online, after the event, but we
+encourage you to attend in person.</p>]]></content><author><name>Todd Gamblin</name></author><category term="SUM" /><category term="spack" /><category term="user" /><category term="group" /><category term="meeting" /><category term="hpsf" /><category term="conference" /><category term="chicago" /><summary type="html"><![CDATA[SUM25, held at HPSFCon 2025, is a great opportunity to meet the community, exchange ideas, and present what you've built with Spack.]]></summary></entry><entry><title type="html">Announcing public binaries for Spack</title><link href="https://spack.io/spack-binary-packages/" rel="alternate" type="text/html" title="Announcing public binaries for Spack" /><published>2022-05-31T02:00:00+00:00</published><updated>2022-05-31T02:00:00+00:00</updated><id>https://spack.io/spack-binary-packages</id><content type="html" xml:base="https://spack.io/spack-binary-packages/"><![CDATA[<p><img src="/assets/images/binary-sticker.png" alt="image" style="width: 40%; float: right" /></p>
+
+<p>Spack was designed as a from-source package manager, but today users can stop waiting
+for builds. Spack has been able to <em>create</em> binary build caches for several years, but
+the onus of building the binaries has been on users: application teams, deployment teams
+at HPC facilities, etc.</p>
+
+<p>Today, enabled by some of the changes in
+<a href="https://github.com/spack/spack/releases/tag/v0.18.0">Spack v0.18</a>, and helped by the
+folks at <a href="https://aws.amazon.com">AWS</a>, <a href="https://aws.amazon.com">Kitware</a>, and the
+<a href="https://e4s.io">E4S Project</a> we’re starting down the path towards building binaries for
+<em>everything</em> in Spack.  Right now, we’ve got binaries for the following OS’s/architectures:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>OS</th>
+      <th>Target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">amzn2</code> (Amazon Linux 2)</td>
+      <td><code class="language-plaintext highlighter-rouge">graviton2</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">amzn2</code></td>
+      <td><code class="language-plaintext highlighter-rouge">aarch64</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">amzn2</code></td>
+      <td><code class="language-plaintext highlighter-rouge">x86_64_v4</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ubuntu18.04</code></td>
+      <td><code class="language-plaintext highlighter-rouge">x86_64</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You can also browse the contents of these caches at
+<a href="https://cache.spack.io">cache.spack.io</a>.</p>
+
+<p>If you already know what you’re doing, here’s what you need to try out the <code class="language-plaintext highlighter-rouge">0.18</code> binary
+release:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spack mirror add binary_mirror  https://binaries.spack.io/releases/v0.18
+spack buildcache keys --install --trust
+</code></pre></div></div>
+
+<p>If you aren’t familiar with Spack binaries, we’ve got instructions for using these
+binaries on <code class="language-plaintext highlighter-rouge">graviton2</code> nodes below. Note that you do <em>not</em> need to have the Spack
+<code class="language-plaintext highlighter-rouge">v0.18</code> release checked out; you can use this cache from the latest <code class="language-plaintext highlighter-rouge">develop</code> branch,
+too.</p>
+
+<h2 id="whats-different-about-spack-binaries">What’s different about Spack binaries?</h2>
+
+<p>Binary packaging isn’t new, and <code class="language-plaintext highlighter-rouge">.rpm</code> and <code class="language-plaintext highlighter-rouge">.deb</code>-based distributions have been around
+for years, and <code class="language-plaintext highlighter-rouge">conda</code> is very popular in the Python world. In those distributions,
+there is typically a 1:1 relationship between binary package specs and binaries, and
+there’s a single, portable stack that’s maintained over time.</p>
+
+<p>Traditionally, HPC users have avoided these types of systems, as they’re not built for
+the specific machine we want to run on, and it’s hard to generarte binaries for <em>all</em>
+the different types of machines we want to support. GPUs and specific microarchitectures
+(e.g., <code class="language-plaintext highlighter-rouge">skylake</code>, <code class="language-plaintext highlighter-rouge">cascadelake</code>, etc.) complicate matters further.</p>
+
+<p><img src="/assets/images/traditional-binary-pipeline.png" alt="image" /></p>
+
+<p>Spack binaries are more like those used by Nix or Guix – they are <em>caches</em> of builds,
+not specially prepared binaries, and installing a package from binary results in
+essentially <em>the same</em> type of installation as building it from source. For determinism,
+Packages are deployed with the dependencies they built with. One difference with Spack
+is that we store considerably more metadata with our builds – the compiler,
+microarchitecture target (using <a href="https://github.com/archspec/archspec">archspec</a>),
+flags, build options, and other metadata. We can use a single package to build all these
+targets, and we can generate <em>many</em> optimized binaries from a single package
+description. Here’s what that looks like:</p>
+
+<p><img src="/assets/images/spack-binary-pipeline.png" alt="image" /></p>
+
+<p>With Spack, we’re trying to leverage our portable package DSL not only for portable
+builds, but for optimized binaries as well. We can generate <em>many</em> optimized binaries
+from the same package files and targets, and we can maintain <em>many</em> portable software
+stacks using the same package descriptions. This reduces the burden on maintainers, as
+we do not need to support many thousands of recipes – only as many recipes as we have
+packages. And it is easy to assemble new software stacks on the fly using Spack
+environments. Spack binaries are also <em>relocatable</em> so you can easily install them in
+your home directory on your favorite HPC machine, without asking an admin for help.</p>
+
+<h2 id="ci-for-rolling-releases">CI for Rolling releases</h2>
+
+<p><img src="/assets/images/gitlab-ci.png" alt="image" /></p>
+
+<p>To support combinatorial binaries, we are trying to push as much work upstream as
+possible. We don’t want to have to spend a week preparing a new release, so we’ve built
+cloud automation around these builds. For every PR to Spack, we rebuild the stacks we
+support, and we allow contributors to iterate on their binary builds <em>in the PR</em>. We
+test the builds on different architectures and different sites, and if all builds
+changed or introduced by the PR pass, we mark the PR ready for merge. This allows us to
+rely on the largest possible group of package maintainers to ensure that our builds keep
+working all the time.</p>
+
+<p>One issue with this approach is that we can’t trust builds done in pull requests. We
+need to know if the PR builds <em>work</em>, but we may not know all contributors, and we
+cannot trust things built before our core maintainers approve PRs. We’ve solved this by
+bifurcating the build.</p>
+
+<p><img src="/assets/images/pr-buckets.png" alt="image" /></p>
+
+<p>Every PR gets <em>its own</em> binary cache, and contributors can iterate on builds before any
+maintianer has a chance to look at their work (though we do obviously have to approve CI
+for first-time contributors). Contributors can work in parallel on their own stacks, and
+per-PR build caches enable them to work quickly, rebuilding only chnanged packages.</p>
+
+<p>Once a maintainer looks at the PR and approves, we <em>rebuild</em> any new binaries introduced
+in a more trusted environment. This environment does not reuse <em>any</em> binary data from
+the PR environment, which makes us sure that bad things from an earlier PR commit won’t
+slip in through binaries. We do rebuilds for <code class="language-plaintext highlighter-rouge">develop</code> and <code class="language-plaintext highlighter-rouge">release</code> branches, and we
+sign in a separate environment from the build so that signing keys are never exposed to
+build system code. Finished, signed rebuilds are placed in a rolling <code class="language-plaintext highlighter-rouge">develop</code> binary
+cache or in a per-release binary cache. You can find the public keys for the release at
+<a href="https://spack.github.io/keys">spack.github.io/keys</a></p>
+
+<h2 id="expanding-the-cache">Expanding the cache</h2>
+
+<p>This is only the tip of the iceberg. We are currently running 40,000 builds per week in
+Amazon AWS to maintain our binaries, with help from the E4S project to keep them
+working. Kitware is ensuring that our cloud build infrastructure can scale. You can see
+stats from the build farm at <a href="https://stats.e4s.io">stats.e4s.io</a>.</p>
+
+<p>We will be expanding to thousands more in the near future. Our goal is to eventually
+cover all Spack packages, and to make source builds unnecessary for most users and
+eliminate the long wait times between deciding on a simulation to run and your ability
+to start a scientific simulation. Expect more compilers, more optimized builds, and more
+pacakges.</p>
+
+<p>Spack aims to lower the burden of maintaining a binary distribution and make it easy to
+mix source builds with binaries. Packages available in the binary mirror will install
+from binaries, and Spack will seamlessly transition to source builds for any packages
+that are not available. Users will see approximately 20X installation speedups for
+binary packages, and performance improvements for binary packaging are in the works.</p>
+
+<h2 id="running-spack-binaries-in-the-cloud">Running Spack binaries in the cloud</h2>
+
+<p>On a brand new <code class="language-plaintext highlighter-rouge">amazon-linux</code> image, you can have optimized HPC applications installed
+in only 7 commands. (If you already run Spack, it’s only 3 additional commands). You can
+do this on a <a href="https://aws.amazon.com/hpc/parallelcluster/">ParallelCluster</a> instance if
+you want to run these codes in parallel.</p>
+
+<p>Let’s say you want to install <code class="language-plaintext highlighter-rouge">gromacs</code>.</p>
+
+<p>First we need to get Spack installed. Spack has a couple low-level dependencies it needs
+to be able to do anything, including a C/C++ compiler. Those aren’t on your image by
+default, so you will need to install them with yum. <code class="language-plaintext highlighter-rouge">sudo yum install -y git gcc
+gcc-c++ gcc-gfortran</code></p>
+
+<p>Now you can clone Spack from github and check out the latest release. Spack will
+bootstrap the rest of what it needs to install the binary packages. You’ll also want to
+setup the Spack shell integration so Spack is in your path and all its features are
+available <code class="language-plaintext highlighter-rouge">git clone https://github.com/spack/spack.git cd spack git checkout v0.18.0
+. share/spack/setup-env.sh</code></p>
+
+<p>Now you can configure Spack to use the pre-built binary caches. You can either point it
+to <code class="language-plaintext highlighter-rouge">develop</code> or <code class="language-plaintext highlighter-rouge">releases/v0.18.0</code></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spack mirror add binary_mirror  https://binaries.spack.io/develop
+spack buildcache keys --install --trust
+</code></pre></div></div>
+
+<p>You can compare the public key that Spack downloads against the ones available at
+https://spack.github.io/keys/ for an alternate source of truth to validate source of the
+binaries.</p>
+
+<p>Now you can download optimized HPC application binaries</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spack install gromacs
+</code></pre></div></div>
+
+<p>Spack will install from binaries for any package spec that is available, and will
+aggressively reuse binaries for dependencies. You can see what’s available with Spack</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spack buildcache list --allarch
+</code></pre></div></div>
+
+<p>Anything that’s not available will still reuse the available packages for dependencies,
+and will seamlessly fail over to building from source for any components for which
+binaries are not available.</p>
+
+<p>10 minutes in and your application is already available, now you can go on to do the
+science you set out to do.</p>]]></content><author><name>Todd Gamblin</name></author><category term="public" /><category term="binary" /><category term="cache" /><category term="aws" /><category term="kitware" /><category term="e4s" /><category term="v0.18" /><summary type="html"><![CDATA[Spack was designed as a from-source package manager, but today users can stop waiting for builds. Spack has been able to *create* binary build caches for several years]]></summary></entry><entry><title type="html">Changes to bootstrapping in Spack v0.17</title><link href="https://spack.io/changes-spack-v017/" rel="alternate" type="text/html" title="Changes to bootstrapping in Spack v0.17" /><published>2021-08-13T00:02:00+00:00</published><updated>2021-08-13T00:02:00+00:00</updated><id>https://spack.io/changes-spack-v017</id><content type="html" xml:base="https://spack.io/changes-spack-v017/"><![CDATA[<p>Starting with Spack <code class="language-plaintext highlighter-rouge">v0.17</code>, the new concretizer will be the default, and Spack will automatically
+install a new dependency (Clingo) from binaries. You can optionally disable this bootstrapping.</p>
+
+<h2 id="spack-and-its-own-dependencies">Spack and its own dependencies</h2>
+
+<p>Since its earliest releases, Spack has had
+<a href="https://spack.readthedocs.io/en/latest/getting_started.html#prerequisites">software requirements</a>,
+and we’ve tried to restrict them to very basic system requirements that you’d find on most
+machines. A compiler, <code class="language-plaintext highlighter-rouge">patch</code>, <code class="language-plaintext highlighter-rouge">make</code>, etc. are commonly found on at least Linux and macOS systems,
+and we’ve expected users to make them available themselves.</p>
+
+<p>With Spack <code class="language-plaintext highlighter-rouge">v0.16</code>, we introduced an option to use a new concretizer (dependency solver), which is
+based on <a href="https://github.com/potassco/clingo">Clingo</a> under the hood. Clingo is a very powerful
+<em>Answer Set Programming</em> system – it lets us solve the complex constraint problems among Spack
+packages – all the versions, conflicts, feature requirements, optional dependencies, and
+compiler/target compatibility issues are now handled by Clingo
+(<a href="https://archive.fosdem.org/2020/schedule/event/dependency_solving_not_just_sat/">more here</a>).
+Using Clingo, we’ve been able to handle much more complex Spack environments, and we’ve been able
+to fix issues where the old, greedy concretizer would fail on concretizable specs, or where it
+would just make incorrect decisions. The new concretizer is more maintainable and allows us to
+<a href="https://github.com/spack/spack/pulls?q=is%3Apr+label%3Aconcretization+is%3Aclosed">develop features rapidly</a>.
+It will enable us to more aggressively
+<a href="https://github.com/spack/spack/pull/25310">reuse dependencies</a> and to model more complex software
+relationships in the future.</p>
+
+<h2 id="were-making-the-new-concretizer-the-default">We’re making the new concretizer the default</h2>
+
+<p>In Spack <code class="language-plaintext highlighter-rouge">v0.17</code>, we will make the new concretizer the default, but that means that Clingo will be
+a prerequisite, and it is not something most people will have installed by default. However, we
+want Spack to be just as usable out of the box after this change. In particular, we want <code class="language-plaintext highlighter-rouge">spack
+install</code> to work immediately after you clone Spack, just like it did before.</p>
+
+<h2 id="and-were-bootstrapping-it-from-binaries">And we’re bootstrapping it from binaries</h2>
+
+<p>What we decided is that from <code class="language-plaintext highlighter-rouge">v0.17</code> on Spack will, by default, install some of its dependencies
+from a public <a href="https://spack.readthedocs.io/en/latest/binary_caches.html">buildcache</a> of portable
+binaries. The source code we use to create this buildcache is open and
+<a href="https://github.com/alalazo/spack-bootstrap-mirrors">hosted on GitHub</a>. The bootstrapping procedure
+will be transparent – the first concretization you do will just be slightly slower while the
+binary packages are fetched from the buildcache and verified by their SHA256 checksum. It looks
+like this:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>spack find <span class="nt">-b</span>
+<span class="gp">==&gt;</span><span class="w"> </span>Showing internal bootstrap store at <span class="s2">"/home/spack/.spack/bootstrap/store"</span>
+<span class="gp">==&gt;</span><span class="w"> </span>0 installed packages
+<span class="go">
+</span><span class="gp">$</span><span class="w"> </span>spack spec zlib
+<span class="go">Input spec
+--------------------------------
+zlib
+
+Concretized
+--------------------------------
+zlib@1.2.11%gcc@11.1.0+optimize+pic+shared arch=linux-ubuntu18.04-broadwell
+
+</span><span class="gp">$</span><span class="w"> </span>spack find <span class="nt">-b</span>
+<span class="gp">==&gt;</span><span class="w"> </span>Showing internal bootstrap store at <span class="s2">"/home/spack/.spack/bootstrap/store"</span>
+<span class="gp">==&gt;</span><span class="w"> </span>2 installed packages
+<span class="go">-- linux-rhel5-x86_64 / gcc@9.3.0 -------------------------------
+clingo-bootstrap@spack  python@3.6
+</span></code></pre></div></div>
+
+<p>This default should preserve the “clone and run” simplicity in setting up Spack that you’re used
+to.</p>
+
+<h2 id="what-if-i-dont-want-to-use-spacks-binaries">What if I don’t want to use Spack’s binaries?</h2>
+
+<p>For those of you who do not want to use our public binaries, you can <strong>opt out of bootstrapping</strong>,
+and Clingo will be built from source instead. To disallow bootstrapping from binaries, but still
+permit Spack to bootstrap from sources, just run:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>spack bootstrap untrust github-actions
+<span class="gp">==&gt;</span><span class="w"> </span><span class="s2">"github-actions"</span> is now untrusted and will not be used <span class="k">for </span>bootstrapping
+</code></pre></div></div>
+
+<p>To completely disable any bootstrapping, you can run:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>spack bootstrap disable
+</code></pre></div></div>
+
+<p>If you do this, you’ll need to ensure for yourself that Spack’s prerequisites are properly
+installed. You can use this option, for example, if you know that Clingo is already installed
+(e.g., using <code class="language-plaintext highlighter-rouge">pip</code>) in the <code class="language-plaintext highlighter-rouge">python</code> you’re using to run Spack.</p>
+
+<p>For more details on how bootstrapping will work, you can check out the
+<a href="https://github.com/spack/spack/pull/22720">pull request #22720</a>. Also keep an eye on our
+<a href="https://github.com/spack/spack/issues/24223">permanently-pinned issue</a> for other high-impact
+changes arriving soon in Spack <code class="language-plaintext highlighter-rouge">develop</code>.</p>]]></content><author><name>Massimiliano Culpo</name></author><category term="release" /><category term="bootstrapping" /><category term="v0.17" /><summary type="html"><![CDATA[Starting with Spack v0.17, the new concretizer will be the default, and Spack will automatically install a new dependency (Clingo) from binaries. You can optionally disable this bootstrapping.]]></summary></entry><entry><title type="html">Podcast: Spack on CppCast</title><link href="https://spack.io/cppcast-podcast/" rel="alternate" type="text/html" title="Podcast: Spack on CppCast" /><published>2021-05-28T00:02:00+00:00</published><updated>2021-05-28T00:02:00+00:00</updated><id>https://spack.io/cppcast-podcast</id><content type="html" xml:base="https://spack.io/cppcast-podcast/"><![CDATA[<p>The <a href="https://cppcast.com/">CppCast podcast</a> recently hosted Spack creator Todd Gamblin and core developer Greg Becker. They discuss a range of topics including an overview of the exascale computing landscape, documentation generators, floating-point numbers and performance standards, a new project focusing on ABI (application binary interface) compatibility, getting the most out of heterogeneous architectures, and of course Spack. The <a href="https://cppcast.com/spack/">episode</a> runs 59:13. Show notes and related links are provided on the episode page.</p>]]></content><author><name></name></author><category term="podcast" /><category term="cpp" /><summary type="html"><![CDATA[The CppCast podcast recently hosted Spack creator Todd Gamblin and core developer Greg Becker. They discuss a range of topics including an overview of the exascale computing landscape, documentation generators, floating-point numbers and performance standards, a new project focusing on ABI (application binary interface) compatibility, getting the most out of heterogeneous architectures, and of course Spack. The episode runs 59:13. Show notes and related links are provided on the episode page.]]></summary></entry><entry><title type="html">ECP annual meeting videos now available</title><link href="https://spack.io/ecp-videos/" rel="alternate" type="text/html" title="ECP annual meeting videos now available" /><published>2021-04-22T00:02:00+00:00</published><updated>2021-04-22T00:02:00+00:00</updated><id>https://spack.io/ecp-videos</id><content type="html" xml:base="https://spack.io/ecp-videos/"><![CDATA[<p>Spack is the software deployment tool of the Exascale Computing Project (<a href="https://www.exascaleproject.org/">ECP</a>), a joint effort between the DOE Office of Science and NNSA that brings several together national labs. These combined forces tackle the hardware, software, and application challenges inherent in the DOE/NNSA’s scientific and national security missions. The ECP’s <a href="https://www.ecpannualmeeting.com/">annual meeting</a> was hed virtually this year on April 12-16. The agenda included two Spack sessions that are now available on YouTube:</p>
+
+<ul>
+  <li><strong>Spack BoF</strong> (<a href="https://www.youtube.com/watch?v=BDriIk5oTbY&amp;list=PLF590mYJUDzLEalO05fJHX99cbbUOd-1e&amp;index=4">runtime 1:00:40</a>): This “birds of a feather” gathering details major developments in Spack releases, collaborative work with the <a href="https://e4s-project.github.io/">E4S</a> team, roadmap for future development, and results from our <a href="/spack-user-survey-2020/">community survey</a>. The session was led by Todd Gamblin, Greg Becker, Tammy Dahlgren, Peter Scheibel, Richarda Butler, and Sergei Shudler.</li>
+  <li><strong>Using Spack to Accelerate Developer Workflows</strong> (<a href="https://www.youtube.com/watch?v=RlczUgwFCJg&amp;list=PLF590mYJUDzLEalO05fJHX99cbbUOd-1e&amp;index=9">runtime 6:14:42</a>): This tutorial focuses on developer workflows, covering covered installation, package authorship, Spack’s dependency model, and Spack environments and configuration. Participants can learn new skills in this tutorial, even if they have participated in Spack tutorials in the past. Presenters were Todd Gamblin, Greg Becker, Peter Scheibel, Tammy Dahlgren, and Rob Blake. See also Spack’s <a href="https://spack-tutorial.readthedocs.io/en/latest/">tutorial docs</a>.</li>
+</ul>]]></content><author><name></name></author><category term="exascale" /><category term="video" /><category term="ecp" /><category term="tutorial" /><category term="hpc" /><summary type="html"><![CDATA[Spack is the software deployment tool of the Exascale Computing Project (ECP), a joint effort between the DOE Office of Science and NNSA that brings several together national labs. These combined forces tackle the hardware, software, and application challenges inherent in the DOE/NNSA’s scientific and national security missions. The ECP’s annual meeting was hed virtually this year on April 12-16. The agenda included two Spack sessions that are now available on YouTube:]]></summary></entry><entry><title type="html">Spack User Survey 2020</title><link href="https://spack.io/spack-user-survey-2020/" rel="alternate" type="text/html" title="Spack User Survey 2020" /><published>2020-12-02T00:03:00+00:00</published><updated>2020-12-02T00:03:00+00:00</updated><id>https://spack.io/spack-user-survey-2020</id><content type="html" xml:base="https://spack.io/spack-user-survey-2020/"><![CDATA[<h1 id="introduction">Introduction</h1>
+
+<p>Spack has been around for a while, and we’ve always felt like we have a
+pretty good sense of the community through channels like GitHub, Slack,
+and our Google group. However, the project is getting larger, and we
+wanted to better understand the community’s needs with more structured
+feedback. Spack is funded by the <a href="https://www.energy.gov/nnsa/">NNSA</a>
+<a href="https://en.wikipedia.org/wiki/Advanced_Simulation_and_Computing_Program">ASC Program</a>
+and the U.S.
+<a href="https://exascaleproject.org/">Exascale Computing Project (ECP)</a>, and we
+wanted to understand the different needs of ASC, ECP, and other types of
+users.</p>
+
+<p>So, this year, we ran our first ever Spack user survey. Read on to see
+the results.</p>
+
+<h2 id="about-the-survey">About the survey</h2>
+
+<p>The survey has 26 multiple-choice questions and 6 longer-form questions.
+It was open from September 28 to October 9, and there were 169
+respondents. We advertised to the broadest audiences we knew how to
+reach. Specifically, we advertised the survey through:</p>
+
+<ul>
+  <li>Our <a href="https://groups.google.com/g/spack">Google group</a> (402 members);</li>
+  <li><a href="https://spackpm.herokuapp.com">Slack</a> (~900 members);</li>
+  <li><a href="https://twitter.com/spackpm">Twitter</a> (~1,100 followers);</li>
+  <li>the <a href="https://exascaleproject.org/">ECP</a>-wide mailing list (ECP is ~1,000 people); and</li>
+  <li>the <a href="https://www.llnl.gov/news/llnl-and-hpe-partner-amd-el-capitan-projected-worlds-fastest-supercomputer">El Capitan</a> Center of Excellence (COE) mailing list.</li>
+</ul>
+
+<p>There’s probably a lot of overlap between these lists, so this may not be
+as wide an audience as it would seem. It’s probably biased towards U.S.
+users, as the people on the mailing lists are very U.S.-centric. So,
+while the sample is by no means scientific, we know at least that it
+covers a lot of Spack users.</p>
+
+<h2 id="data">Data</h2>
+
+<p>The results are summarized here, but you can get the full data set and
+the scripts we used to generate these charts
+<a href="https://github.com/spack/spack-user-survey">here</a>. There are a lot of
+results – let us know if you find anything interesting that we missed.</p>
+
+<h2 id="thanks">Thanks!</h2>
+
+<p>Thanks to the 169 users who filled out the survey, both for this feedback
+and for your continuing contributions to Spack! This project wouldn’t be
+possible without the community!</p>
+
+<h1 id="demographics">Demographics</h1>
+
+<p>In this section of the survey, we tried to understand the composition of
+the Spack community.</p>
+
+<h2 id="ecp-and-spack">ECP and Spack</h2>
+
+<p>The first question we asked was whether respondents were part of ECP.</p>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/pie_in_ecp.svg">
+    <img src="/assets/images/spack-user-survey-2020/pie_in_ecp.svg" />
+  </a>
+</figure>
+
+<p>ECP represents just over a third of the community (~35%, or 61 of 169
+respondents). It includes people from both sides of the U.S. Department
+of Energy – <a href="https://www.energy.gov/nnsa/">NNSA</a> laboratories like
+<a href="https://www.llnl.gov">LLNL</a>, <a href="https://lanl.gov">LANL</a>, and
+<a href="https://sandia.gov">Sandia</a>; and
+<a href="https://www.energy.gov/science/">Office of Science</a>, laboratories like
+<a href="https://www.anl.gov">ANL</a>, <a href="https://ornl.gov">ORNL</a>,
+<a href="https://www.lbl.gov/">LBL</a>, <a href="https://www.bnl.gov/">PNNL</a>,
+<a href="https://www.bnl.gov/">BNL</a>, and others. Under ECP, the Spack team is
+focusing on delivering a software stack for the first U.S. exascale
+machines, which includes upcoming systems like:</p>
+
+<ul>
+  <li>LBL’s <a href="https://www.nersc.gov/systems/perlmutter/">Perlmutter</a>: AMD CPU /
+NVIDIA GPU (pre-exascale)</li>
+  <li>ANL’s <a href="https://www.alcf.anl.gov/aurora">Aurora</a>: Intel CPU / Intel GPU</li>
+  <li>ORNL’s <a href="https://www.olcf.ornl.gov/frontier/">Frontier</a>: AMD CPU / AMD GPU</li>
+  <li>LLNL’s <a href="https://www.llnl.gov/news/llnl-and-hpe-partner-amd-el-capitan-projected-worlds-fastest-supercomputer">El Capitan</a>: AMD CPU / AMD GPU</li>
+</ul>
+
+<p>All of these are HPE/Cray systems, but the hardware is quite diverse
+(particularly the GPUs). We wanted to see whether the users at the
+bleeding edge of HPC had significantly different needs from the Spack
+community as a whole. So, in most of the following sections, we present
+responses for Spack and for ECP separately.</p>
+
+<h2 id="what-kind-of-user-are-you">What kind of user are you?</h2>
+
+<p>We asked users what their role was at their organization.</p>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_pies_user_type.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_pies_user_type.svg" />
+  </a>
+</figure>
+
+<p>Spack was originally targeted at user support teams and system
+administrators, but by far the largest parts of the community are end
+users (scientists/researchers) installing software on HPC machines (35%)
+and software developers (41%). System administrators were ~11% of the
+overall community, and user support staff were only 8%. In ECP, this is
+even more pronounced – only a small fraction of respondents identified
+as system administrators, and developers were nearly 43% of the ECP user
+base.</p>
+
+<p>Part of the absence of sysadmins may be that at DOE labs, administrators
+don’t typically handle installation of user software – that’s left to
+dedicated support teams who engage with users. Admins (at least in DOE)
+tend to focus on keeping the machines running and managing the host OS
+underneath Spack.</p>
+
+<p>If you compare this to
+<a href="https://users.ugent.be/~kehoste/eum20/eum20_00_state_of_the_union.pdf">EasyBuild’s latest survey</a>
+(slide 13), you’ll see that the composition of the communities is very
+different. In EasyBuild’s similar survey, only 3% of the respondents
+identified as developers, and only 9% were scientists. User support and
+admins were 26% and 53% of the EasyBuild user base, respectively.</p>
+
+<h2 id="where-do-you-work">Where do you work?</h2>
+
+<p>We next asked users where they work.</p>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_pies_workplace.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_pies_workplace.svg" />
+  </a>
+</figure>
+
+<p>The community as a whole is diverse. Slightly less than a third (31%) are
+from Universities. 37.6% are from DOE NNSA and Office of Science
+laboratories (more than all of ECP – so parts of DOE not in ECP are
+included). Other public research labs make up 18% of Spack users, and
+~13% are from private companies and cloud providers. Within ECP, a large
+majority of users (76%) were from DOE labs, but there was still some
+participation from public labs and universities.</p>
+
+<p>Comparing again with
+<a href="https://users.ugent.be/~kehoste/eum20/eum20_00_state_of_the_union.pdf">EasyBuild’s survey</a>
+(slide 13), we can see that EasyBuild has a much smaller percentage of
+users from national computing centers (13% vs. 37%), and a larger
+percentage of users from universities (55%). It is hard to tell exactly
+how the proportions compare, as EasyBuild’s survey provided a “university
+research group” option, while in our survey that is likely spread across
+the “University HPC center” and “public research lab” categories.</p>
+
+<h2 id="what-country-are-you-in">What country are you in?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_pies_country.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_pies_country.svg" />
+  </a>
+</figure>
+
+<p>Just under 2/3 of Spack users are in the United States, and nearly
+exactly 2/3 are from North America when our two Canadian respondents are
+included. 27% are from Europe, 5% from Asia, and there was one respondent
+each from the Middle East (Saudi Arabia) and South America (Argentina).
+Within ECP (which is a U.S. DOE project), the proportion is much higher
+– nearly 97% are from the U.S.</p>
+
+<h2 id="what-are-your-primary-application-areas">What are your primary application areas?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_multi_bars_app_area.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_multi_bars_app_area.svg" />
+  </a>
+</figure>
+
+<p>These results are mostly as we expected – most Spack users (~80%) are
+doing traditional HPC and simulation. In the broader community around 30%
+are doing computer science research, but within ECP around 50% are doing
+CS research. In ECP, AI and bioinformatics were noticeably less emphasized
+than in the broader Spack community. Interestingly, compiler testing was
+the 7th most popular application area outside ECP, but the 4th most
+popular inside ECP. Only one user reported using Spack for web
+applications.</p>
+
+<h2 id="how-did-you-find-out-about-spack">How did you find out about Spack?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_pies_how_find_out.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_pies_how_find_out.svg" />
+  </a>
+</figure>
+
+<p>Both in and outside ECP, about half of Spack users hear about the tool
+via word of mouth. This result made us pretty happy – we think it means
+that users are very willing to recommend Spack to friends. After word of
+mouth, 22% people heard of Spack because it was used at their site.
+Within ECP this was slightly more likely at 30%.</p>
+
+<p>24% of users heard about Spack from outreach activities: tutorials, BOF
+sessions, and presentations.</p>
+
+<h2 id="how-long-have-you-been-using-spack">How long have you been using Spack?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_bars_how_long_using.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_bars_how_long_using.svg" />
+  </a>
+</figure>
+
+<p>Spack usage has been growing over time, and the number of users who join
+the community each year is increasing. Most of the overall community has
+been using Spack for less than two years. We also see this effect in the
+number of contributors to the project on GitHub. In 2018, after the
+project had been publicly available for 4 years, there were around 300
+contributors. 2 years later, there are nearly 700.</p>
+
+<p>Within ECP, the community is older – most people started using Spack in
+ECP 2-3 years ago. There has been less new adoption since then, which we
+attribute to Spack’s rapid adoption in ECP. Spack caught on quickly
+there, people have continued to use it, and there is not a large influx
+of users <em>into</em> ECP. The population stays mostly the same over time.</p>
+
+<h2 id="have-you-contributed-to-spack">Have you contributed to Spack?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_multi_bars_how_contributed.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_multi_bars_how_contributed.svg" />
+  </a>
+</figure>
+
+<p>Around 75% of users who responded have contributed to Spack in some way
+or another, and most of those (60%) have contributed a package. Nearly
+40% of users are active on Slack, and nearly 40% have filed issues on
+GitHub.</p>
+
+<p>It’s notable that Slack discussions are <em>far</em> more active than the Spack
+mailing list – users seem to want to engage live rather than sending
+emails back and forth.</p>
+
+<p>Not many users (~10%) have contributed to documentation, but even this
+small amount helps the project – this is around 16 people.</p>
+
+<p>There don’t seem to be any special takeaways here for ECP, except that
+ECP users seem to be slightly more likely to contribute a package (nearly
+70% have done so).</p>
+
+<h1 id="spack-usage">Spack Usage</h1>
+
+<p>Having characterized the user base, we moved on to finding out how they
+use Spack.</p>
+
+<h2 id="what-versions-of-spack-do-you-use">What version(s) of Spack do you use?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_multi_bars_spack_versions.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_multi_bars_spack_versions.svg" />
+  </a>
+</figure>
+
+<p>Spack users like to be on the bleeding edge, and it shows up the versions
+of Spack they use. Just under 60% of users are using the <code class="language-plaintext highlighter-rouge">develop</code> branch
+of Spack, and the number is higher (~65%) in ECP. The next most popular
+version was 0.15, which was the latest Spack release at the time
+of this survey.</p>
+
+<p>Comparatively few users were on older versions, though a very small
+number of people were using 0.10. A lot has happened since then – 0.10
+was released in January 2017, and there were around 1,000 packages then
+(vs. 5,000 now). We hope the users still on 0.10 will upgrade – both for
+features and for package fixes.</p>
+
+<h2 id="what-os-do-you-use-spack-on">What OS do you use Spack on?</h2>
+
+<figure class="half">
+  <a href="/assets/images/spack-user-survey-2020/two_multi_bars_os_simple.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_multi_bars_os_simple.svg" />
+  </a>
+  <a href="/assets/images/spack-user-survey-2020/two_multi_bars_os.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_multi_bars_os.svg" />
+  </a>
+  <figcaption>
+    OS's of Spack users ignoring (left) and considering (right) specific Linux
+    distributions.
+  </figcaption>
+</figure>
+
+<p>Spack is targeted at HPC, so it’s no surprise that nearly 100% of users
+are using it on Linux. What users sometimes
+<a href="https://twitter.com/HPC_James/status/1329238400596123653">forget</a> is
+that Spack also works on macOS. Around 35% of all users run Spack on
+their macs, and over half the users within ECP are also running it on
+macOS. A small number of users (&lt;10%) are running Spack within the
+Windows Subsystem for Linux. We don’t test there, but we’re told that
+Spack works fine in the WSL environment.</p>
+
+<p>If we look at the responses in more detail, we can see the specific Linux
+<em>distributions</em> that users are running. The most popular, by far, are
+CentOS and Red Hat. In ECP, Red Hat is especially popular. Ubuntu is the
+next most popular after these, then macOS, then other Linux distributions
+and WSL. SuSE is more popular within ECP than in the broader community,
+likely because it is the Linux distribution that most Cray systems are
+built on.</p>
+
+<h2 id="how-many-software-installations-have-you-done-with-spack-in-the-past-year">How many software installations have you done with Spack in the past year?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_multi_bars_num_installations.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_multi_bars_num_installations.svg" />
+  </a>
+</figure>
+
+<p>Almost 28% of the community has done over 200 software installations, and
+over 12% have done over 1,000 installs. The ECP numbers are similar to
+the general population, but the distribution is slightly shifted towards
+larger numbers of installations.</p>
+
+<h2 id="what-python-versions-do-you-use-to-run-spack">What Python version(s) do you use to run Spack?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_multi_bars_python_version.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_multi_bars_python_version.svg" />
+  </a>
+</figure>
+
+<p>Support for Python 2 ended January 1, 2020, but nearly a year later,
+around 40% of Spack users are still using Python 2.7. 4 users are even
+using Python 2.6. Python 2.7 is still the system Python version on many
+operating systems, including Red Hat 7 and CentOS 7, and on Red Hat and
+CentOS 6 (which are still used at some sites) the default is 2.6.</p>
+
+<p>While many projects can pick their version of Python, Spack is often the
+tool people use to <em>install</em> newer versions of Python, and we don’t want
+to make users use another installer just to install Spack’s dependencies.
+We want it to work out of the box, so we try to make Spack work with the
+system Python everywhere.</p>
+
+<h2 id="how-bad-would-it-be-if-spack-dropped-support-for-python-26">How bad would it be if Spack dropped support for Python 2.6?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_pies_how_bad_no_py26.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_pies_how_bad_no_py26.svg" />
+  </a>
+</figure>
+
+<p>We asked whether it would be OK for us to drop Python 2.6, and we found
+that there are still around 4 hold-outs who really need Spack to work on
+Python 2.6, and over 20% of people would be at least mildly
+inconvenienced by this change. For the time being, we’ll keep supporting
+Python 2.6, but you can probably expect its deprecation to be announced
+sometime within the next year, as the last few Red Hat 6 installations
+dwindle.</p>
+
+<h2 id="how-bad-would-it-be-if-spack-only-worked-with-python-3">How bad would it be if Spack only worked with Python 3?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_pies_how_bad_only_py3.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_pies_how_bad_only_py3.svg" />
+  </a>
+</figure>
+
+<p>Eventually, we’d like to drop Python 2 entirely, but with 40% of users
+still using 2.7, and with 36% of users likely to be bothered by the
+shift, we’ll hold off on dropping 2.7, as well. Interestingly, while ECP
+users were less likely than the broader community to completely oppose
+dropping 2.6, they were <em>more</em> likely than the community to oppose
+dropping 2.7.</p>
+
+<h2 id="how-do-you-get-installed-spack-packages-into-your-environment">How do you get installed Spack packages into your environment?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_multi_bars_how_use_pkgs_any.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_multi_bars_how_use_pkgs_any.svg" />
+  </a>
+  </figure>
+
+<p>The most common way to use Spack packages is still through modules, and
+module usage seems to be split about evenly between Lmod and TCL modules,
+with some overlap. We were surprised to see that the <code class="language-plaintext highlighter-rouge">spack load</code> command
+is the second most popular way to use Spack packages, only a few
+percentage points behind modules.</p>
+
+<p>We don’t have data on past usage of <code class="language-plaintext highlighter-rouge">spack load</code>, but we’ve tried to make
+it easy to use everywhere, and this may have caused its usage to
+increase. In particular, in earlier Spack releases, <code class="language-plaintext highlighter-rouge">spack load</code>
+<em>required</em> modules in order to work (it was a thin layer around <code class="language-plaintext highlighter-rouge">module
+load</code>). As of
+<a href="https://github.com/spack/spack/releases/tag/v0.14.0">Spack <code class="language-plaintext highlighter-rouge">0.14</code></a> in
+early 2020, it only requires Spack’s own environment support – so you
+can easily load a one-off package on your mac or personal Linux box where
+you don’t already have modules installed.</p>
+
+<p>After <code class="language-plaintext highlighter-rouge">spack load</code>, around 35% of users are making use of Spack
+environments to load groups of packages together. Like <code class="language-plaintext highlighter-rouge">spack load</code>,
+Spack environments require no support from the module system – they work
+regardless of where Spack is deployed and provide a more portable
+alternative to loading environment modules.</p>
+
+<h2 id="which-spack-features-do-you-use">Which Spack features do you use?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_multi_bars_used_features.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_multi_bars_used_features.svg" />
+  </a>
+</figure>
+
+<p>While Spack
+<a href="https://spack.readthedocs.io/en/latest/environments.html">environments</a>
+ranked below modules for simply getting packages into <code class="language-plaintext highlighter-rouge">PATH</code>,
+environments are actually the most widely used single <em>feature</em> of Spack
+(at least on our list here). Around 2/3 of users say they use
+environments. environments can be used to add packages to <code class="language-plaintext highlighter-rouge">PATH</code>, to
+maintain a list of dependencies via <code class="language-plaintext highlighter-rouge">spack.yaml</code>, to version a
+<code class="language-plaintext highlighter-rouge">spack.yaml</code> environment in a repo, to do
+<a href="https://spack-tutorial.readthedocs.io/en/latest/tutorial_stacks.html">combinatorial builds</a>,
+to reproduce builds with <code class="language-plaintext highlighter-rouge">spack.lock</code>, to configure and run
+<a href="https://spack.readthedocs.io/en/latest/pipelines.html">CI pipelines</a>,
+and to
+<a href="https://spack.readthedocs.io/en/latest/containers.html">build container images</a>.</p>
+
+<h1 id="looking-ahead">Looking Ahead</h1>
+
+<p>We wanted to get a sense of what users will need from Spack in the coming
+year, so we asked about upcoming architectures, Spack features, and
+events.</p>
+
+<h2 id="which-cpus-do-you-expect-to-use-with-spack-in-the-next-year">Which CPUs do you expect to use with Spack in the next year?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_multi_bars_cpus_next_year.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_multi_bars_cpus_next_year.svg" />
+  </a>
+</figure>
+
+<p>Nearly everyone in the Spack community plans to run on Intel CPUs in the
+next year, and around 80% expect to use Spack to build for AMD systems.
+Just over 40% of users will run on ARM and just under 40% will run on
+Power. Within ECP, the percentage of users that want to run on any of the
+non-Intel CPUs is larger – as you might expect, ECP is targeting a more
+diverse set of architectures. There were many more ECP users who expected
+to run on Power than in the broader community, likely because the current
+top two U.S. systems, Summit and Sierra, are Power machines.</p>
+
+<p>We can’t draw a fair comparison with EasyBuild on this question, as
+EasyBuild’s survey asked users what CPUs they were <em>currently</em> using
+rather than what they expected to be using in the next year, and their
+survey was done a year ago, and things are changing fast in HPC. So, take
+it with a grain of salt, but the difference is still worth mentioning. In
+the
+<a href="https://users.ugent.be/~kehoste/eum20/eum20_00_state_of_the_union.pdf">EasyBuild survey</a>
+(slide 26), the vast majority of users were similarly running on Intel
+machines. But, less than 20% were using AMD chips, less than 5% were
+using Power, and only one user reported using ARM. It’s likely their
+numbers for AMD and ARM will increase on the next survey.</p>
+
+<h2 id="which-gpus-do-you-expect-to-use-with-spack-in-the-next-year">Which GPUs do you expect to use with Spack in the next year?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_multi_bars_gpus_next_year_any.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_multi_bars_gpus_next_year_any.svg" />
+  </a>
+</figure>
+
+<p>All users in the Spack community expect to run on GPUs in the next year,
+and over 90% plan to build for NVIDIA GPUs. Around half of the overall
+community expects to build for AMD GPUs, and around 30% expect to build
+for Intel GPUs. Within ECP, the percentage of users planning to run on
+NVIDIA GPUs is very slightly lower, likely because NVIDIA will not be the
+GPU on any of the initial three exascale machines. Aurora will be an
+Intel GPU system and both Frontier and El Capitan will use AMD GPUs. As
+you might expect, 80% of ECP users expect to use AMD GPUs and over half
+expect to use Intel GPUs.</p>
+
+<p><a href="https://www.youtube.com/watch?v=ppKVsnwba7g#t=31m17s">GPU usage in the EasyBuild community</a>
+was similarly high – 96.5% of EasyBuild users were compiling software
+for GPUs – so it’s pretty clear that GPUs have become pervasive in HPC.</p>
+
+<h2 id="which-compilers-do-you-expect-to-use-with-spack-in-the-next-year">Which compilers do you expect to use with Spack in the next year?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_multi_bars_compilers_next_year.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_multi_bars_compilers_next_year.svg" />
+  </a>
+</figure>
+
+<p>As you might expect given the CPU and GPU results, Spack users
+anticipate using a very wide range of compilers. <code class="language-plaintext highlighter-rouge">gcc</code> is still king,
+with almost 100% of users expecting to use it, and LLVM and Intel
+compilers are next on the list.</p>
+
+<p>Interestingly, only around 60% planned to use <code class="language-plaintext highlighter-rouge">nvcc</code>, and a bit more than
+40% planned to use NVIDIA’s HPC compilers. Given that over 90% of users
+said they expected to build on NVIDIA GPUs, we’re tempted to explain the
+discrepancy by saying that a large percentage of users expect to use
+NVIDIA GPUs not through CUDA directly, but through GPU-optimized
+libraries or through compiler capabilities like OpenMP offload. The same
+can probably be said for AMD and Intel GPUs – the percentage of users
+who plan to run with compilers specifically intended for these GPUs was
+consistently lower than the number of users who anticipated using them.</p>
+
+<h2 id="rank-upcoming-spack-features-by-importance">Rank upcoming Spack features by importance</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/feature_bars_all_features.svg">
+    <img src="/assets/images/spack-user-survey-2020/feature_bars_all_features.svg" />
+  </a>
+</figure>
+
+<p>We asked respondents to rank some planned and not-yet-planned Spack
+features by importance: “not important”, “slightly important”, “somewhat
+important”, “very important”, and “critical”. The two most frequently
+ranked “critical” (and also the top two features by average score) were
+reusing external installs and the new concretizer. These are related, as
+the new concretizer is needed to reuse existing installations.</p>
+
+<p>After those, the most important features were better compiler flag
+handling and better support for developers. Separate concretization of
+build dependencies (i.e., using <code class="language-plaintext highlighter-rouge">gcc</code> for packages like CMake even if the
+user asked that the main package be built with the Intel compilers) was
+next on the list, followed by language virtuals (ability to depend on
+<code class="language-plaintext highlighter-rouge">cxx</code>, <code class="language-plaintext highlighter-rouge">c</code>, or <code class="language-plaintext highlighter-rouge">fortran</code> and have that resolve to a compiler and runtime
+library), automatic package maintainer notifications on GitHub, and build
+testing.</p>
+
+<p>The features rated least important were build testing, publicly
+available optimized binary packages, package testing, cloud integration
+for Spack, and Windows support, with the last three rated significantly
+less important than all the others.</p>
+
+<p>Every feature was listed as “critical” by at least some users, but there
+are some clear preferences here that we’ll be trying to tailor our
+efforts to. We already shipped the new concretizer as an experimental
+feature in
+<a href="https://github.com/spack/spack/releases/tag/v0.16.0">Spack v0.16.0</a>, and
+we’ve already merged a number of fixes for it in
+<a href="https://github.com/spack/spack/projects/37">Spack v0.16.1</a>. Separate
+concretization of build dependencies and reusing existing installs are
+both modifications that we’ll need to make to the new concretizer, and
+we’ve already started looking into how we can provide them. Better
+developer support, language virtuals, maintainer notifications, better
+build testing, and package testing are already milestones for 2021.</p>
+
+<p>The feature that stands out that we haven’t yet worked into our plans is
+better compiler flag handling. Based on this survey we’re going to see if
+we can work that into our schedule for 2021, as well.</p>
+
+<figure class="half">
+  <a href="/assets/images/spack-user-survey-2020/heat_map_features_by_workplace.svg">
+    <img src="/assets/images/spack-user-survey-2020/heat_map_features_by_workplace.svg" />
+  </a>
+  <a href="/assets/images/spack-user-survey-2020/heat_map_features_by_job.svg">
+    <img src="/assets/images/spack-user-survey-2020/heat_map_features_by_job.svg" />
+  </a>
+  <figcaption>
+    Feature ratings by workplace (left) and by job type (right).
+  </figcaption>
+</figure>
+
+<p>In addition to the community-wide averages above, we looked at whether
+different segments of the community rated features differently. On the
+right above, we split out average feature ratings by workplace, and on
+the left we split them out by job type.</p>
+
+<p>Overall, the rank order of features was similar across different
+workplaces and job types. Reusing existing installs and the new
+concretizer were consistently at the top of everyone’s list, and the
+lowest-rated features had low ratings across the board. Industry users
+prioritized cloud integration noticeably higher than other groups, and
+user support staff placed a much higher value on package testing than
+other job types (perhaps because they are involved in more package
+testing efforts at their sites). Managers and ASCR labs rated separate
+build dependencies lower than other groups. Other than these outliers
+there were not significant deviations from the overall order of
+preference.</p>
+
+<p>There are some noticeable trends <em>across</em> groups. System administrators,
+user support staff, and industry users tended to rate features as less
+important across the board. It’s hard to know how to interpret this – it
+could mean that they’re happy with the existing capabilities of Spack, or
+that these particular improvements aren’t their top priorities.</p>
+
+<h2 id="if-we-had-a-virtual-workshop-on-spack-would-you-attend">If we had a (virtual) workshop on Spack, would you attend?</h2>
+
+<p>We’ve thought about having a Spack user meeting for a while, and we had
+actually started planning for an inaugural Spack User Meeting earlier
+this year. That fell apart when the pandemic hit. Other similar tools
+have had good luck with meetings like this (e.g.,
+<a href="https://2020.nixcon.org/">NixCon</a> and the
+<a href="https://github.com/easybuilders/easybuild/wiki/5th-EasyBuild-User-Meeting">EasyBuild User Meeting</a>),
+so we asked users what they thought of a potentially virtual meeting:</p>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_pies_would_attend_workshop.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_pies_would_attend_workshop.svg" />
+  </a>
+</figure>
+
+<p>Just over half of users (over 85 people) said they would attend, and 17
+said they’d be willing to give a presentation. That seems like more than
+enough for an initial Spack meeting, so expect us to announce something
+for 2021.</p>
+
+<h1 id="getting-help">Getting Help</h1>
+
+<p>We’re interested in making it easier to learn about Spack, so we asked
+people how they’re doing it now.</p>
+
+<h2 id="have-you-done-a-spack-tutorial">Have you done a Spack tutorial?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_pies_did_tutorial.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_pies_did_tutorial.svg" />
+  </a>
+</figure>
+
+<p>We were surprised to see that over 60% of all our users have done a <a href="https://spack-tutorial.readthedocs.io/en/latest/">Spack
+tutorial</a>. Since 2016, We’ve been doing Spack tutorials at conferences
+like <a href="https://supercomputing.org/">Supercomputing</a>,
+<a href="https://www.isc-hpc.com/">ISC</a>, and
+<a href="https://pearc.acm.org/pearc19/workshops-and-tutorials/">PEARC</a>, and this
+year we had over 125 attendees at our virtual
+<a href="https://spack-tutorial.workshop.aws/">Spack tutorial on AWS</a>. This seems
+to show that tutorials have been a very effective form of outreach, even
+if they aren’t the main way people first hear about Spack (per our
+<a href="http://localhost:4000/spack-user-survey-2020/#how-did-you-find-out-about-spack">earlier question</a>).
+At the very least, they likely contribute to the
+<a href="http://localhost:4000/spack-user-survey-2020/#have-you-contributed-to-spack">high rate of contribution</a>
+in the community.</p>
+
+<h2 id="how-do-you-get-help-with-spack-when-you-need-it">How do you get help with Spack when you need it?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_multi_bars_how_get_help.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_multi_bars_how_get_help.svg" />
+  </a>
+</figure>
+
+<p>Users go to <a href="https://spack.readthedocs.io/en/latest/">the docs</a> more than any other place for help with Spack.
+Slack,
+<a href="http://localhost:4000/spack-user-survey-2020/#have-you-contributed-to-spack">as mentioned above</a>,
+is also very popular – 50% of users use it to get help. We were happy to
+see that around 40% of users get help from their coworkers, and when we
+looked further at this data, those who got help from coworkers were not
+confined to big laboratories – they came from
+<a href="http://localhost:4000/spack-user-survey-2020/#where-do-you-work">all the types of workplaces</a>
+that we considered.</p>
+
+<h2 id="how-often-do-you-consult-the-spack-documentation">How often do you consult the Spack documentation?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_pies_how_often_docs.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_pies_how_often_docs.svg" />
+  </a>
+</figure>
+
+<p>Users consult the documentation reasonably frequently – weekly to
+monthly for most. A small fraction (14%) check it daily. ECP users check
+the documentation less frequently on average than the community as a
+whole, but
+<a href="http://localhost:4000/spack-user-survey-2020/#how-long-have-you-been-using-spack">ECP users have also been using Spack for longer</a>,
+and are likely more familiar with it.</p>
+
+<h2 id="if-there-were-commercial-support-for-spack-would-you-or-your-organization-buy-it">If there were commercial support for Spack, would you or your organization buy it?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/two_pies_commercial_support.svg">
+    <img src="/assets/images/spack-user-survey-2020/two_pies_commercial_support.svg" />
+  </a>
+</figure>
+
+<p>We don’t have any plans to provide commercial support for Spack at the
+moment, but it’s nice to know that 23%, or 39 users and their
+organizations, might be willing to pay for it. That’s a fairly large
+percentage of users willing to pay for support for an open source
+product.</p>
+
+<h1 id="quality-of-spack">Quality of Spack</h1>
+
+<p>We wrapped up the multiple choice part of our survey with a final
+question asking users to rate the quality of Spack.</p>
+
+<h2 id="how-would-you-rate-the-overall-quality-of-spack-its-community-docs-and-packages">How would you rate the overall quality of Spack, its community, docs, and packages?</h2>
+
+<figure>
+  <a href="/assets/images/spack-user-survey-2020/feature_bars_all_quality.svg">
+    <img src="/assets/images/spack-user-survey-2020/feature_bars_all_quality.svg" />
+  </a>
+</figure>
+
+<p>Similar to our
+<a href="http://localhost:4000/spack-user-survey-2020/#rank-upcoming-spack-features-by-importance">question on features</a>
+above, users were asked to rate different parts of Spack as “horrible”,
+“bad”, “ok”, “good”, and “excellent”. We split the results out by
+workplace and job:</p>
+
+<figure class="half">
+  <a href="/assets/images/spack-user-survey-2020/heat_map_quality_by_workplace.svg">
+    <img src="/assets/images/spack-user-survey-2020/heat_map_quality_by_workplace.svg" />
+  </a>
+  <a href="/assets/images/spack-user-survey-2020/heat_map_quality_by_job.svg">
+    <img src="/assets/images/spack-user-survey-2020/heat_map_quality_by_job.svg" />
+  </a>
+  <figcaption>
+    Quality ratings by workplace (left) and by job type (right).
+  </figcaption>
+</figure>
+
+<p>Responses were positive on average for all categories. Only 3.5% of users
+responded negatively for the quality of Spack overall (cf.
+2% for EasyBuild, <a href="https://users.ugent.be/~kehoste/eum20/eum20_00_state_of_the_union.pdf">slide 60</a>). Only 5% responded negatively for any aspect. Consistently,
+the highest-rated aspect was the community, which is great, because Spack
+wouldn’t be sustainable without its community. Just after the community
+was Spack itself.</p>
+
+<p>While both the community and Spack averaged “good” or higher overall, the
+docs and packages had the lowest average ratings. While some users have
+<a href="https://twitter.com/owainkenway/status/1283075361740333058">praised the documentation</a>,
+a lot of documentation has accumulated and it likely needs to be
+organized better. Spack targets
+<a href="http://localhost:4000/spack-user-survey-2020/#what-kind-of-user-are-you">many different kinds of users</a>,
+and there is not just one workflow. We’ve gotten a lot of requests to
+provide clearer how-to guides for common site deployment and developer
+workflows, which is something we plan to work on over the next year.</p>
+
+<p>Spack packages are a harder problem. The package DSL is part of what
+makes Spack unique – there is one template for each package, and the
+same template lets you build any version or configuration of a package.
+This makes it easier to port Spack packages to new systems, but it also
+makes the testing surface for Spack packages <em>very</em> large. We think we
+are still on the right path, for several reasons:</p>
+
+<ul>
+  <li>Together with Kitware, we’ve built up a sophisticated CI system using
+the support for
+<a href="https://spack.readthedocs.io/en/latest/pipelines.html">pipelines</a>
+built into Spack environments.</li>
+  <li>We’ve hooked up our GitLab instance to Spack’s main GitHub repository,
+and within the next couple of weeks, we’ll be testing a subset of Spack
+builds on <em>every</em> pull request.</li>
+  <li>These are the same builds used to produce ECP’s
+<a href="https://e4s.io">Extreme Scale Scientific Software Stack (E4S)</a>.</li>
+</ul>
+
+<p>One of our priorities for 2021 under ECP is hardening these builds and
+testing Spack packages on a wide range of platforms, and now that the new
+concretizer is in Spack, we expect to be able to steer Spack
+configurations towards well-tested ones, based on builds in our pipeline
+and under E4S. So, we expect package stability to get much better over
+the coming year, and we’re hoping that it will show up in next year’s
+survey responses.</p>
+
+<h1 id="longer-answers">Longer answers</h1>
+
+<p>We asked 6 long answer questions. If you want, you can read them all in
+the <a href="https://github.com/spack/spack-user-survey">data repository</a>. The
+number and length of responses to these was overwhelming, and we haven’t
+come up with a great way to summarize them, but reading them all gave us
+a great picture of what people in the community are up to. We’ve picked a
+few responses per question and quoted them below.</p>
+
+<h2 id="tell-us-briefly-about-your-use-case-and-your-usual-spack-workflow">Tell us briefly about your use case and your usual Spack workflow.</h2>
+
+<ul>
+  <li>
+    <p><em>I am using Spack to build the software environment for our users on
+our University’s centralized HPC system.</em></p>
+  </li>
+  <li>
+    <p><em>Using Spack to build complex applications natively. Moving the
+build into containers, if possible with <code class="language-plaintext highlighter-rouge">spack containerize</code>.</em></p>
+  </li>
+  <li>
+    <p><em>We use spack to provide 3 consistent entry points into our nuclear
+physics software environment: cvmfs, build_caches, containers.</em></p>
+  </li>
+  <li>
+    <p><em>Rather heterogeneous cluster with an environment per architecture.
+Currently having lots of fun packaging bioinformatics tools.</em></p>
+  </li>
+  <li>
+    <p><em>Support Spack in Fugaku</em></p>
+  </li>
+  <li>
+    <p><em>I’m a math library developer and use spack to build third party
+libraries e.g., <code class="language-plaintext highlighter-rouge">blas</code>, <code class="language-plaintext highlighter-rouge">lapack</code>, <code class="language-plaintext highlighter-rouge">MPI</code>, <code class="language-plaintext highlighter-rouge">hypre</code>, <code class="language-plaintext highlighter-rouge">SuperLU_MT</code>,
+<code class="language-plaintext highlighter-rouge">SuperLU_DIST</code>, <code class="language-plaintext highlighter-rouge">PETSc</code>, and <code class="language-plaintext highlighter-rouge">Trilinos</code> both for developing on my
+laptop and for continuous integration on a dedicated workstation.</em></p>
+  </li>
+  <li>
+    <p><em>We use spack to install most facility-provided software on OLCF HPC
+machines.</em></p>
+  </li>
+  <li>
+    <p><em>Distributed build system with Spack environments</em></p>
+  </li>
+</ul>
+
+<h2 id="what-about-spack-helps-you-the-most">What about Spack helps you the most?</h2>
+
+<ul>
+  <li>
+    <p><em>The community</em></p>
+  </li>
+  <li>
+    <p><em>Greg Becker responding to my questions on Slack.</em></p>
+  </li>
+  <li>
+    <p><em>How Spack handles installation of multiple versions of the same app.</em></p>
+  </li>
+  <li>
+    <p><em>How Spack should be Linux OS agnostic (yet to be tested) so we can
+experiment with offering other distros for users.</em></p>
+  </li>
+  <li>
+    <p><em>Absolute flexibility, especially compared to, i.e., <code class="language-plaintext highlighter-rouge">nix</code>. And
+dependency handling, which I never want to do manually again.</em></p>
+  </li>
+  <li>
+    <p><em>I’m still in dependency hell, but Spack took me from the 7th circle
+(violence - for the violence I’d like to commit against my keyboard
+while building things) to the 3rd circle (gluttony - for the
+voracious appetite I now have for spack-installed packages and the
+indulgent number of dependencies they require).</em></p>
+  </li>
+  <li>
+    <p><em>Well-defined package specifications and solid concretization.</em></p>
+  </li>
+  <li>
+    <p><em>The concretizer (despite some issues) is the most helpful aspect of
+Spack. It allows for automatic dependency management and
+reproducibility.</em></p>
+  </li>
+</ul>
+
+<h2 id="what-are-the-biggest-pain-points-in-spack-for-your-workflow">What are the biggest pain points in Spack for your workflow?</h2>
+
+<ul>
+  <li>
+    <p><em>surprising re-concretizations, updating environments and removing old
+packages</em></p>
+  </li>
+  <li>
+    <p><em>inter dependencies with many variants makes a huge/complicated
+package file</em></p>
+  </li>
+  <li>
+    <p><em>Better parallel building of environments. I think Slurm integration
+could be very good to have.</em></p>
+  </li>
+  <li>
+    <p><em>Right now, the time it takes to concretize in our deployment with ~2000
+packages already in the database.</em></p>
+  </li>
+  <li>
+    <p><em>Not having language virtual dependencies makes it harder to have
+language polyfills for newer features when the compiler doesn’t support
+them. It also is hard to say what compiler versions you support</em></p>
+  </li>
+  <li>
+    <p><em>c++ language standard dependencies, build dependency blow-up</em></p>
+  </li>
+  <li>
+    <p><em>It seems that we should specify external package path every time so it
+would be great if Spack can detect preinstalled libraries.</em></p>
+  </li>
+</ul>
+
+<h2 id="whats-the-biggest-thing-we-could-do-to-improve-spack-over-the-next-year">What’s the biggest thing we could do to improve Spack over the next year?</h2>
+
+<ul>
+  <li>
+    <p><em>Keep doing outreach efforts, videos, tutorials, hackathons, whatever to
+spread the voice more.</em></p>
+  </li>
+  <li>
+    <p><em>Python as a virtual dependency</em></p>
+  </li>
+  <li>
+    <p><em>The complaint I still have to field from people is “I tried to build a
+simple package, and Spack built Python and CMake and and and and…” so
+I think better deciphering of externals (which I know you’re working on
+as we speak) would be good.</em></p>
+  </li>
+  <li>
+    <p><em>QA: less features but really solid CI on tagged releases, including
+packages.</em></p>
+  </li>
+  <li>
+    <p><em>Cross compiler support, new concreteizer</em></p>
+  </li>
+  <li>
+    <p><em>Documentation organisation, examples, and explicit API listing of all
+ internal functionality.</em></p>
+  </li>
+  <li>
+    <p><em>New concretizer, maintainer bot</em></p>
+  </li>
+  <li>
+    <p><em>Build lots of buildcaches for each site to speed up builds. It could be
+nice to have a cloud repository could be AWS, GCP, where spack host all
+the buildcaches.</em></p>
+  </li>
+  <li>
+    <p><em>Fully-working backtracking concretizer</em></p>
+  </li>
+  <li>
+    <p><em>Don’t lose momentum.</em></p>
+  </li>
+</ul>
+
+<h2 id="are-there-key-packages-youd-like-to-see-in-spack-that-are-not-included-yet">Are there key packages you’d like to see in Spack that are not included yet?</h2>
+
+<ul>
+  <li>
+    <p><em>Probably new build system support like Julia / Golang</em></p>
+  </li>
+  <li>
+    <p><em>I would like to be able to contribute one day adding the Uintah
+software suite</em></p>
+  </li>
+  <li>
+    <p><em>moose</em></p>
+  </li>
+  <li>
+    <p><em>WRF. I’m aware that it’s now included in develop branch.</em></p>
+  </li>
+  <li>
+    <p><em>None that we haven’t been able to rapidly write for ourselves.</em></p>
+  </li>
+</ul>
+
+<h2 id="do-you-have-any-other-comments-for-us">Do you have any other comments for us?</h2>
+
+<ul>
+  <li>
+    <p><em>This project makes me enjoy coming into work.</em></p>
+  </li>
+  <li>
+    <p><em>Yes, I like spack, can’t do without it now.</em></p>
+  </li>
+  <li>
+    <p><em>It would be great if <a href="https://github.com/spack/spack-configs">https://github.com/spack/spack-configs</a>
+included more DOE machines and were updated more frequently. If the
+administrators at computing centers provide these files somewhere it
+does not seem to be well advertised to users.</em></p>
+  </li>
+  <li>
+    <p><em>Pretty much every year my biggest victory with Spack is “they fixed the
+thing that was biggest gripe about Spack last year,” which is a sign of
+a really good job listening to users, so keep that up.</em></p>
+  </li>
+  <li>
+    <p><em>Keep up the good work. I will continue using and supporting Spack for
+many years to come.</em></p>
+  </li>
+  <li>
+    <p><em>Keep being awesome! Spack is my favorite tool of the last 5 years!</em></p>
+  </li>
+  <li>
+    <p><em>It’s easy to create a real tangle of versions and special builds. I
+think the project should work to maintain good communication with the
+application developers, so that standard or common/expected versions and
+dependency sets can be more clearly identified</em></p>
+  </li>
+  <li>
+    <p><em>Spack is extraordinary and blows away all past attempts to bring
+sanity to HPC software. I encourage you to offer commercial support.
+Please have support tiers that allow us to select an appropriate
+level of support.</em></p>
+  </li>
+</ul>]]></content><author><name>Todd Gamblin</name></author><category term="user" /><category term="survey" /><category term="2020" /><category term="community" /><summary type="html"><![CDATA[Results from the Spack 2020 User Survey are out! Check out our summary below.]]></summary></entry><entry><title type="html">Spack featured on The Next Platform</title><link href="https://spack.io/spack-featured-next-platform/" rel="alternate" type="text/html" title="Spack featured on The Next Platform" /><published>2020-11-12T00:02:00+00:00</published><updated>2020-11-12T00:02:00+00:00</updated><id>https://spack.io/spack-featured-next-platform</id><content type="html" xml:base="https://spack.io/spack-featured-next-platform/"><![CDATA[<p><em>The Next Platform</em> provides in-depth coverage of high-end computing at large enterprises, supercomputing centers, hyperscale data centers, and public clouds. Against the backdrop of the <a href="/spack-at-sc20/">Supercomputing (SC20)</a> conference, the article titled <a href="https://www.nextplatform.com/2020/11/12/spack-packs-deployment-boost-for-top-supercomputers/">“Spack Packs Deployment Boost for Top Supercomputers”</a> describes the challenges of creating and deploying scientific software packages. Writer Nicole Hemsoth explains how Spack seeks to fill gaps in customization and configurability; that it is the deployment tool for Fukagu, the world’s top supercomputer; and, heading into the exascale era, how the Spack development team is handling the growing complexity of dependency issues for HPC software.</p>]]></content><author><name></name></author><category term="next-platform" /><summary type="html"><![CDATA[The Next Platform provides in-depth coverage of high-end computing at large enterprises, supercomputing centers, hyperscale data centers, and public clouds. Against the backdrop of the Supercomputing (SC20) conference, the article titled “Spack Packs Deployment Boost for Top Supercomputers” describes the challenges of creating and deploying scientific software packages. Writer Nicole Hemsoth explains how Spack seeks to fill gaps in customization and configurability; that it is the deployment tool for Fukagu, the world’s top supercomputer; and, heading into the exascale era, how the Spack development team is handling the growing complexity of dependency issues for HPC software.]]></summary></entry><entry><title type="html">Spack at SC20</title><link href="https://spack.io/spack-at-sc20/" rel="alternate" type="text/html" title="Spack at SC20" /><published>2020-10-15T00:03:00+00:00</published><updated>2020-10-15T00:03:00+00:00</updated><id>https://spack.io/spack-at-sc20</id><content type="html" xml:base="https://spack.io/spack-at-sc20/"><![CDATA[<p><a href="https://sc20.supercomputing.org/">Supercomputing 2020 (SC20)</a> runs for two weeks beginning on November 9. 
+See below for a list of our events.</p>
+
+<p>Be sure to follow
+<a href="https://twitter.com/spackpm">@spackpm</a> on Twitter for updates!</p>
+
+<h3 id="mon-november-9">Mon., November 9</h3>
+
+<ul>
+  <li>
+    <p><strong>10:00am - 2:00pm EST</strong> (live)
+<br />
+Our tutorial runs over two half-days. <a href="https://sc20.supercomputing.org/presentation/?id=tut132&amp;sess=sess241"><strong>Managing HPC Software Complexity with Spack: Part 1</strong></a> 
+kicks off on Monday. Be sure to check out our <a href="https://spack-tutorial.readthedocs.io/en/latest/">tutorial documentation</a>.</p>
+
+    <p>The tutorial provides a thorough introduction to Spack’s capabilities: installing and authoring packages, 
+integrating Spack with development workflows, and using Spack for deployment at HPC facilities. 
+Attendees will leave with foundational skills for using Spack to automate day-to-day tasks, 
+along with deeper knowledge for applying Spack to advanced use cases.</p>
+  </li>
+</ul>
+
+<h3 id="tue-november-10">Tue., November 10</h3>
+
+<ul>
+  <li><strong>10:00am - 2:00pm EST</strong> (live)
+<br />
+The second day of the tutorial: <a href="https://sc20.supercomputing.org/presentation/?id=pec104&amp;sess=sess267"><strong>Managing HPC Software Complexity with Spack: Part 2</strong></a></li>
+</ul>
+
+<h3 id="wed-november-18">Wed., November 18</h3>
+
+<ul>
+  <li><strong>11:30am - 12:45pm</strong> (live)
+<br /> 
+Join the <a href="https://sc20.supercomputing.org/presentation/?id=bof107&amp;sess=sess310"><strong>Spack Community BOF</strong></a>
+and <strong>ask our developers anything</strong>. The core team will give updates on the community, new features, and 
+the roadmap for future development. We will poll the audience to gather valuable information on how Spack 
+is being used, and will open the floor for questions. All are invited to provide feedback, request features, 
+and discuss future directions. Help us make installing HPC software simple!</li>
+</ul>]]></content><author><name>Todd Gamblin</name></author><category term="sc20" /><category term="tutorial" /><category term="bof" /><category term="events" /><summary type="html"><![CDATA[This year SC20 is fully virtual with events and sessions conducted over two weeks. Check out the Spack lineup below.]]></summary></entry><entry><title type="html">Spack R&amp;amp;D 100 award featured in LLNL magazine</title><link href="https://spack.io/spack-rd-100-award-featured-llnl-magazine/" rel="alternate" type="text/html" title="Spack R&amp;amp;D 100 award featured in LLNL magazine" /><published>2020-08-03T00:02:00+00:00</published><updated>2020-08-03T00:02:00+00:00</updated><id>https://spack.io/spack-rd-100-award-featured-llnl-magazine</id><content type="html" xml:base="https://spack.io/spack-rd-100-award-featured-llnl-magazine/"><![CDATA[<p>The July issue of Lawrence Livermore’s magazine <em>Science &amp; Technology Review</em> features Spack as one of the Lab’s four winning technologies from 2019. The article titled <a href="https://str.llnl.gov/2020-07/gamblin">“Software Installation Simplified”</a> covers Spack’s origins, mechanisms, key features, and thriving open source community. The magazine issue also has a <a href="https://str.llnl.gov/2020-07/comjul20">commentary</a> by LLNL’s deputy director for science and technology, who describes the awards in the context of the Lab’s culture of innovation.</p>]]></content><author><name></name></author><category term="award" /><category term="rd100" /><summary type="html"><![CDATA[The July issue of Lawrence Livermore’s magazine Science &amp; Technology Review features Spack as one of the Lab’s four winning technologies from 2019. The article titled “Software Installation Simplified” covers Spack’s origins, mechanisms, key features, and thriving open source community. The magazine issue also has a commentary by LLNL’s deputy director for science and technology, who describes the awards in the context of the Lab’s culture of innovation.]]></summary></entry></feed>

@@ -1,0 +1,427 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.1 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>About Spack</title>
+<meta name="description" content="">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Spack">
+<meta property="og:title" content="About Spack">
+<meta property="og:url" content="https://spack.io/about/">
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+  <meta name="twitter:site" content="@spackpm">
+  <meta name="twitter:title" content="About Spack">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:url" content="https://spack.io/about/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://spack.io/about/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Spack Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/spack-logo.svg" alt="Spack"></a>
+        
+        <a class="site-title" href="/">
+          Spack
+          <span class="site-subtitle"></span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/events/"
+                
+                
+              >Events</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/services/"
+                
+                
+              >Services</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/status/"
+                
+                
+              >Spack CI Status</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="About Spack">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="https://spack.io/about/" itemprop="url">About Spack
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#install-spack">Install Spack</a></li><li><a href="#custom-versions--configurations">Custom versions &amp; configurations</a></li><li><a href="#customize-dependencies">Customize dependencies</a></li><li><a href="#packages-can-peacefully-coexist">Packages can peacefully coexist</a></li><li><a href="#creating-packages-is-easy">Creating packages is easy</a></li><li><a href="#get-involved">Get Involved!</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p>Spack is a package manager for
+<a href="https://en.wikipedia.org/wiki/Supercomputer">supercomputers</a>, Linux, and
+macOS.  It makes installing scientific software easy. With Spack, you can
+build a package with multiple versions, configurations, platforms, and
+compilers, and all of these builds can coexist on the same machine.</p>
+
+<p>Spack isn’t tied to a particular language; you can build a software stack
+in
+<a href="https://spack.readthedocs.io/en/latest/basic_usage.html#extensions-python-support">Python</a>
+or R, link to libraries written in C, C++, or Fortran, easily
+<a href="https://spack.readthedocs.io/en/latest/getting_started.html#compiler-configuration">swap compilers</a>, and
+target <a href="https://spack.readthedocs.io/en/latest/basic_usage.html#support-for-specific-microarchitectures">specific
+microarchitectures</a>.
+Use Spack to install without root in your home directory, to
+<a href="https://spack.readthedocs.io/en/latest/module_file_support.html">manage shared installations and modules</a>,
+or to <a href="https://spack.readthedocs.io/en/latest/basic_usage.html#specs-dependencies">build combinatorial versions</a>  of software for testing.</p>
+
+<h2 id="install-spack">Install Spack</h2>
+
+<p>Clone Spack from GitHub and you’re ready to go:</p>
+
+<figure class="highlight"><pre><code class="language-console" data-lang="console"><span class="go">git clone https://github.com/spack/spack.git
+. spack/share/spack/setup-env.sh
+spack install hdf5</span></code></pre></figure>
+
+<h2 id="custom-versions--configurations">Custom versions &amp; configurations</h2>
+
+<p>The installation of Spack can be customized in a variety of ways. Users can
+specify the package version, compiler, compile-time options, and even
+cross-compile platform, all from the command line.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># Install a specific version by appending @</span>
+<span class="nv">$ </span>spack <span class="nb">install </span>hdf5@1.10.1
+
+<span class="c"># Specify a compiler (and optional version), with %</span>
+<span class="nv">$ </span>spack <span class="nb">install </span>hdf5@1.10.1 %gcc@4.7.3
+
+<span class="c"># Add special boolean compile-time options with +</span>
+<span class="nv">$ </span>spack <span class="nb">install </span>hdf5@1.10.1 %gcc@4.7.3 +szip
+
+<span class="c"># Add custom compiler flags</span>
+<span class="nv">$ </span>spack <span class="nb">install </span>hdf5@1.10.1 %gcc@4.7.3 <span class="nv">cppflags</span><span class="o">=</span><span class="s2">"-O3 -floop-block"</span>
+
+<span class="c"># Cross-compile for compute nodes on a Cray or Blue Gene/Q</span>
+<span class="nv">$ </span>spack <span class="nb">install </span>hdf5@1.10.1 <span class="nv">target</span><span class="o">=</span>backend</code></pre></figure>
+
+<p>Users can specify as many or few options as they care about. Spack will fill in
+the unspecified values with sensible defaults. The two listed syntaxes for
+variants are identical when the value is boolean.</p>
+
+<h2 id="customize-dependencies">Customize dependencies</h2>
+
+<p>Spack allows dependencies of particular installations to be customized
+extensively. Suppose that <code class="language-plaintext highlighter-rouge">hdf5</code> depends on <code class="language-plaintext highlighter-rouge">openmpi</code> and indirectly on
+<code class="language-plaintext highlighter-rouge">hwloc</code>. Using <code class="language-plaintext highlighter-rouge">^</code>, users can add custom configurations for dependencies:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># Install hdf5 and link it with specific versions of openmpi and hwloc</span>
+<span class="nv">$ </span>spack <span class="nb">install </span>hdf5@1.10.1 %gcc@4.7.3 +debug ^openmpi+cuda <span class="nv">fabrics</span><span class="o">=</span>auto ^hwloc+gl</code></pre></figure>
+
+<h2 id="packages-can-peacefully-coexist">Packages can peacefully coexist</h2>
+
+<p>Spack installs every unique package/dependency configuration into its own
+prefix, so new installs will not break existing ones.</p>
+
+<p>Spack avoids library misconfiguration by using <code class="language-plaintext highlighter-rouge">RPATH</code> to link dependencies.
+When a user links a library or runs a program, it is tied to the dependencies
+it was built with, so there is no need to manipulate <code class="language-plaintext highlighter-rouge">LD_LIBRARY_PATH</code> at
+runtime.</p>
+
+<h2 id="creating-packages-is-easy">Creating packages is easy</h2>
+
+<p>Spack packages are simple Python scripts. The
+<a href="https://spack.readthedocs.io/en/latest/packaging_guide.html#creating-editing-packages"><code class="language-plaintext highlighter-rouge">spack create</code></a>
+command will generate boilerplate to get you started, and you can create a
+package in a matter of minutes. You write the build instructions; Spack builds
+the dependencies for you.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="n">spack</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="k">class</span> <span class="nc">Kripke</span><span class="p">(</span><span class="n">Package</span><span class="p">):</span>
+    <span class="sh">"""</span><span class="s">Kripke is a simple, scalable, 3D Sn deterministic particle
+       transport proxy/mini app.
+    </span><span class="sh">"""</span>
+    <span class="n">homepage</span> <span class="o">=</span> <span class="sh">"</span><span class="s">https://computing.llnl.gov/projects/co-design/kripke</span><span class="sh">"</span>
+    <span class="n">url</span>      <span class="o">=</span> <span class="sh">"</span><span class="s">https://computing.llnl.gov/downloads/kripke-openmp-1.1.tar.gz</span><span class="sh">"</span>
+
+    <span class="nf">version</span><span class="p">(</span><span class="sh">'</span><span class="s">1.1</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">7fe6f2b26ed983a6ce5495ab701f85bf</span><span class="sh">'</span><span class="p">)</span>
+
+    <span class="nf">variant</span><span class="p">(</span><span class="sh">'</span><span class="s">mpi</span><span class="sh">'</span><span class="p">,</span>    <span class="n">default</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="sh">'</span><span class="s">Build with MPI.</span><span class="sh">'</span><span class="p">)</span>
+    <span class="nf">variant</span><span class="p">(</span><span class="sh">'</span><span class="s">openmp</span><span class="sh">'</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="sh">'</span><span class="s">Build with OpenMP enabled.</span><span class="sh">'</span><span class="p">)</span>
+
+    <span class="nf">depends_on</span><span class="p">(</span><span class="sh">'</span><span class="s">mpi</span><span class="sh">'</span><span class="p">,</span> <span class="n">when</span><span class="o">=</span><span class="sh">"</span><span class="s">+mpi</span><span class="sh">"</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">install</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">spec</span><span class="p">,</span> <span class="n">prefix</span><span class="p">):</span>
+        <span class="k">with</span> <span class="nf">working_dir</span><span class="p">(</span><span class="sh">'</span><span class="s">build</span><span class="sh">'</span><span class="p">,</span> <span class="n">create</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
+            <span class="nf">cmake</span><span class="p">(</span><span class="sh">'</span><span class="s">-DCMAKE_INSTALL_PREFIX:PATH=.</span><span class="sh">'</span><span class="p">,</span>
+                  <span class="sh">'</span><span class="s">-DENABLE_OPENMP=%s</span><span class="sh">'</span> <span class="o">%</span> <span class="p">(</span><span class="sh">'</span><span class="s">+openmp</span><span class="sh">'</span> <span class="ow">in</span> <span class="n">spec</span><span class="p">),</span>
+                  <span class="sh">'</span><span class="s">-DENABLE_MPI=%s</span><span class="sh">'</span>    <span class="o">%</span> <span class="p">(</span><span class="sh">'</span><span class="s">+mpi</span><span class="sh">'</span> <span class="ow">in</span> <span class="n">spec</span><span class="p">),</span>
+                  <span class="sh">'</span><span class="s">..</span><span class="sh">'</span><span class="p">,</span>
+                  <span class="o">*</span><span class="n">std_cmake_args</span><span class="p">)</span>
+
+            <span class="nf">make</span><span class="p">()</span>
+            <span class="nf">mkdirp</span><span class="p">(</span><span class="n">prefix</span><span class="p">.</span><span class="nb">bin</span><span class="p">)</span>
+            <span class="nf">install</span><span class="p">(</span><span class="sh">'</span><span class="s">kripke</span><span class="sh">'</span><span class="p">,</span> <span class="n">prefix</span><span class="p">.</span><span class="nb">bin</span><span class="p">)</span></code></pre></figure>
+
+<h2 id="get-involved">Get Involved!</h2>
+
+<p>Visit <a href="https://github.com/spack/spack">Spack on GitHub</a> and
+<a href="https://spack-tutorial.readthedocs.io/en/latest/">take the tutorial</a>.
+Join the discussion on the
+<a href="https://groups.google.com/d/forum/spack">GoogleGroup</a>, and learn how to
+<a href="https://spack.readthedocs.io/en/latest/contribution_guide.html">contribute</a>
+your own packages. Check out the <a href="/events/">Upcoming Events</a> page for tutorials,
+workshops, BoFs, etc.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://x.com/spackpm" rel="nofollow noopener noreferrer"><i class="fab fa-brands fa-x-twitter" aria-hidden="true"></i> @spackpm</a></li>
+        
+      
+        
+          <li><a href="https://mast.hpc.social/@spack" rel="nofollow noopener noreferrer"><i class="fab fa-brands fa-mastodon" aria-hidden="true"></i> @spack</a></li>
+        
+      
+        
+          <li><a href="https://github.com/spack/spack" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://slack.spack.io" rel="nofollow noopener noreferrer"><i class="fab fa-slack" aria-hidden="true"></i> Slack</a></li>
+        
+      
+        
+          <li><a href="https://spack.readthedocs.io/" rel="nofollow noopener noreferrer"><i class="fas fa-book" aria-hidden="true"></i> Docs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/spack/spack/discussions" rel="nofollow noopener noreferrer"><i class="fas fa-comments" aria-hidden="true"></i> Discussion</a></li>
+        
+      
+        
+          <li><a href="mailto:maintainers@spack.io" rel="nofollow noopener noreferrer"><i class="far fa-envelope" aria-hidden="true"></i> maintainers</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="https://spack.io">Spack Project</a>, a Series of LF Projects, LLC. For web site terms of use, trademark policy and other project policies please see <a href="https://lfprojects.org">lfprojects.org</a></a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+  <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-101208306-1']);
+  
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,438 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.1 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Working remotely: the Spack team</title>
+<meta name="description" content="With much of the tech sphere working from home right now, a Better Scientific Software blog post describes the Spack team’s experience working remotely. The Spack team has had to make some adjustments without being able to hold face-to-face tutorials and attend events in person, but there are a lot of online communication opportunities (e.g., Slack) to keep the community connected. A big difference-maker is having robust documentation so users can help themselves.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Spack">
+<meta property="og:title" content="Working remotely: the Spack team">
+<meta property="og:url" content="https://spack.io/bssw-working-remotely/">
+
+
+  <meta property="og:description" content="With much of the tech sphere working from home right now, a Better Scientific Software blog post describes the Spack team’s experience working remotely. The Spack team has had to make some adjustments without being able to hold face-to-face tutorials and attend events in person, but there are a lot of online communication opportunities (e.g., Slack) to keep the community connected. A big difference-maker is having robust documentation so users can help themselves.">
+
+
+
+
+
+  <meta name="twitter:site" content="@spackpm">
+  <meta name="twitter:title" content="Working remotely: the Spack team">
+  <meta name="twitter:description" content="With much of the tech sphere working from home right now, a Better Scientific Software blog post describes the Spack team’s experience working remotely. The Spack team has had to make some adjustments without being able to hold face-to-face tutorials and attend events in person, but there are a lot of online communication opportunities (e.g., Slack) to keep the community connected. A big difference-maker is having robust documentation so users can help themselves.">
+  <meta name="twitter:url" content="https://spack.io/bssw-working-remotely/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2020-05-16T00:02:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://spack.io/bssw-working-remotely/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Spack Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/spack-logo.svg" alt="Spack"></a>
+        
+        <a class="site-title" href="/">
+          Spack
+          <span class="site-subtitle"></span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/events/"
+                
+                
+              >Events</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/services/"
+                
+                
+              >Services</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/status/"
+                
+                
+              >Spack CI Status</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://spack.io/" itemprop="url"></a>
+    </h3>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Working remotely: the Spack team">
+    <meta itemprop="description" content="With much of the tech sphere working from home right now, a Better Scientific Software blog post describes the Spack team’s experience working remotely. The Spack team has had to make some adjustments without being able to hold face-to-face tutorials and attend events in person, but there are a lot of online communication opportunities (e.g., Slack) to keep the community connected. A big difference-maker is having robust documentation so users can help themselves.">
+    <meta itemprop="datePublished" content="2020-05-16T00:02:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="https://spack.io/bssw-working-remotely/" itemprop="url">Working remotely: the Spack team
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>With much of the tech sphere working from home right now, a Better Scientific Software <a href="https://bssw.io/blog_posts/working-remotely-the-spack-team">blog post</a> describes the Spack team’s experience working remotely. The Spack team has had to make some adjustments without being able to hold face-to-face tutorials and attend events in person, but there are a lot of online communication opportunities (e.g., Slack) to keep the community connected. A big difference-maker is having robust documentation so users can help themselves.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#bssw" class="page__taxonomy-item p-category" rel="tag">bssw</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2020-05-16T00:02:00+00:00">May 16, 2020</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  <h4 class="page__share-title">Share on</h4>
+
+  <a href="https://x.com/intent/tweet?via=spackpm&text=Working+remotely%3A+the+Spack+team%20https%3A%2F%2Fspack.io%2Fbssw-working-remotely%2F" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
+    <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
+  </a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fspack.io%2Fbssw-working-remotely%2F" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+    <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
+  </a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://spack.io/bssw-working-remotely/" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+    <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
+  </a>
+
+  <a href="https://bsky.app/intent/compose?text=Working+remotely%3A+the+Spack+team%20https%3A%2F%2Fspack.io%2Fbssw-working-remotely%2F" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
+    <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
+  </a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ecp-podcast-episode-67/" class="pagination--pager" title="Podcast: Let’s Talk Exascale">Previous</a>
+    
+    
+      <a href="/spack-rd-100-award-featured-llnl-magazine/" class="pagination--pager" title="Spack R&amp;D 100 award featured in LLNL magazine">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://x.com/spackpm" rel="nofollow noopener noreferrer"><i class="fab fa-brands fa-x-twitter" aria-hidden="true"></i> @spackpm</a></li>
+        
+      
+        
+          <li><a href="https://mast.hpc.social/@spack" rel="nofollow noopener noreferrer"><i class="fab fa-brands fa-mastodon" aria-hidden="true"></i> @spack</a></li>
+        
+      
+        
+          <li><a href="https://github.com/spack/spack" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://slack.spack.io" rel="nofollow noopener noreferrer"><i class="fab fa-slack" aria-hidden="true"></i> Slack</a></li>
+        
+      
+        
+          <li><a href="https://spack.readthedocs.io/" rel="nofollow noopener noreferrer"><i class="fas fa-book" aria-hidden="true"></i> Docs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/spack/spack/discussions" rel="nofollow noopener noreferrer"><i class="fas fa-comments" aria-hidden="true"></i> Discussion</a></li>
+        
+      
+        
+          <li><a href="mailto:maintainers@spack.io" rel="nofollow noopener noreferrer"><i class="far fa-envelope" aria-hidden="true"></i> maintainers</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="https://spack.io">Spack Project</a>, a Series of LF Projects, LLC. For web site terms of use, trademark policy and other project policies please see <a href="https://lfprojects.org">lfprojects.org</a></a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+  <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-101208306-1']);
+  
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

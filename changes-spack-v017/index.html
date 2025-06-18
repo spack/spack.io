@@ -1,0 +1,555 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.1 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Changes to bootstrapping in Spack v0.17</title>
+<meta name="description" content="Starting with Spack v0.17, the new concretizer will be the default, and Spack will automatically install a new dependency (Clingo) from binaries. You can optionally disable this bootstrapping.">
+
+
+  <meta name="author" content="Massimiliano Culpo">
+  
+  <meta property="article:author" content="Massimiliano Culpo">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Spack">
+<meta property="og:title" content="Changes to bootstrapping in Spack v0.17">
+<meta property="og:url" content="https://spack.io/changes-spack-v017/">
+
+
+  <meta property="og:description" content="Starting with Spack v0.17, the new concretizer will be the default, and Spack will automatically install a new dependency (Clingo) from binaries. You can optionally disable this bootstrapping.">
+
+
+
+
+
+  <meta name="twitter:site" content="@spackpm">
+  <meta name="twitter:title" content="Changes to bootstrapping in Spack v0.17">
+  <meta name="twitter:description" content="Starting with Spack v0.17, the new concretizer will be the default, and Spack will automatically install a new dependency (Clingo) from binaries. You can optionally disable this bootstrapping.">
+  <meta name="twitter:url" content="https://spack.io/changes-spack-v017/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2021-08-13T00:02:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://spack.io/changes-spack-v017/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Spack Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/spack-logo.svg" alt="Spack"></a>
+        
+        <a class="site-title" href="/">
+          Spack
+          <span class="site-subtitle"></span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/events/"
+                
+                
+              >Events</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/services/"
+                
+                
+              >Services</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/status/"
+                
+                
+              >Spack CI Status</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://spack.io/">
+        <img src="/assets/images/alalazo.jpg" alt="Massimiliano Culpo" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://spack.io/" itemprop="url">Massimiliano Culpo</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Spack Core Developer, np-complete S.r.l.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="mailto:massimiliano.culpo@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/alalazo" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Changes to bootstrapping in Spack v0.17">
+    <meta itemprop="description" content="Starting with Spack v0.17, the new concretizer will be the default, and Spack will automaticallyinstall a new dependency (Clingo) from binaries. You can optionally disable this bootstrapping.">
+    <meta itemprop="datePublished" content="2021-08-13T00:02:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="https://spack.io/changes-spack-v017/" itemprop="url">Changes to bootstrapping in Spack v0.17
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Starting with Spack <code class="language-plaintext highlighter-rouge">v0.17</code>, the new concretizer will be the default, and Spack will automatically
+install a new dependency (Clingo) from binaries. You can optionally disable this bootstrapping.</p>
+
+<h2 id="spack-and-its-own-dependencies">Spack and its own dependencies</h2>
+
+<p>Since its earliest releases, Spack has had
+<a href="https://spack.readthedocs.io/en/latest/getting_started.html#prerequisites">software requirements</a>,
+and we’ve tried to restrict them to very basic system requirements that you’d find on most
+machines. A compiler, <code class="language-plaintext highlighter-rouge">patch</code>, <code class="language-plaintext highlighter-rouge">make</code>, etc. are commonly found on at least Linux and macOS systems,
+and we’ve expected users to make them available themselves.</p>
+
+<p>With Spack <code class="language-plaintext highlighter-rouge">v0.16</code>, we introduced an option to use a new concretizer (dependency solver), which is
+based on <a href="https://github.com/potassco/clingo">Clingo</a> under the hood. Clingo is a very powerful
+<em>Answer Set Programming</em> system – it lets us solve the complex constraint problems among Spack
+packages – all the versions, conflicts, feature requirements, optional dependencies, and
+compiler/target compatibility issues are now handled by Clingo
+(<a href="https://archive.fosdem.org/2020/schedule/event/dependency_solving_not_just_sat/">more here</a>).
+Using Clingo, we’ve been able to handle much more complex Spack environments, and we’ve been able
+to fix issues where the old, greedy concretizer would fail on concretizable specs, or where it
+would just make incorrect decisions. The new concretizer is more maintainable and allows us to
+<a href="https://github.com/spack/spack/pulls?q=is%3Apr+label%3Aconcretization+is%3Aclosed">develop features rapidly</a>.
+It will enable us to more aggressively
+<a href="https://github.com/spack/spack/pull/25310">reuse dependencies</a> and to model more complex software
+relationships in the future.</p>
+
+<h2 id="were-making-the-new-concretizer-the-default">We’re making the new concretizer the default</h2>
+
+<p>In Spack <code class="language-plaintext highlighter-rouge">v0.17</code>, we will make the new concretizer the default, but that means that Clingo will be
+a prerequisite, and it is not something most people will have installed by default. However, we
+want Spack to be just as usable out of the box after this change. In particular, we want <code class="language-plaintext highlighter-rouge">spack
+install</code> to work immediately after you clone Spack, just like it did before.</p>
+
+<h2 id="and-were-bootstrapping-it-from-binaries">And we’re bootstrapping it from binaries</h2>
+
+<p>What we decided is that from <code class="language-plaintext highlighter-rouge">v0.17</code> on Spack will, by default, install some of its dependencies
+from a public <a href="https://spack.readthedocs.io/en/latest/binary_caches.html">buildcache</a> of portable
+binaries. The source code we use to create this buildcache is open and
+<a href="https://github.com/alalazo/spack-bootstrap-mirrors">hosted on GitHub</a>. The bootstrapping procedure
+will be transparent – the first concretization you do will just be slightly slower while the
+binary packages are fetched from the buildcache and verified by their SHA256 checksum. It looks
+like this:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>spack find <span class="nt">-b</span>
+<span class="gp">==&gt;</span><span class="w"> </span>Showing internal bootstrap store at <span class="s2">"/home/spack/.spack/bootstrap/store"</span>
+<span class="gp">==&gt;</span><span class="w"> </span>0 installed packages
+<span class="go">
+</span><span class="gp">$</span><span class="w"> </span>spack spec zlib
+<span class="go">Input spec
+--------------------------------
+zlib
+
+Concretized
+--------------------------------
+zlib@1.2.11%gcc@11.1.0+optimize+pic+shared arch=linux-ubuntu18.04-broadwell
+
+</span><span class="gp">$</span><span class="w"> </span>spack find <span class="nt">-b</span>
+<span class="gp">==&gt;</span><span class="w"> </span>Showing internal bootstrap store at <span class="s2">"/home/spack/.spack/bootstrap/store"</span>
+<span class="gp">==&gt;</span><span class="w"> </span>2 installed packages
+<span class="go">-- linux-rhel5-x86_64 / gcc@9.3.0 -------------------------------
+clingo-bootstrap@spack  python@3.6
+</span></code></pre></div></div>
+
+<p>This default should preserve the “clone and run” simplicity in setting up Spack that you’re used
+to.</p>
+
+<h2 id="what-if-i-dont-want-to-use-spacks-binaries">What if I don’t want to use Spack’s binaries?</h2>
+
+<p>For those of you who do not want to use our public binaries, you can <strong>opt out of bootstrapping</strong>,
+and Clingo will be built from source instead. To disallow bootstrapping from binaries, but still
+permit Spack to bootstrap from sources, just run:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>spack bootstrap untrust github-actions
+<span class="gp">==&gt;</span><span class="w"> </span><span class="s2">"github-actions"</span> is now untrusted and will not be used <span class="k">for </span>bootstrapping
+</code></pre></div></div>
+
+<p>To completely disable any bootstrapping, you can run:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>spack bootstrap disable
+</code></pre></div></div>
+
+<p>If you do this, you’ll need to ensure for yourself that Spack’s prerequisites are properly
+installed. You can use this option, for example, if you know that Clingo is already installed
+(e.g., using <code class="language-plaintext highlighter-rouge">pip</code>) in the <code class="language-plaintext highlighter-rouge">python</code> you’re using to run Spack.</p>
+
+<p>For more details on how bootstrapping will work, you can check out the
+<a href="https://github.com/spack/spack/pull/22720">pull request #22720</a>. Also keep an eye on our
+<a href="https://github.com/spack/spack/issues/24223">permanently-pinned issue</a> for other high-impact
+changes arriving soon in Spack <code class="language-plaintext highlighter-rouge">develop</code>.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#bootstrapping" class="page__taxonomy-item p-category" rel="tag">bootstrapping</a><span class="sep">, </span>
+    
+      <a href="/tags/#release" class="page__taxonomy-item p-category" rel="tag">release</a><span class="sep">, </span>
+    
+      <a href="/tags/#v0-17" class="page__taxonomy-item p-category" rel="tag">v0.17</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2021-08-13T00:02:00+00:00">August 13, 2021</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  <h4 class="page__share-title">Share on</h4>
+
+  <a href="https://x.com/intent/tweet?via=spackpm&text=Changes+to+bootstrapping+in+Spack+v0.17%20https%3A%2F%2Fspack.io%2Fchanges-spack-v017%2F" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
+    <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
+  </a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fspack.io%2Fchanges-spack-v017%2F" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+    <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
+  </a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://spack.io/changes-spack-v017/" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+    <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
+  </a>
+
+  <a href="https://bsky.app/intent/compose?text=Changes+to+bootstrapping+in+Spack+v0.17%20https%3A%2F%2Fspack.io%2Fchanges-spack-v017%2F" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
+    <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
+  </a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/cppcast-podcast/" class="pagination--pager" title="Podcast: Spack on CppCast">Previous</a>
+    
+    
+      <a href="/spack-binary-packages/" class="pagination--pager" title="Announcing public binaries for Spack">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://x.com/spackpm" rel="nofollow noopener noreferrer"><i class="fab fa-brands fa-x-twitter" aria-hidden="true"></i> @spackpm</a></li>
+        
+      
+        
+          <li><a href="https://mast.hpc.social/@spack" rel="nofollow noopener noreferrer"><i class="fab fa-brands fa-mastodon" aria-hidden="true"></i> @spack</a></li>
+        
+      
+        
+          <li><a href="https://github.com/spack/spack" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://slack.spack.io" rel="nofollow noopener noreferrer"><i class="fab fa-slack" aria-hidden="true"></i> Slack</a></li>
+        
+      
+        
+          <li><a href="https://spack.readthedocs.io/" rel="nofollow noopener noreferrer"><i class="fas fa-book" aria-hidden="true"></i> Docs</a></li>
+        
+      
+        
+          <li><a href="https://github.com/spack/spack/discussions" rel="nofollow noopener noreferrer"><i class="fas fa-comments" aria-hidden="true"></i> Discussion</a></li>
+        
+      
+        
+          <li><a href="mailto:maintainers@spack.io" rel="nofollow noopener noreferrer"><i class="far fa-envelope" aria-hidden="true"></i> maintainers</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="https://spack.io">Spack Project</a>, a Series of LF Projects, LLC. For web site terms of use, trademark policy and other project policies please see <a href="https://lfprojects.org">lfprojects.org</a></a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+  <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-101208306-1']);
+  
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
