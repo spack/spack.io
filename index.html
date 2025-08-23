@@ -25,15 +25,15 @@ header:
 {% capture markdown %}
 # Welcome to Spack!
 
-Spack is a package manager for
-[supercomputers](https://en.wikipedia.org/wiki/Supercomputer), Linux, and
-macOS.  It makes installing scientific software easy.  Spack isn't tied
-to a particular language; you can build a software stack in
-[Python](https://spack.readthedocs.io/en/latest/basic_usage.html#extensions-python-support)
-or R, link to libraries written in C, C++, or Fortran, and easily [swap
-compilers](https://spack.readthedocs.io/en/latest/getting_started.html#compiler-configuration)
-or target [specific
-microarchitectures](https://spack.readthedocs.io/en/latest/basic_usage.html#support-for-specific-microarchitectures).
-Learn more [here](/about/).  {% endcapture %}
+Spack is a package manager for [supercomputers], Linux, macOS, and Windows.
+It makes installing scientific software easy.
+Spack isn't tied to a particular language; you can build a software stack consisting of Python or R packages, link to libraries written in C, C++, or Fortran, easily [swap compilers], and target [specific microarchitectures].
+Learn more [here][about].
+
+[swap compilers]: https://spack.readthedocs.io/en/latest/spec_syntax.html
+[supercomputers]: https://en.wikipedia.org/wiki/Supercomputer
+[specific microarchitectures]: https://spack.readthedocs.io/en/latest/spec_syntax.html#support-for-specific-microarchitectures
+[about]: /about/ "Learn more about Spack"
+{% endcapture %}
 
 {{ markdown | markdownify }}
