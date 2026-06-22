@@ -1,0 +1,1 @@
+Sitemap: https://spack.io/sitemap.xml
