@@ -4,6 +4,12 @@ author_profile: false
 title: Events
 ---
 
+## 2026
+
+### [Supercomputing (SC26)](/spack-at-sc26/)
+<small class="pull-right">15 - 20 November 2026 | Chicago, IL USA</small>
+SC26 is in Chicago, and Spack will be there with a full-day tutorial, a BOF panel, a happy hour, and a spot at the HPSF booth.
+
 ## 2025
 
 ### [Spack User Meeting / HPSFCon 2025](https://spack.io/spack-user-meeting-2025/)
